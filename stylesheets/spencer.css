@@ -1,0 +1,128 @@
+/* line 12, ../sass/spencer.scss */
+html {
+  font-family: arial, sans;
+}
+
+/* line 16, ../sass/spencer.scss */
+header {
+  background-color: #13aace;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 70px;
+}
+/* line 26, ../sass/spencer.scss */
+header #navigation-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 29, ../sass/spencer.scss */
+header #navigation-wrapper #logo {
+  padding: 21px 0px;
+  float: left;
+}
+/* line 32, ../sass/spencer.scss */
+header #navigation-wrapper #logo .logo-spencer {
+  fill: #fff;
+  height: 28px;
+  width: 131px;
+}
+/* line 39, ../sass/spencer.scss */
+header #navigation-wrapper #navigation {
+  float: right;
+}
+/* line 41, ../sass/spencer.scss */
+header #navigation-wrapper #navigation ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 45, ../sass/spencer.scss */
+header #navigation-wrapper #navigation ul li {
+  display: inline-block;
+  list-style-type: 0;
+  list-style-image: none;
+}
+/* line 50, ../sass/spencer.scss */
+header #navigation-wrapper #navigation ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+/* line 54, ../sass/spencer.scss */
+header #navigation-wrapper #navigation ul li a:hover {
+  color: #555;
+}
+
+/* line 64, ../sass/spencer.scss */
+#body-wrapper {
+  margin-top: 70px;
+}
+
+/* line 97, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
+#intro:before {
+  content: "";
+  display: table;
+}
+/* line 101, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
+#intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 72, ../sass/spencer.scss */
+#intro .col-left {
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* line 77, ../sass/spencer.scss */
+#intro .col-left p {
+  padding-top: 100px;
+}
+/* line 82, ../sass/spencer.scss */
+#intro .col-right {
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 85, ../sass/spencer.scss */
+#intro .col-right img {
+  width: 100%;
+  margin-bottom: -100px;
+}
+
+/* line 93, ../sass/spencer.scss */
+.content-container .content {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 98, ../sass/spencer.scss */
+.content-container.blue {
+  background-color: #13aace;
+  color: #fff;
+}
+
+/* line 104, ../sass/spencer.scss */
+h1 {
+  font-size: 4em;
+}

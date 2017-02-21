@@ -1,0 +1,106 @@
+@import "zen-grids";
+
+@mixin center() {
+  max-width: $max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+$spencer-blue: #13aace;
+$max-width: 1200px;
+
+html {
+  font-family: arial, sans;
+}
+
+header {
+  background-color: $spencer-blue;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 70px;
+
+  #navigation-wrapper {
+    @include center();
+     
+    #logo {
+      padding: 21px 0px;
+      float: left;
+      .logo-spencer {
+        fill: #fff;
+        height: 28px;
+        width: 131px;
+      }
+    }
+
+    #navigation {
+      float: right;
+      ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+          display: inline-block;
+          list-style-type: 0;
+          list-style-image: none;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+              color: #555;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#body-wrapper {
+  margin-top: 70px;
+}
+
+$zen-columns: 2;
+#intro {
+  @include zen-grid-container();
+  
+  .col-left {
+    @include zen-grid-item(1, 1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    p {
+      padding-top: 100px;
+    }
+  } 
+
+  .col-right {
+    @include zen-grid-item(1, 2);
+
+    img {
+      width: 100%;
+      margin-bottom: -100px;
+    }
+  }
+}
+
+.content-container {
+  .content {
+    @include center();
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &.blue {
+    background-color: $spencer-blue;
+    color: #fff;
+  }
+}
+
+h1 {
+  font-size: 4em;
+}
