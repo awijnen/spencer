@@ -108,21 +108,29 @@ header #navigation-wrapper #navigation ul li a:hover {
   margin-bottom: -100px;
 }
 
-/* line 93, ../sass/spencer.scss */
+/* line 92, ../sass/spencer.scss */
+#testimonials {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/* line 98, ../sass/spencer.scss */
 .content-container .content {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
-/* line 98, ../sass/spencer.scss */
+/* line 101, ../sass/spencer.scss */
 .content-container.blue {
   background-color: #13aace;
   color: #fff;
 }
+/* line 105, ../sass/spencer.scss */
+.content-container.grey {
+  background-color: #ddd;
+}
 
-/* line 104, ../sass/spencer.scss */
+/* line 110, ../sass/spencer.scss */
 h1 {
   font-size: 4em;
 }

@@ -89,15 +89,21 @@ $zen-columns: 2;
   }
 }
 
+#testimonials {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .content-container {
   .content {
     @include center();
-    margin-left: auto;
-    margin-right: auto;
   }
   &.blue {
     background-color: $spencer-blue;
     color: #fff;
+  }
+  &.grey {
+    background-color: #ddd;
   }
 }
 

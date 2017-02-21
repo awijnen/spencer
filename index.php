@@ -9,8 +9,12 @@
   <!--[if IE]>
   	<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
+	<link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
   <title>Spencer | Your mobile workplace assistant</title>
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="favicon.ico" />
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/spencer.js"></script>
 </head>
 <body>
 <?php 
@@ -49,6 +53,16 @@
       </div>
     </div>
   </div>
+	<div class="content-container grey">
+		<div id="testimonials" class="carousel content">
+      <div class="carousel-slide">
+        <h1>TEST 1</h1>
+      </div>
+      <div class="carousel-slide">
+        <h1>TEST 2</h1>
+      </div>
+    </div>
+	</div>
 </div>
 
 </body>
