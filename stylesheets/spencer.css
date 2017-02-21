@@ -5,7 +5,7 @@ html {
 
 /* line 16, ../sass/spencer.scss */
 header {
-  background-color: #13aace;
+  background-color: #3aacd2;
   color: #fff;
   position: fixed;
   width: 100%;
@@ -112,25 +112,153 @@ header #navigation-wrapper #navigation ul li a:hover {
 #testimonials {
   padding-top: 200px;
   padding-bottom: 200px;
+  text-align: center;
+}
+/* line 97, ../sass/spencer.scss */
+#testimonials h2 {
+  font-size: 2em;
+  color: #555;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-/* line 98, ../sass/spencer.scss */
+/* line 106, ../sass/spencer.scss */
+#oversaturated {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+/* line 110, ../sass/spencer.scss */
+#oversaturated .oversat-container {
+  padding-left: 112px;
+  padding-right: 112px;
+}
+/* line 97, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
+#oversaturated .oversat-container:before {
+  content: "";
+  display: table;
+}
+/* line 101, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
+#oversaturated .oversat-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 115, ../sass/spencer.scss */
+#oversaturated .oversat-container .col-left {
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 118, ../sass/spencer.scss */
+#oversaturated .oversat-container .col-right {
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 122, ../sass/spencer.scss */
+#oversaturated .oversat-container:nth-child(2) {
+  padding-top: 96px;
+}
+/* line 127, ../sass/spencer.scss */
+#oversaturated .h3-1 {
+  max-width: 556px;
+}
+
+/* line 97, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
+#cloud-layer:before {
+  content: "";
+  display: table;
+}
+/* line 101, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
+#cloud-layer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 135, ../sass/spencer.scss */
+#cloud-layer .col-left {
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 138, ../sass/spencer.scss */
+#cloud-layer .col-right {
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 144, ../sass/spencer.scss */
 .content-container .content {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 101, ../sass/spencer.scss */
+/* line 147, ../sass/spencer.scss */
 .content-container.blue {
-  background-color: #13aace;
+  background-color: #3aacd2;
   color: #fff;
 }
-/* line 105, ../sass/spencer.scss */
+/* line 151, ../sass/spencer.scss */
 .content-container.grey {
   background-color: #ddd;
 }
 
-/* line 110, ../sass/spencer.scss */
+/* line 156, ../sass/spencer.scss */
+p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #737373;
+}
+
+/* line 162, ../sass/spencer.scss */
 h1 {
   font-size: 4em;
+}
+
+/* line 166, ../sass/spencer.scss */
+h3 {
+  font-size: 42px;
+  text-align: center;
+  line-height: 50px;
+  color: #505050;
+  padding-bottom: 96px;
+  padding-top: 96px;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 178, ../sass/spencer.scss */
+h4 {
+  font-size: 22px;
+  line-height: 33px;
+  color: #3aacd2;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  font-weight: 500;
 }
