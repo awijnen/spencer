@@ -41,6 +41,10 @@ header {
         height: 28px;
         width: 131px;
       }
+      
+      #mobile-nav-icon {
+        display: none;
+      }
     }
 
     #navigation {
@@ -614,5 +618,54 @@ h5 {
 
   &.left {
     text-align: left;
+  }
+}
+
+/* media queries */
+@media all and (max-width: 600px) {
+  header {
+    height: auto;
+    
+    #navigation-wrapper {
+      #logo {
+        display: block;
+        float: none;
+        width: 100%;
+
+        #mobile-nav-icon {
+          display: block;
+          float: right;
+        }
+      }
+    
+      #navigation {
+        display: none;
+        background-color: rgba(255, 255, 255, 0.1);
+        float: none;
+        width: 100%;
+
+        ul {
+          margin: 0;
+          li {
+            display: block;
+            border-bottom: 1px solid #9be0ee;
+            padding-left: 20px;
+            
+            a {
+              display: block;
+              padding-top: 20px;
+              padding-bottom: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media all and (min-width: 601px) {
+  #navigation {
+    display: block;
   }
 }

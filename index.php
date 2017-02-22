@@ -28,6 +28,7 @@
       <svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
         <use xlink:href="#logo-spencer">
       </svg>
+      <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.png"></a></div>
     </div>
     <nav id="navigation">
       <ul>

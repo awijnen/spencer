@@ -10,4 +10,9 @@ $(document).ready(function(){
     $('.' + name).show();
     return false;
   });
+
+  $('#mobile-nav-icon').click(function() {
+    $('#navigation').slideToggle();
+    return false;
+  });
 });
