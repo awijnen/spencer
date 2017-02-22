@@ -140,8 +140,22 @@
       </div>  
     </div>
 
-    <div class="content-container grey">
+    <div class="content-container blue">
       <div class="content">
+        <div id="mobile-app" class="container-2">
+          <div class="col-1">
+
+          </div>
+          <div class="col-2">
+            <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
+            <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, uer-friendly flow.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container grey">
+      <div id="resume-container" class="content">
         <h3>Spencer’s resumé</h3>
         <div id="resume" class="resume-container">
           <div class="col-left">
@@ -214,53 +228,49 @@
     </div>
 
     <div class="content-container blue">
-      <div class="content">
-        <h3>A five-step plan to get Spencer integrated in your enterprise</h3>
+      <div id="five-step-container" class="content">
+        <h3 class="white">A five-step plan to get Spencer integrated in your enterprise</h3>
         <div id="five-step" class="five-step-container">
           <div class="col-left">
             <div class="col-content">
-              <h4>Existing architecture & roadmap</h4>
-              <p>Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
+              <h4 class="white">Existing architecture & roadmap</h4>
+              <p class="white">Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
             </div>
           </div>
           <div class="col-right">
             <div class="col-content">
-              <h4>Technical assessment</h4>
-              <p>We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
+              <h4 class="white">Technical assessment</h4>
+              <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
             </div>
           </div>
 
           <div class="col-left">
             <div class="col-content">
-              <h4>Implementation & branding</h4>
-              <p>Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
+              <h4 class="white">Implementation & branding</h4>
+              <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
             </div>
           </div>
           <div class="col-right">
             <div class="col-content">
-              <h4>Deployment & testing</h4>
-              <p>When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
+              <h4 class="white">Deployment & testing</h4>
+              <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
             </div>
           </div>
 
           <div class="col-left">
             <div class="col-content">
-              <h4>Maintenance & support</h4>
-              <p>After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
+              <h4 class="white">Maintenance & support</h4>
+              <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
             </div>
           </div>
-          <div class="col-right">
-            <div class="col-content">
-              <h4></h4>
-              <p></p>
-            </div>
-          </div>
+          <div class="col-right"></div>
         </div>
       </div>
     </div>
     
     <div class="content-container">
-      <div class="content">
+      <div id="team-container" class="content">
+        <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
         <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
         <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
         <div id="team" class="container-2">
@@ -309,17 +319,17 @@
       </div>
     </div>
     <div class="content-container dark">
-      <div class="content">
-        <h3>Spencer is hiring!</h3>
-        <p>Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
-        <a href="#">JOIN THE TEAM</a>
+      <div id="hiring-container" class="content">
+        <h3 class="white">Spencer is hiring!</h3>
+        <p class="white">Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
+        <p><a href="#">JOIN THE TEAM</a></p>
       </div>
     </div>
 
     <div class="content-container blue">
-      <div id="contact" class="content">
-        <h3>Want to meet Spencer?</h3>
-        <p>Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
+      <div id="contact-container" class="content">
+        <h3 class="white">Want to meet Spencer?</h3>
+        <p class="white">Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
         <div class="container-2">
           <div class="col-1">
             <label>Name</label>
@@ -346,7 +356,7 @@
             <input name="input-mail" type="text">
           </div>
         </div>
-        <a href="#">SEND DEMO REQUEST</div>
+        <div class="center"><a href="#">SEND DEMO REQUEST</a></div>
       </div>
     </div>
 
