@@ -112,8 +112,231 @@
     </div>
 
     <div class="content-container grey">
-      <div id="resume" class="content">
+      <div class="content">
         <h3>Spencer’s resumé</h3>
+        <div id="resume" class="resume-container">
+          <div class="col-left">
+            <div class="col-content">
+              <h4>Modular approach</h4>
+              <p>Spencer is modular. He adapts to the tools your company uses, with a fair pricing approach to make sure you only pay for what you need.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="col-content">
+              <h4>Smart, personal, contextual</h4>
+              <p>Spencer is every employee’s indispensable personal assistant. He knows what they want before they do, and presents them with the info they need, when they need it.</p>
+            </div>
+          </div>
+
+          <div class="col-left">
+            <div class="col-content">
+              <h4>Streamlined workflows</h4>
+              <p>Spencer is an assistant, not a dictator. He functions as a layer between a team and its tools to streamline the flow of actions and information – he can’t make important decisions on his own.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="col-content">
+              <h4>Always available</h4>
+              <p>Spencer never lets you down. We have duplicated all system-critical components – VPN, application servers, our internal staging and production environments, etc. – to make sure that downtime becomes a thing of the past.</p>
+            </div>
+          </div>
+
+          <div class="col-left">
+            <div class="col-content">
+              <h4>Secure infrastructure</h4>
+              <p>Spencer respects your sensitive data, and your employees’ privacy. Everything is secured and encrypted according to industry standards.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="col-content">
+              <h4>Tailored to your organization</h4>
+              <p>Spencer adapts to the needs of your enterprise, respecting operational flows and procedures – and your style manual.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container">
+      <div class="content references">
+        <div id="references">
+          <div id="references-navigation">
+            <div class="col-1">
+              <a href="#" id="ref-proximus" class="active"></a>
+            </div>
+            <div class="col-2">
+              <a href="#" id="ref-telenet"></a>
+            </div>
+            <div class="col-3">
+              <a href="#" id="ref-deme"></a>
+            </div>
+          </div>
+          <div id="references-body">
+             <div class="col-1">
+              proximus
+            </div>
+            <div class="col-2">
+              img
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-container blue">
+      <div class="content">
+        <h3>A five-step plan to get Spencer integrated in your enterprise</h3>
+        <div id="five-step" class="five-step-container">
+          <div class="col-left">
+            <div class="col-content">
+              <h4>Existing architecture & roadmap</h4>
+              <p>Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="col-content">
+              <h4>Technical assessment</h4>
+              <p>We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
+            </div>
+          </div>
+
+          <div class="col-left">
+            <div class="col-content">
+              <h4>Implementation & branding</h4>
+              <p>Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="col-content">
+              <h4>Deployment & testing</h4>
+              <p>When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
+            </div>
+          </div>
+
+          <div class="col-left">
+            <div class="col-content">
+              <h4>Maintenance & support</h4>
+              <p>After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
+            </div>
+          </div>
+          <div class="col-right">
+            <div class="col-content">
+              <h4></h4>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="content-container">
+      <div class="content">
+        <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
+        <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
+        <div id="team" class="container-2">
+          <div class="col-1 maarten">
+            <div class="team-name">Maarten Raemdonck</div>
+            <div class="team-position">co-CEO - Product Director</div>
+          </div>
+          <div class="col-2">
+            <div class="team-name">Tom Vroemans</div>
+            <div class="team-position">co-CEO - Founder & Chairman</div>
+          </div>
+          <div class="col-1">
+            <div class="team-name">Robin Van Den Bergh</div>
+            <div class="team-position">Client Services Manager</div>
+          </div>
+          <div class="col-2">
+            <div class="team-name">Anthony Wijnen</div>
+            <div class="team-position">Senior Product Manager</div>
+          </div>
+          <div class="col-1">
+            <div class="team-name">Yannick Bontemps</div>
+            <div class="team-position">Senior iOS Developer</div>
+          </div>
+          <div class="col-2">
+            <div class="team-name">Christophe Smet</div>
+            <div class="team-position">Senior Android Developer</div>
+          </div>
+          <div class="col-1">
+            <div class="team-name">Kevin T’Syen</div>
+            <div class="team-position">Senior Back-end Developer</div>
+          </div>
+          <div class="col-2">
+            <div class="team-name">Tom De Laet</div>
+            <div class="team-position">Senior Experience Designer</div>
+          </div>
+          <div class="col-1">
+            <div class="team-name">Maarten Raemdonck</div>
+            <div class="team-position">co-CEO - Product Director</div>
+          </div>
+          <div class="col-2">
+            <div class="team-name">Tom Vroemans</div>
+            <div class="team-position">co-CEO - Founder & Chairman</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="content-container dark">
+      <div class="content">
+        <h3>Spencer is hiring!</h3>
+        <p>Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
+        <a href="#">JOIN THE TEAM</a>
+      </div>
+    </div>
+
+    <div class="content-container blue">
+      <div id="contact" class="content">
+        <h3>Want to meet Spencer?</h3>
+        <p>Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
+        <div class="container-2">
+          <div class="col-1">
+            <label>Name</label>
+            <input name="input-name" type="text">
+          </div>
+          <div class="col-2">
+            <div class="container-2 clean">
+              <div class="col-1">
+                <label>Company</label>
+                <input name="input-company" type="text">
+              </div>
+              <div class="col-2">
+                <label>Number of employees</label>
+                <input name="input-employees" type="text">
+              </div>
+            </div>
+          </div>
+          <div class="col-1">
+            <label>Function</label>
+            <input name="input-function" type="text">
+          </div>
+          <div class="col-2">
+            <label>Email address</label>
+            <input name="input-mail" type="text">
+          </div>
+        </div>
+        <a href="#">SEND DEMO REQUEST</div>
+      </div>
+    </div>
+
+    <div class="content-container">
+      <div class="content">
+        <div id="footer">
+          <div class="col-1">
+            --logo
+          </div>
+          <div class="col-2">
+            Antwerp HQ
+          </div>
+          <div class="col-3">
+            Nordics
+          </div>
+          <div class="col-4">
+            --social
+          </div>
+        </div>
       </div>
     </div>
   </div>

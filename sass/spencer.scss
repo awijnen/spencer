@@ -1,4 +1,10 @@
 @import "zen-grids";
+@import "helper";
+
+@include font-face(CoreSansA35, fonts/CoreSansA35Light-Italic/CoreSansA35Light-Italic, italic);
+@include font-face(CoreSansA35, fonts/CoreSansA35Light-Regular/CoreSansA35Light-Regular);
+@include font-face(CoreSansA45, fonts/CoreSansA45Regular-Regular/CoreSansA45Regular-Regular);
+@include font-face(CoreSansA55, fonts/CoreSansA55Medium-Regular/CoreSansA55Medium-Regular);
 
 @mixin center() {
   max-width: $max-width;
@@ -22,6 +28,7 @@ header {
   left: 0;
   overflow: hidden;
   height: 70px;
+  z-index: 99;
 
   #navigation-wrapper {
     @include center();
@@ -129,14 +136,151 @@ $zen-columns: 2;
   }
 }
 
-#cloud-layer {
+#cloud-layer, #resume , #five-step {
   @include zen-grid-container();
 
   .col-left {
+    @include zen-new-row();
     @include zen-grid-item(1,1);
   }
   .col-right {
     @include zen-grid-item(1,2);
+  }
+}
+
+#resume, #five-step {
+  .col-content {
+    background: url(../images/icon.png) no-repeat top left;
+    padding-left: 72px;
+  }
+}
+
+$zen-columns: 3;
+#references {
+  #references-navigation {
+    @include zen-grid-container();
+
+    a {
+      height: 88px;
+      display: block;
+      width: 100%;
+      border-radius: 3px;
+      border: solid 2px #f6f6f6;
+    }
+
+    .col-1 {
+      @include zen-grid-item(1,1);
+
+      a {
+        background: url(../images/img_logo_proximus.png) no-repeat center center;
+        &.active {
+          background: url(../images/img_logo_proximus_active.png) no-repeat center center #f6f6f6;
+        }
+      }
+    } 
+    .col-2 {
+      @include zen-grid-item(1,2);
+      
+      a {
+        background: url(../images/img_logo_telenet.png) no-repeat center center;
+        &.active {
+          background: url(../images/img_logo_telenet_active.png) no-repeat center center #f6f6f6;
+        }
+      }
+
+    }
+    .col-3 {
+      @include zen-grid-item(1,3);
+
+      a {
+        background: url(../images/img_logo_deme.png) no-repeat center center;
+        &.active {
+          background: url(../images/img_logo_deme_active.png) no-repeat center center #f6f6f6;
+        }
+      }
+
+    }
+  }
+}
+
+$zen-columns: 2;
+.content.references {
+  padding-top: 192px;
+  padding-bottom: 92px;
+  #references {
+    #references-body {
+      @include zen-grid-container();
+
+      .col-1 {
+        @include zen-grid-item(1,1);
+      }
+
+      .col-2 {
+        @include zen-grid-item(1,2);
+      }
+    }
+  }
+}
+
+#team {
+  .col-1, .col-2 {
+    margin-top: 32px;
+    padding-left: 88px;
+  }
+ 
+  .maarten {
+    
+  }
+
+  .team-name {
+    font-weight: 500;
+    line-height: 1.59;
+    color: #505050;
+    font-size: 17px;
+    font-family: CoreSansA55;
+  }
+
+  .team-position {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 13px;
+    font-family: CoreSansA35;
+    color: #737373;
+  }
+}
+
+#contact {
+  .col-1, .col-2 {
+    margin-top: 16px;
+    .col-1, .col-2 {
+      margin: 0;
+    }
+  }
+
+  label {
+    display: block;
+  }
+
+  input {
+    width: 100%;
+  }
+}
+
+$zen-columns: 4;
+#footer {
+  @include zen-grid-container();
+
+  .col-1 {
+    @include zen-grid-item(1,1);
+  }
+  .col-2 {
+    @include zen-grid-item(1,2);
+  }
+  .col-3 {
+    @include zen-grid-item(1,3);
+  }
+  .col-4 {
+    @include zen-grid-item(1,4);
   }
 }
 
@@ -150,6 +294,32 @@ $zen-columns: 2;
   }
   &.grey {
     background-color: #ddd;
+  }
+  &.dark {
+    background-color: #383737;
+  }
+}
+
+$zen-columns: 2;
+.container-2 {
+  @include zen-grid-container();
+
+  .col-1 {
+    @include zen-new-row();
+    @include zen-grid-item(1,1);
+  }
+  .col-2 {
+    @include zen-grid-item(1,2);
+  }
+
+  &.clean {
+    .col-1 {
+      padding-left: 0;
+    }
+
+    .col-2 {
+      padding-right: 0;
+    }
   }
 }
 
