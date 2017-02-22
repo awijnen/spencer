@@ -30,12 +30,12 @@
     </div>
     <nav id="navigation">
       <ul>
-        <li><a href="#">problem</a></li>
-        <li><a href="#">solution</a></li>
-        <li><a href="#">references</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">jobs</a></li>
-        <li><a href="#">contact</a></li>
+        <li><a href="#">Problem</a></li>
+        <li><a href="#">Solution</a></li>
+        <li><a href="#">References</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -47,6 +47,10 @@
       <div class="col-left">
         <h1>Spencer is your mobile workplace assistant</h1>
         <p>Making your workplace community more engaged, efficient and productive by making the tools you trust work together.</p>
+        <div id="intro-buttons">
+          <a id="play-video" href="#">PLAY VIDEO</a>
+          <a id="read-announcement" href="#">READ ANNOUNCEMENT</a>
+        </div>
       </div>
       <div class="col-right">
         <img src="images/smartphone.png" alt="smartphone">

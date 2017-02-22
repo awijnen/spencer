@@ -16,7 +16,7 @@ $spencer-blue: #3aacd2;
 $max-width: 1200px;
 
 html {
-  font-family: arial, sans;
+  font-family: CoreSansA35, arial, sans;
 }
 
 header {
@@ -48,14 +48,18 @@ header {
       ul {
         padding: 0;
         margin: 0;
+        margin-top: 25px;
 
         li {
+          padding-left: 20px;
           display: inline-block;
           list-style-type: 0;
           list-style-image: none;
 
           a {
-            color: #fff;
+            font-family: CoreSansA55;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.6);
             text-decoration: none;
 
             &:hover {
@@ -82,7 +86,35 @@ $zen-columns: 2;
     padding-bottom: 100px;
     
     p {
-      padding-top: 100px;
+      padding-top: 32px;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 22px;
+      line-height: 1.5em;
+    }
+
+    #intro-buttons {
+      margin-top: 32px;
+    }
+
+    a {
+      text-decoration: none;
+      border: 2px solid #fff;
+      border-radius: 3px;
+      font-family: CoreSansA55;
+      font-size: 14px;
+      line-height: 20px;
+      display: inline-block;
+    }
+
+    #play-video {
+      background: url(../images/ico_video.png) no-repeat 24px center #fff;
+      color: #383737;
+      padding: 14px 24px 12px 56px; 
+    }
+
+    #read-announcement {
+      color: #fff;
+      padding: 12px 24px;
     }
   } 
 
@@ -330,7 +362,9 @@ p {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 50px;
+  color: #fff;
+  line-height: 1.2em;
 }
 
 h3 {
