@@ -622,7 +622,7 @@ h5 {
 }
 
 /* media queries */
-@media all and (max-width: 600px) {
+@media all and (min-width: 100px) and (max-width: 600px){
   header {
     height: auto;
     

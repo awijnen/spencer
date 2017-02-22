@@ -861,7 +861,7 @@ h5.left {
 }
 
 /* media queries */
-@media all and (max-width: 600px) {
+@media all and (min-width: 100px) and (max-width: 600px) {
   /* line 626, ../sass/spencer.scss */
   header {
     height: auto;
