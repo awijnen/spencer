@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-	<link href="/stylesheets/spencer.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
   <!--[if IE]>
   	<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 	<link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+	<link href="/stylesheets/spencer.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <title>Spencer | Your mobile workplace assistant</title>
   <link rel="shortcut icon" href="favicon.ico" />
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -61,10 +62,10 @@
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
         <p>LOGO</p>
-        <h2>Spencer helps us combine our critical applications into a single, easy-to-use mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2>
+        <h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2>
         <div class="testemonial-person">
-          <b>Margaret Denis</b>
-          <p>Director Digital Workplace Program</p>
+          <div class="person-name">Margaret Denis</div>
+          <div class="person-position">Director Digital Workplace Program</div>
         </div>
       </div>
       <div class="carousel-slide">
@@ -100,7 +101,31 @@
     </div>
 
     <div class="content-container blue">
-      TEST
+      <div class="content functionality">
+        <h5>Spencer presents familiar info and functionality in a new workflow, cutting the clutter from your workday.</h5>
+        <div id="functionality">
+          <div class="col-1">
+            <ul>
+              <li><a name="func-hr" href="#">HR</a></li>
+              <li><a name="func-comm" href="#">COMMUNICATION</a></li>
+              <li><a name="func-org" href="#">ORGANIZATION</a></li>
+              <li><a name="func-fac" href="#">FACILITIES</a></li>
+              <li><a name="func-hosp" href="#">HOSPITALITY</a></li>
+              <li><a name="func-fin" href="#">FINANCE</a></li>
+            </ul>
+            <p class="white func-slide func-hr">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
+            <p class="white func-slide func-comm">TEST COMM</p>
+            <p class="white func-slide func-org">TEST org</p>
+            <p class="white func-slide func-fac">TEST fac</p>
+            <p class="white func-slide func-hosp">TEST hosp</p>
+            <p class="white func-slide func-fin">TEST fin</p>
+            <p>showcase</p>
+          </div>
+          <div class="col-2">
+            <img src="images/smartphone.png" alt="smartphone">
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="content-container">

@@ -134,11 +134,46 @@ $zen-columns: 2;
   text-align: center;
 
   h2 {
-    font-size: 2em;
-    color: #555;
+    font-size: 26px;
+    color: #505050;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-style: italic;
+    font-family: CoreSansA35;
+    max-width: 945px;
+    line-height: 1.54em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
+
+  .testemonial-person {
+    display: inline-block;
+    
+    .person-name {
+      font-weight: 500;
+      line-height: 1.59;
+      color: #505050;
+      font-size: 17px;
+      font-family: CoreSansA55;
+      text-align: left;
+    }
+
+    .person-position {
+      font-weight: 300;
+      font-style: italic;
+      font-size: 13px;
+      font-family: CoreSansA35;
+      color: #737373;
+      text-align: left;
+    }
+  }
+  
+  .slick-dots {
+    position: static;
+    margin-top: 30px;
+  }
+
 }
 
 $zen-columns: 2;
@@ -168,6 +203,59 @@ $zen-columns: 2;
   }
 }
 
+$zen-columns: 5;
+.functionality {
+  padding-top: 158px;
+  padding-bottom: 158px;
+  
+  #functionality {
+    margin-top: 68px;
+
+    @include zen-grid-container();
+
+    .col-1 {
+      @include zen-grid-item(3, 1);
+      padding-top: 64px;
+
+      ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 46px;
+
+        li {
+          display: inline-block;
+          padding-right: 16px;
+
+          a {
+            color: #383737;
+            font-size: 14px;
+            line-height: 1.43em;
+            font-family: CoreSansA55;
+            font-weight: 500;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .func-slide {
+        display: none;
+        &.func-hr {
+          display: block;
+        }
+      }
+    }
+
+    .col-2 {
+      @include zen-grid-item(2,4);
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+$zen-columns: 2;
 #cloud-layer, #resume , #five-step {
   @include zen-grid-container();
 
@@ -359,6 +447,10 @@ p {
   font-size: 17px;
   line-height: 27px;
   color: #737373;
+
+  &.white {
+    color: #fff;
+  }
 }
 
 h1 {
@@ -377,6 +469,7 @@ h3 {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 h4 {
@@ -386,4 +479,16 @@ h4 {
   padding-bottom: 16px;
   padding-top: 16px;
   font-weight: 500;
+  font-family: CoreSansA55;
+}
+
+h5 {
+  color: #fff;
+  font-family: CoreSansA35;
+  line-height: 1.3em;
+  font-size: 32px;
+  max-width: 945px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
