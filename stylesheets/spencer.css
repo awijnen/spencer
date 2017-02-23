@@ -613,6 +613,10 @@ header #navigation-wrapper #navigation ul li a:hover {
   margin-top: 48px;
 }
 
+/* line 555, ../sass/spencer.scss */
+#footer {
+  padding-bottom: 88px;
+}
 /* line 97, ../../../lib/gems/2.3.0/gems/zen-grids-2.0.3/sass/zen-grids/_grids.scss */
 #footer:before {
   content: "";
@@ -624,7 +628,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   display: table;
   clear: both;
 }
-/* line 558, ../sass/spencer.scss */
+/* line 559, ../sass/spencer.scss */
 #footer .col-1 {
   float: left;
   width: 25%;
@@ -635,8 +639,9 @@ header #navigation-wrapper #navigation ul li a:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding-top: 80px;
 }
-/* line 561, ../sass/spencer.scss */
+/* line 563, ../sass/spencer.scss */
 #footer .col-2 {
   float: left;
   width: 25%;
@@ -647,8 +652,9 @@ header #navigation-wrapper #navigation ul li a:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding-top: 64px;
 }
-/* line 564, ../sass/spencer.scss */
+/* line 567, ../sass/spencer.scss */
 #footer .col-3 {
   float: left;
   width: 25%;
@@ -659,8 +665,9 @@ header #navigation-wrapper #navigation ul li a:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding-top: 64px;
 }
-/* line 567, ../sass/spencer.scss */
+/* line 571, ../sass/spencer.scss */
 #footer .col-4 {
   float: left;
   width: 25%;
@@ -671,56 +678,74 @@ header #navigation-wrapper #navigation ul li a:hover {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  padding-top: 92px;
+}
+/* line 576, ../sass/spencer.scss */
+#footer b {
+  font-size: 17px;
+  font-family: CoreSansA55;
+  font-weight: 500;
+}
+/* line 582, ../sass/spencer.scss */
+#footer p {
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.6em;
+  padding-top: 6px;
+}
+/* line 589, ../sass/spencer.scss */
+#footer #social-icons {
+  text-align: center;
 }
 
-/* line 572, ../sass/spencer.scss */
+/* line 594, ../sass/spencer.scss */
 .center {
   text-align: center;
 }
 
-/* line 577, ../sass/spencer.scss */
+/* line 599, ../sass/spencer.scss */
 .content-container .content {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 580, ../sass/spencer.scss */
+/* line 602, ../sass/spencer.scss */
 .content-container.blue {
   background-color: #3aacd2;
   color: #fff;
 }
-/* line 584, ../sass/spencer.scss */
+/* line 606, ../sass/spencer.scss */
 .content-container.grey {
   background-color: #f6f6f6;
 }
-/* line 587, ../sass/spencer.scss */
+/* line 609, ../sass/spencer.scss */
 .content-container.dark {
   background-color: #383737;
 }
 
-/* line 592, ../sass/spencer.scss */
+/* line 614, ../sass/spencer.scss */
 p {
   font-size: 17px;
   line-height: 27px;
   color: #737373;
 }
-/* line 597, ../sass/spencer.scss */
+/* line 619, ../sass/spencer.scss */
 p.white {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 601, ../sass/spencer.scss */
+/* line 623, ../sass/spencer.scss */
 p.quote {
   font-style: italic;
 }
 
-/* line 606, ../sass/spencer.scss */
+/* line 628, ../sass/spencer.scss */
 h1 {
   font-size: 50px;
   color: #fff;
   line-height: 1.2em;
 }
 
-/* line 612, ../sass/spencer.scss */
+/* line 634, ../sass/spencer.scss */
 h3 {
   font-size: 42px;
   text-align: center;
@@ -730,12 +755,12 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 621, ../sass/spencer.scss */
+/* line 643, ../sass/spencer.scss */
 h3.white {
   color: #fff;
 }
 
-/* line 627, ../sass/spencer.scss */
+/* line 649, ../sass/spencer.scss */
 h4 {
   font-size: 22px;
   line-height: 33px;
@@ -745,12 +770,12 @@ h4 {
   font-weight: 500;
   font-family: CoreSansA55;
 }
-/* line 635, ../sass/spencer.scss */
+/* line 657, ../sass/spencer.scss */
 h4.white {
   color: #fff;
 }
 
-/* line 640, ../sass/spencer.scss */
+/* line 662, ../sass/spencer.scss */
 h5 {
   color: #fff;
   font-family: CoreSansA35;
@@ -761,46 +786,46 @@ h5 {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 650, ../sass/spencer.scss */
+/* line 672, ../sass/spencer.scss */
 h5.left {
   text-align: left;
 }
 
 /* media queries */
 @media all and (min-width: 100px) and (max-width: 600px) {
-  /* line 657, ../sass/spencer.scss */
+  /* line 679, ../sass/spencer.scss */
   header {
     height: auto;
   }
-  /* line 661, ../sass/spencer.scss */
+  /* line 683, ../sass/spencer.scss */
   header #navigation-wrapper #logo {
     display: block;
     float: none;
     width: 100%;
   }
-  /* line 666, ../sass/spencer.scss */
+  /* line 688, ../sass/spencer.scss */
   header #navigation-wrapper #logo #mobile-nav-icon {
     display: block;
     float: right;
   }
-  /* line 672, ../sass/spencer.scss */
+  /* line 694, ../sass/spencer.scss */
   header #navigation-wrapper #navigation {
     display: none;
     background-color: rgba(255, 255, 255, 0.1);
     float: none;
     width: 100%;
   }
-  /* line 678, ../sass/spencer.scss */
+  /* line 700, ../sass/spencer.scss */
   header #navigation-wrapper #navigation ul {
     margin: 0;
   }
-  /* line 680, ../sass/spencer.scss */
+  /* line 702, ../sass/spencer.scss */
   header #navigation-wrapper #navigation ul li {
     display: block;
     border-bottom: 1px solid #9be0ee;
     padding-left: 20px;
   }
-  /* line 685, ../sass/spencer.scss */
+  /* line 707, ../sass/spencer.scss */
   header #navigation-wrapper #navigation ul li a {
     display: block;
     padding-top: 20px;
@@ -808,7 +833,7 @@ h5.left {
   }
 }
 @media all and (min-width: 601px) {
-  /* line 699, ../sass/spencer.scss */
+  /* line 721, ../sass/spencer.scss */
   #navigation {
     display: block !important;
   }
@@ -824,7 +849,7 @@ h5.left {
     display: table;
     clear: both;
   }
-  /* line 707, ../sass/spencer.scss */
+  /* line 729, ../sass/spencer.scss */
   .container-2 .col-1 {
     clear: left;
     float: left;
@@ -837,7 +862,7 @@ h5.left {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 711, ../sass/spencer.scss */
+  /* line 733, ../sass/spencer.scss */
   .container-2 .col-2 {
     float: left;
     width: 50%;
@@ -849,11 +874,11 @@ h5.left {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 716, ../sass/spencer.scss */
+  /* line 738, ../sass/spencer.scss */
   .container-2.clean .col-1 {
     padding-left: 0;
   }
-  /* line 720, ../sass/spencer.scss */
+  /* line 742, ../sass/spencer.scss */
   .container-2.clean .col-2 {
     padding-right: 0;
   }

@@ -475,16 +475,22 @@
       <div class="content">
         <div id="footer">
           <div class="col-1">
-            --logo
+            <img src="images/logo_spencer_footer.png" alt="spencer logo">
           </div>
           <div class="col-2">
-            Antwerp HQ
+            <b>Antwerp HQ</b>
+            <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
           </div>
           <div class="col-3">
-            Nordics
+            <b>Nordics</b>
+            <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
           </div>
           <div class="col-4">
-            --social
+            <div id="social-icons">
+              <img src="images/ico_social_facebook.png" alt="facebook">
+              <img src="images/ico_social_twitter.png" alt="twitter">
+              <img src="images/ico_social_linkedin.png" alt="linkedin">
+            </div>
           </div>
         </div>
       </div>
