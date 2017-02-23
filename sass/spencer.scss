@@ -12,6 +12,19 @@
   margin-right: auto;
 }
 
+@mixin video-button() {
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  font-family: CoreSansA55;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  background: url(../images/ico_video.png) no-repeat 24px center #fff;
+  color: #383737;
+  padding: 14px 24px 12px 56px; 
+}
+
 $spencer-blue: #3aacd2;
 $max-width: 1200px;
 
@@ -131,19 +144,25 @@ $zen-columns: 2;
   padding-top: 200px;
   padding-bottom: 96px;
   text-align: center;
+  
+  .testimonial-content {
+    background: url(../images/img_quote_2.png), url(../images/img_quote.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 
-  h2 {
-    font-size: 26px;
-    color: #505050;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-style: italic;
-    font-family: CoreSansA35;
-    max-width: 945px;
-    line-height: 1.54em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+    h2 {
+      font-size: 26px;
+      color: #505050;
+      padding-top: 75px;
+      padding-bottom: 75px;
+      font-style: italic;
+      font-family: CoreSansA35;
+      max-width: 945px;
+      line-height: 1.54em;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
   }
 
   .testemonial-person {
@@ -188,6 +207,10 @@ $zen-columns: 2;
   }
 }
 
+.video-button {
+  @include video-button();  
+}
+
 $zen-columns: 5;
 .functionality {
   padding-top: 158px;
@@ -227,6 +250,28 @@ $zen-columns: 5;
         &.func-hr {
           display: block;
         }
+        
+        b {
+          font-size: 12px;
+          color: #fff;
+          font-family: CoreSansA55;
+          line-height: 16px;
+          display: block;
+          padding-top: 32px;
+          padding-bottom: 16px;
+        }
+
+        .feature {
+          padding-right: 8px;
+          font-family: CoreSansA45;
+          font-size: 14px;
+          color: #fff;
+          padding: 10px 16px;
+          background-color: #3090b0;
+          border: #3090b0 1px solid;
+          border-radius: 3px;
+          display: inline-block;
+        }
       }
     }
 
@@ -235,6 +280,13 @@ $zen-columns: 5;
 
       img {
         width: 100%;
+      }
+
+      .video {
+        width: 292px;
+        height: 613px;
+        padding: 80px 0px 0px 16px;
+        background: url(../images/img_video_background.png) no-repeat;
       }
     }
   }
@@ -486,7 +538,7 @@ $zen-columns: 4;
     color: #fff;
   }
   &.grey {
-    background-color: #ddd;
+    background-color: #f6f6f6;
   }
   &.dark {
     background-color: #383737;
@@ -597,7 +649,7 @@ h5 {
 
 @media all and (min-width: 601px) {
   #navigation {
-    display: block;
+    display: block !important;
   }
   
   $zen-columns: 2 !global;

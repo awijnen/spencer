@@ -64,14 +64,27 @@
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
         <p>LOGO</p>
-        <h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2>
+        <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testemonial-person">
           <div class="person-name">Margaret Denis</div>
           <div class="person-position">Director Digital Workplace Program</div>
         </div>
       </div>
       <div class="carousel-slide">
-        <h1>TEST 2</h1>
+        <p>LOGO</p>
+        <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
+        <div class="testemonial-person">
+          <div class="person-name">Dieter Nieuwdorp</div>
+          <div class="person-position">Senior VP Strategy & Corporate Development</div>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <p>LOGO</p>
+        <div class="testimonial-content"><h2>For DEME's mobile workforce, we're always looking for new ways to keep in touch with colleagues and the company. Spencer is the perfect fit for our teams.</h2></div>
+        <div class="testemonial-person">
+          <div class="person-name">Philip Hermans</div>
+          <div class="person-position">General Manager</div>
+        </div>
       </div>
     </div>
 	</div>
@@ -115,16 +128,72 @@
               <li><a name="func-hosp" href="#">HOSPITALITY</a></li>
               <li><a name="func-fin" href="#">FINANCE</a></li>
             </ul>
-            <p class="white func-slide func-hr">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
-            <p class="white func-slide func-comm">TEST COMM</p>
-            <p class="white func-slide func-org">TEST org</p>
-            <p class="white func-slide func-fac">TEST fac</p>
-            <p class="white func-slide func-hosp">TEST hosp</p>
-            <p class="white func-slide func-fin">TEST fin</p>
-            <p>showcase</p>
+            <div class="func-slide func-hr">
+              <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
+              <b>SHOWCASE</b>
+              <div><a id="request-holiday" class="video-button" href="#">REQUEST HOLIDAY</a></div>
+              <b>MORE FEATURES</b>
+              <span class="feature">Ask sick leave</span>
+              <span class="feature">Submit doctor's note</span>
+              <span class="feature">Check vacation days</span>
+              <span class="feature">Work from home</span>
+            </div>
+
+            <div class="func-slide func-comm">
+              <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
+              <b>FEATURES</b>
+              <span class="feature">Company news</span>
+              <span class="feature">Lunch menu</span>
+              <span class="feature">Survey</span>
+            </div>
+
+            <div class="func-slide func-org">
+              <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
+              <b>SHOWCASE</b>
+              <div><a id="request-holiday" class="video-button" href="#">COWORKER'S CONTACT INFO</a></div>
+              <b>MORE FEATURES</b>
+              <span class="feature">My shift</span>
+              <span class="feature">My team holiday</span>
+              <span class="feature">Organizational chart</span>
+            </div>
+
+            <div class="func-slide func-fac">
+              <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access and your fleet of company cars.</p>
+              <b>SHOWCASE</b>
+              <div>
+                <a id="request-holiday" class="video-button" href="#">BOOK MEETING ROOM</a>
+                <a id="request-holiday" class="video-button" href="#">REPORT ISSUE</a>
+              </div>
+              <b>MORE FEATURES</b>
+              <span class="feature">Time tracking</span>
+            </div>
+
+            <div class="func-slide func-hosp">
+              <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
+              <b>SHOWCASE</b>
+              <div><a id="request-holiday" class="video-button" href="#">CLIENT VERSION</a></div>
+              <b>MORE FEATURES</b>
+              <span class="feature">Guest WiFi access</span>
+              <span class="feature">Digital business card</span>
+            </div>
+            
+            <div class="func-slide func-fin">
+              <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
+              <b>SHOWCASE</b>
+              <div>
+                <a id="request-holiday" class="video-button" href="#">APPROVE PO/PR</a>
+                <a id="request-holiday" class="video-button" href="#">SUBMIT EXPENSE</a>
+              </div>
+              <b>MORE FEATURES</b>
+              <span class="feature">Lorem ipsum</span>
+            </div>
           </div>
           <div class="col-2">
-            <img src="images/smartphone.png" alt="smartphone">
+            <div id="feature-video" class="video">
+              <video id="feature-video-file" width="262">
+                <source src="video/000_Workflow_Sign_purchase_request.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
         </div>
       </div>

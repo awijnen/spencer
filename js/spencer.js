@@ -15,4 +15,9 @@ $(document).ready(function(){
     $('#navigation').slideToggle();
     return false;
   });
+
+  $('#request-holiday').click(function() {
+    $('#feature-video-file').get(0).play();
+    return false;
+  });
 });
