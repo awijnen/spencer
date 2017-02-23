@@ -16,6 +16,7 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/spencer.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
 </head>
 <body>
@@ -33,12 +34,12 @@
     </div>
     <nav id="navigation">
       <ul>
-        <li><a href="#">Problem</a></li>
-        <li><a href="#">Solution</a></li>
-        <li><a href="#">References</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Jobs</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#jobs">Jobs</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
@@ -89,6 +90,7 @@
     </div>
 	</div>
 
+  <a name="problem"></a>
   <div class="content-container">
     <div id="oversaturated" class="content">
       <div class="oversat-container container-2">
@@ -115,6 +117,7 @@
       </div>
     </div>
 
+    <a name="solution"></a>
     <div class="content-container blue">
       <div class="content functionality">
         <h5>Spencer presents familiar info and functionality in a new workflow, cutting the clutter from your workday.</h5>
@@ -273,6 +276,7 @@
       </div>
     </div>
 
+    <a name="references"></a> 
     <div class="content-container">
       <div class="content references">
         <div id="references">
@@ -394,6 +398,7 @@
       </div>
     </div>
     
+    <a name="about"></a> 
     <div class="content-container">
       <div id="team-container" class="content">
         <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
@@ -435,6 +440,8 @@
         </div>
       </div>
     </div>
+
+    <a name="jobs"></a> 
     <div class="content-container dark">
       <div id="hiring-container" class="content">
         <h3 class="white">Spencer is hiring!</h3>
@@ -443,6 +450,7 @@
       </div>
     </div>
 
+    <a name="contact"></a> 
     <div class="content-container blue">
       <div id="contact-container" class="content">
         <h3 class="white">Want to meet Spencer?</h3>
