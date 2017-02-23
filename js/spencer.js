@@ -32,4 +32,15 @@ $(document).ready(function(){
     
     return false;
   });
+
+  $('.ref-nav').click(function() {
+    $('.ref-nav').removeClass('active');
+    $(this).addClass('active');
+    refName = $(this).attr('id');
+
+    $('.ref-container').hide();
+    $('#' + refName + '-container').show();
+
+    return false;
+  })
 });

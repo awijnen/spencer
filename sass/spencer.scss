@@ -150,7 +150,7 @@ $zen-columns: 2;
     background-position: top left, bottom right;
     background-repeat: no-repeat;
 
-    h2 {
+  h2 {
       font-size: 26px;
       color: #505050;
       padding-top: 75px;
@@ -165,34 +165,36 @@ $zen-columns: 2;
     }
   }
 
-  .testemonial-person {
-    display: inline-block;
-    
-    .person-name {
-      font-weight: 500;
-      line-height: 1.59;
-      color: #505050;
-      font-size: 17px;
-      font-family: CoreSansA55;
-      text-align: left;
-    }
-
-    .person-position {
-      font-weight: 300;
-      font-style: italic;
-      font-size: 13px;
-      font-family: CoreSansA35;
-      color: #737373;
-      text-align: left;
-    }
-  }
-  
   .slick-dots {
     position: static;
     margin-top: 30px;
   }
 
 }
+
+.testimonial-person {
+  display: inline-block;
+  
+  .person-name {
+    font-weight: 500;
+    line-height: 1.59;
+    color: #505050;
+    font-size: 17px;
+    font-family: CoreSansA55;
+    text-align: left;
+  }
+
+  .person-position {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 13px;
+    font-family: CoreSansA35;
+    color: #737373;
+    text-align: left;
+  }
+}
+  
+
 
 #oversaturated {
   padding-bottom: 192px;
@@ -411,6 +413,39 @@ $zen-columns: 3;
 
     }
   }
+
+  #references-body {
+    b {
+      display: block;
+      font-size: 22px;
+      padding-top: 128px;
+      font-family: CoreSansA55;
+    }
+
+    p {
+      padding-top: 16px; 
+      padding-bottom: 16px; 
+    }
+
+    #ref-proximus-container b {
+      color: #5C2D91;
+    }
+
+    #ref-telenet-container b {
+      color: #FCC415;
+    }
+    
+    #ref-deme-container b {
+      color: #6DBD27;
+    }
+    .ref-container {
+      display: none;
+    }
+    
+    #ref-proximus-container {
+      display: block;
+    }
+  }
 }
 
 .content.references {
@@ -561,6 +596,10 @@ p {
 
   &.white {
     color: rgba(255, 255, 255, 0.7);
+  }
+
+  &.quote {
+    font-style: italic;
   }
 }
 
