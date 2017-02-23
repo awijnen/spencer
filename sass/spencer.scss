@@ -311,10 +311,39 @@ $zen-columns: 5;
   }
 }
 
-#resume, #five-step {
+#resume {
   .col-content {
     background: url(../images/icon.png) no-repeat top left;
     padding-left: 72px;
+  }
+}
+
+#five-step {
+	.step-wrapper {
+    display: table;
+	}
+
+  .number-wrapper {
+    display: table-cell;
+    width: 60px;
+
+    .number {
+      border: 2px solid #9cd0df;
+      border-radius: 50px;
+      color: #fff;
+      font-size: 22px;
+      font-weight: 500;
+      height: 52px;
+      line-height: 52px;
+      text-align: center;
+      width: 52px;
+      font-family: CoreSansA55;
+    }
+  }
+  
+  .col-content {
+    display: table-cell;
+    padding-left: 32px; 
   }
 }
 
@@ -478,9 +507,34 @@ $zen-columns: 3;
       margin-top: 32px;
       padding-left: 88px;
     }
-   
+    
+    .member {
+      min-height: 56px;
+      padding-top: 6px;
+    }
     .maarten {
-      
+      background: url(../images/img_avatar_maartenraemdonck.png) no-repeat left top;
+    }  
+    .tom {
+      background: url(../images/img_avatar_tomvroemans.png) no-repeat left top;
+    }
+    .robin {
+      background: url(../images/img_avatar_robinvdbergh.png) no-repeat left top;
+    }
+    .anthony {
+      background: url(../images/img_avatar_anthonywijnen.png) no-repeat left top;
+    }
+    .yannick {
+      background: url(../images/img_avatar_yannickbontemps.png) no-repeat left top;
+    }
+    .christophe {
+      background: url(../images/img_avatar_christophesmet.png) no-repeat left top;
+    }
+    .kevin {
+      background: url(../images/img_avatar_kevintsyen.png) no-repeat left top;
+    }
+    .tomdl {
+      background: url(../images/img_avatar_tomdelaet.png) no-repeat left top;
     }
 
     .team-name {

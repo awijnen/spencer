@@ -343,35 +343,50 @@
         <h3 class="white">A five-step plan to get Spencer integrated in your enterprise</h3>
         <div id="five-step" class="five-step-container container-2">
           <div class="col-1">
-            <div class="col-content">
-              <h4 class="white">Existing architecture & roadmap</h4>
-              <p class="white">Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
+            <div class="step-wrapper">
+              <div class="number-wrapper"><div class="number">1</div></div>
+              <div class="col-content">
+                <h4 class="white">Existing architecture & roadmap</h4>
+                <p class="white">Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
+              </div>
             </div>
           </div>
           <div class="col-2">
-            <div class="col-content">
-              <h4 class="white">Technical assessment</h4>
-              <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
+            <div class="step-wrapper">
+              <div class="number-wrapper"><div class="number">2</div></div>
+              <div class="col-content">
+                <h4 class="white">Technical assessment</h4>
+                <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
+              </div>
             </div>
           </div>
 
           <div class="col-1">
-            <div class="col-content">
-              <h4 class="white">Implementation & branding</h4>
-              <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
+            <div class="step-wrapper">
+              <div class="number-wrapper"><div class="number">3</div></div>
+              <div class="col-content">
+                <h4 class="white">Implementation & branding</h4>
+                <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
+              </div>
             </div>
           </div>
           <div class="col-2">
-            <div class="col-content">
-              <h4 class="white">Deployment & testing</h4>
-              <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
+            <div class="step-wrapper">
+              <div class="number-wrapper"><div class="number">4</div></div>
+              <div class="col-content">
+                <h4 class="white">Deployment & testing</h4>
+                <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
+              </div>
             </div>
           </div>
 
           <div class="col-1">
-            <div class="col-content">
-              <h4 class="white">Maintenance & support</h4>
-              <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
+            <div class="step-wrapper">
+              <div class="number-wrapper"><div class="number">5</div></div>
+              <div class="col-content">
+                <h4 class="white">Maintenance & support</h4>
+                <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
+              </div>
             </div>
           </div>
           <div class="col-2"></div>
@@ -385,47 +400,38 @@
         <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
         <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
         <div id="team" class="container-2">
-          <div class="col-1 maarten">
+          <div class="col-1 maarten member">
             <div class="team-name">Maarten Raemdonck</div>
             <div class="team-position">co-CEO - Product Director</div>
           </div>
-          <div class="col-2">
+          <div class="col-2 tom member">
             <div class="team-name">Tom Vroemans</div>
             <div class="team-position">co-CEO - Founder & Chairman</div>
           </div>
-          <div class="col-1">
+          <div class="col-1 robin member">
             <div class="team-name">Robin Van Den Bergh</div>
             <div class="team-position">Client Services Manager</div>
           </div>
-          <div class="col-2">
+          <div class="col-2 anthony member">
             <div class="team-name">Anthony Wijnen</div>
             <div class="team-position">Senior Product Manager</div>
           </div>
-          <div class="col-1">
+          <div class="col-1 yannick member">
             <div class="team-name">Yannick Bontemps</div>
             <div class="team-position">Senior iOS Developer</div>
           </div>
-          <div class="col-2">
+          <div class="col-2 christophe member">
             <div class="team-name">Christophe Smet</div>
             <div class="team-position">Senior Android Developer</div>
           </div>
-          <div class="col-1">
+          <div class="col-1 kevin member">
             <div class="team-name">Kevin T’Syen</div>
             <div class="team-position">Senior Back-end Developer</div>
           </div>
-          <div class="col-2">
+          <div class="col-2 tomdl member">
             <div class="team-name">Tom De Laet</div>
             <div class="team-position">Senior Experience Designer</div>
           </div>
-          <div class="col-1">
-            <div class="team-name">Maarten Raemdonck</div>
-            <div class="team-position">co-CEO - Product Director</div>
-          </div>
-          <div class="col-2">
-            <div class="team-name">Tom Vroemans</div>
-            <div class="team-position">co-CEO - Founder & Chairman</div>
-          </div>
-
         </div>
       </div>
     </div>
