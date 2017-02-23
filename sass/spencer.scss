@@ -144,7 +144,15 @@ $zen-columns: 2;
   padding-top: 200px;
   padding-bottom: 96px;
   text-align: center;
-  
+ 
+  .testimonial-logo {
+    text-align: center;
+    img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+   
   .testimonial-content {
     background: url(../images/img_quote_2.png), url(../images/img_quote.png);
     background-position: top left, bottom right;
@@ -175,6 +183,22 @@ $zen-columns: 2;
 .testimonial-person {
   display: inline-block;
   
+  min-height: 56px;
+  padding-top: 6px;
+  padding-left: 88px;
+  
+  &.proximus {
+      background: url(../images/img_avatar_proximus.png) no-repeat left top;
+  }  
+
+  &.telenet{
+      background: url(../images/img_avatar_telenet.png) no-repeat left top;
+  }  
+
+  &.deme{
+      background: url(../images/img_avatar_deme.png) no-repeat left top;
+  }  
+
   .person-name {
     font-weight: 500;
     line-height: 1.59;
@@ -439,7 +463,6 @@ $zen-columns: 3;
           background: url(../images/img_logo_deme_active.png) no-repeat center center #f6f6f6;
         }
       }
-
     }
   }
 
@@ -473,6 +496,10 @@ $zen-columns: 3;
     
     #ref-proximus-container {
       display: block;
+    }
+
+    img {
+      margin-top: 64px;
     }
   }
 }

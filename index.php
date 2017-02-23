@@ -63,7 +63,7 @@
 	<div class="content-container grey">
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
-        <p>LOGO</p>
+        <div class="testimonial-logo"><img src="images/img_logo_proximus_full.png"></div>
         <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testimonial-person">
           <div class="person-name">Margaret Denis</div>
@@ -71,7 +71,7 @@
         </div>
       </div>
       <div class="carousel-slide">
-        <p>LOGO</p>
+        <div class="testimonial-logo"><img src="images/img_logo_telenet_full.png"></div>
         <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testimonial-person">
           <div class="person-name">Dieter Nieuwdorp</div>
@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="carousel-slide">
-        <p>LOGO</p>
+        <div class="testimonial-logo"><img src="images/img_logo_deme_full.png"></div>
         <div class="testimonial-content"><h2>For DEME's mobile workforce, we're always looking for new ways to keep in touch with colleagues and the company. Spencer is the perfect fit for our teams.</h2></div>
         <div class="testimonial-person">
           <div class="person-name">Philip Hermans</div>
@@ -293,13 +293,13 @@
                 <b>Proximus</b>
                 <p>Proximus’ ambition is to bring its digital enterprise tooling to mobile, and they selected Spencer as their flagship product. Starting with a number of HR modules, the team plans on bringing a large set of functionalities to Spencer in a phased approach - plugging new modules as they go.</p>
                 <p class="quote">“At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.”</p>
-                <div class="testimonial-person">
+                <div class="testimonial-person proximus">
                   <div class="person-name">Serge Peeters</div>
                   <div class="person-position">HR Director Employee Services & Operations</div>
                 </div>
               </div>
               <div class="col-2">
-                img
+                <img src="images/img_showcase_proximus.png" alt="proximus">
               </div>
             </div>
 
@@ -308,13 +308,13 @@
                 <b>Telenet Group</b>
                 <p>Spencer took his first steps at Telenet Group, helping them drive engagement. Spencer’s now facilitating both internal communication (news, contacting colleagues), hospitality services for guests (wifi access, digital contact cards, …), HR flows (holiday request, sick leave, …) and facilities (meeting rooms, IT ticketing,... ).</p>
                 <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
-                <div class="testimonial-person">
+                <div class="testimonial-person telenet">
                   <div class="person-name">Claudia Poels</div>
                   <div class="person-position">Senior VP Human Resources</div>
                 </div>
               </div>
               <div class="col-2">
-                img
+                <img src="images/img_showcase_telenet.png" alt="telenet">
               </div>
             </div>
 
@@ -323,13 +323,13 @@
                 <b>DEME Dredging</b>
                 <p>DEME came to November Five to start drawing up an internal employee engagement app that would help with communication and HR processes. Spencer turned out to be a perfect fit! He will be the starting point of a much larger digital transformation at this world-leading dredging company.</p>
                 <p class="quote">“At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.”</p>
-                <div class="testimonial-person">
+                <div class="testimonial-person deme">
                   <div class="person-name">Philip Hermans</div>
                   <div class="person-position">General Manager</div>
                 </div>
               </div>
               <div class="col-2">
-                img
+                <img src="images/img_showcase_deme.png" alt="deme">
               </div>
             </div>
 

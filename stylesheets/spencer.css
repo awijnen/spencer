@@ -137,12 +137,21 @@ header #navigation-wrapper #navigation ul li a:hover {
   text-align: center;
 }
 /* line 148, ../sass/spencer.scss */
+#testimonials .testimonial-logo {
+  text-align: center;
+}
+/* line 150, ../sass/spencer.scss */
+#testimonials .testimonial-logo img {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 156, ../sass/spencer.scss */
 #testimonials .testimonial-content {
   background: url(../images/img_quote_2.png), url(../images/img_quote.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
 }
-/* line 153, ../sass/spencer.scss */
+/* line 161, ../sass/spencer.scss */
 #testimonials .testimonial-content h2 {
   font-size: 26px;
   color: #505050;
@@ -156,17 +165,32 @@ header #navigation-wrapper #navigation ul li a:hover {
   margin-right: auto;
   text-align: center;
 }
-/* line 168, ../sass/spencer.scss */
+/* line 176, ../sass/spencer.scss */
 #testimonials .slick-dots {
   position: static;
   margin-top: 30px;
 }
 
-/* line 175, ../sass/spencer.scss */
+/* line 183, ../sass/spencer.scss */
 .testimonial-person {
   display: inline-block;
+  min-height: 56px;
+  padding-top: 6px;
+  padding-left: 88px;
 }
-/* line 178, ../sass/spencer.scss */
+/* line 190, ../sass/spencer.scss */
+.testimonial-person.proximus {
+  background: url(../images/img_avatar_proximus.png) no-repeat left top;
+}
+/* line 194, ../sass/spencer.scss */
+.testimonial-person.telenet {
+  background: url(../images/img_avatar_telenet.png) no-repeat left top;
+}
+/* line 198, ../sass/spencer.scss */
+.testimonial-person.deme {
+  background: url(../images/img_avatar_deme.png) no-repeat left top;
+}
+/* line 202, ../sass/spencer.scss */
 .testimonial-person .person-name {
   font-weight: 500;
   line-height: 1.59;
@@ -175,7 +199,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   font-family: CoreSansA55;
   text-align: left;
 }
-/* line 187, ../sass/spencer.scss */
+/* line 211, ../sass/spencer.scss */
 .testimonial-person .person-position {
   font-weight: 300;
   font-style: italic;
@@ -185,21 +209,21 @@ header #navigation-wrapper #navigation ul li a:hover {
   text-align: left;
 }
 
-/* line 199, ../sass/spencer.scss */
+/* line 223, ../sass/spencer.scss */
 #oversaturated {
   padding-bottom: 192px;
 }
-/* line 202, ../sass/spencer.scss */
+/* line 226, ../sass/spencer.scss */
 #oversaturated h3 {
   padding-top: 192px;
   padding-bottom: 96px;
 }
-/* line 207, ../sass/spencer.scss */
+/* line 231, ../sass/spencer.scss */
 #oversaturated .h3-1 {
   max-width: 556px;
 }
 
-/* line 212, ../sass/spencer.scss */
+/* line 236, ../sass/spencer.scss */
 .video-button {
   text-decoration: none;
   border: 2px solid #fff;
@@ -213,12 +237,12 @@ header #navigation-wrapper #navigation ul li a:hover {
   padding: 14px 24px 12px 56px;
 }
 
-/* line 217, ../sass/spencer.scss */
+/* line 241, ../sass/spencer.scss */
 .functionality {
   padding-top: 158px;
   padding-bottom: 158px;
 }
-/* line 221, ../sass/spencer.scss */
+/* line 245, ../sass/spencer.scss */
 .functionality #functionality {
   margin-top: 68px;
 }
@@ -233,7 +257,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   display: table;
   clear: both;
 }
-/* line 226, ../sass/spencer.scss */
+/* line 250, ../sass/spencer.scss */
 .functionality #functionality .col-1 {
   float: left;
   width: 60%;
@@ -246,18 +270,18 @@ header #navigation-wrapper #navigation ul li a:hover {
   box-sizing: border-box;
   padding-top: 64px;
 }
-/* line 230, ../sass/spencer.scss */
+/* line 254, ../sass/spencer.scss */
 .functionality #functionality .col-1 ul {
   margin: 0;
   padding: 0;
   margin-bottom: 46px;
 }
-/* line 235, ../sass/spencer.scss */
+/* line 259, ../sass/spencer.scss */
 .functionality #functionality .col-1 ul li {
   display: inline-block;
   padding-right: 16px;
 }
-/* line 239, ../sass/spencer.scss */
+/* line 263, ../sass/spencer.scss */
 .functionality #functionality .col-1 ul li a {
   color: #383737;
   font-size: 14px;
@@ -266,20 +290,20 @@ header #navigation-wrapper #navigation ul li a:hover {
   font-weight: 500;
   text-decoration: none;
 }
-/* line 247, ../sass/spencer.scss */
+/* line 271, ../sass/spencer.scss */
 .functionality #functionality .col-1 ul li a.active {
   color: #fff;
   border-bottom: 2px solid #fff;
 }
-/* line 255, ../sass/spencer.scss */
+/* line 279, ../sass/spencer.scss */
 .functionality #functionality .col-1 .func-slide {
   display: none;
 }
-/* line 257, ../sass/spencer.scss */
+/* line 281, ../sass/spencer.scss */
 .functionality #functionality .col-1 .func-slide.func-hr {
   display: block;
 }
-/* line 261, ../sass/spencer.scss */
+/* line 285, ../sass/spencer.scss */
 .functionality #functionality .col-1 .func-slide b {
   font-size: 12px;
   color: #fff;
@@ -289,7 +313,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   padding-top: 32px;
   padding-bottom: 16px;
 }
-/* line 271, ../sass/spencer.scss */
+/* line 295, ../sass/spencer.scss */
 .functionality #functionality .col-1 .func-slide .feature {
   padding-right: 8px;
   font-family: CoreSansA45;
@@ -301,7 +325,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   border-radius: 3px;
   display: inline-block;
 }
-/* line 285, ../sass/spencer.scss */
+/* line 309, ../sass/spencer.scss */
 .functionality #functionality .col-2 {
   float: left;
   width: 40%;
@@ -313,11 +337,11 @@ header #navigation-wrapper #navigation ul li a:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 288, ../sass/spencer.scss */
+/* line 312, ../sass/spencer.scss */
 .functionality #functionality .col-2 img {
   width: 100%;
 }
-/* line 292, ../sass/spencer.scss */
+/* line 316, ../sass/spencer.scss */
 .functionality #functionality .col-2 .video {
   width: 292px;
   height: 613px;
@@ -325,35 +349,35 @@ header #navigation-wrapper #navigation ul li a:hover {
   background: url(../images/img_video_background.png) no-repeat;
 }
 
-/* line 302, ../sass/spencer.scss */
+/* line 326, ../sass/spencer.scss */
 #mobile-app {
   padding-bottom: 256px;
 }
-/* line 305, ../sass/spencer.scss */
+/* line 329, ../sass/spencer.scss */
 #mobile-app .col-2 h5 {
   margin-top: 160px;
 }
-/* line 308, ../sass/spencer.scss */
+/* line 332, ../sass/spencer.scss */
 #mobile-app .col-2 p {
   margin-top: 64px;
 }
 
-/* line 315, ../sass/spencer.scss */
+/* line 339, ../sass/spencer.scss */
 #resume .col-content {
   background: url(../images/icon.png) no-repeat top left;
   padding-left: 72px;
 }
 
-/* line 322, ../sass/spencer.scss */
+/* line 346, ../sass/spencer.scss */
 #five-step .step-wrapper {
   display: table;
 }
-/* line 326, ../sass/spencer.scss */
+/* line 350, ../sass/spencer.scss */
 #five-step .number-wrapper {
   display: table-cell;
   width: 60px;
 }
-/* line 330, ../sass/spencer.scss */
+/* line 354, ../sass/spencer.scss */
 #five-step .number-wrapper .number {
   border: 2px solid #9cd0df;
   border-radius: 50px;
@@ -366,53 +390,53 @@ header #navigation-wrapper #navigation ul li a:hover {
   width: 52px;
   font-family: CoreSansA55;
 }
-/* line 344, ../sass/spencer.scss */
+/* line 368, ../sass/spencer.scss */
 #five-step .col-content {
   display: table-cell;
   padding-left: 32px;
 }
 
-/* line 350, ../sass/spencer.scss */
+/* line 374, ../sass/spencer.scss */
 #cloud-layer {
   padding-bottom: 256px;
 }
-/* line 351, ../sass/spencer.scss */
+/* line 375, ../sass/spencer.scss */
 #cloud-layer h3 {
   padding-top: 160px;
   padding-bottom: 64px;
 }
-/* line 356, ../sass/spencer.scss */
+/* line 380, ../sass/spencer.scss */
 #cloud-layer video {
   margin-top: 128px;
 }
 
-/* line 362, ../sass/spencer.scss */
+/* line 386, ../sass/spencer.scss */
 #resume-container, #five-step-container {
   padding-bottom: 192px;
 }
-/* line 364, ../sass/spencer.scss */
+/* line 388, ../sass/spencer.scss */
 #resume-container h3, #five-step-container h3 {
   padding-top: 192px;
   padding-bottom: 82px;
 }
 
-/* line 370, ../sass/spencer.scss */
+/* line 394, ../sass/spencer.scss */
 #hiring-container {
   padding-bottom: 160px;
 }
-/* line 372, ../sass/spencer.scss */
+/* line 396, ../sass/spencer.scss */
 #hiring-container h3 {
   padding-top: 162px;
   padding-bottom: 32px;
 }
-/* line 377, ../sass/spencer.scss */
+/* line 401, ../sass/spencer.scss */
 #hiring-container p {
   text-align: center;
   max-width: 780px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 383, ../sass/spencer.scss */
+/* line 407, ../sass/spencer.scss */
 #hiring-container p a {
   color: #fff;
   background-color: #3aacd2;
@@ -437,7 +461,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   display: table;
   clear: both;
 }
-/* line 404, ../sass/spencer.scss */
+/* line 428, ../sass/spencer.scss */
 #references #references-navigation a {
   height: 88px;
   display: block;
@@ -445,7 +469,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   border-radius: 3px;
   border: solid 2px #f6f6f6;
 }
-/* line 412, ../sass/spencer.scss */
+/* line 436, ../sass/spencer.scss */
 #references #references-navigation .col-1 {
   float: left;
   width: 33.33333%;
@@ -457,15 +481,15 @@ header #navigation-wrapper #navigation ul li a:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 415, ../sass/spencer.scss */
+/* line 439, ../sass/spencer.scss */
 #references #references-navigation .col-1 a {
   background: url(../images/img_logo_proximus.png) no-repeat center center;
 }
-/* line 417, ../sass/spencer.scss */
+/* line 441, ../sass/spencer.scss */
 #references #references-navigation .col-1 a.active {
   background: url(../images/img_logo_proximus_active.png) no-repeat center center #f6f6f6;
 }
-/* line 422, ../sass/spencer.scss */
+/* line 446, ../sass/spencer.scss */
 #references #references-navigation .col-2 {
   float: left;
   width: 33.33333%;
@@ -477,15 +501,15 @@ header #navigation-wrapper #navigation ul li a:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 425, ../sass/spencer.scss */
+/* line 449, ../sass/spencer.scss */
 #references #references-navigation .col-2 a {
   background: url(../images/img_logo_telenet.png) no-repeat center center;
 }
-/* line 427, ../sass/spencer.scss */
+/* line 451, ../sass/spencer.scss */
 #references #references-navigation .col-2 a.active {
   background: url(../images/img_logo_telenet_active.png) no-repeat center center #f6f6f6;
 }
-/* line 433, ../sass/spencer.scss */
+/* line 457, ../sass/spencer.scss */
 #references #references-navigation .col-3 {
   float: left;
   width: 33.33333%;
@@ -497,119 +521,123 @@ header #navigation-wrapper #navigation ul li a:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 436, ../sass/spencer.scss */
+/* line 460, ../sass/spencer.scss */
 #references #references-navigation .col-3 a {
   background: url(../images/img_logo_deme.png) no-repeat center center;
 }
-/* line 438, ../sass/spencer.scss */
+/* line 462, ../sass/spencer.scss */
 #references #references-navigation .col-3 a.active {
   background: url(../images/img_logo_deme_active.png) no-repeat center center #f6f6f6;
 }
-/* line 447, ../sass/spencer.scss */
+/* line 470, ../sass/spencer.scss */
 #references #references-body b {
   display: block;
   font-size: 22px;
   padding-top: 128px;
   font-family: CoreSansA55;
 }
-/* line 454, ../sass/spencer.scss */
+/* line 477, ../sass/spencer.scss */
 #references #references-body p {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-/* line 459, ../sass/spencer.scss */
+/* line 482, ../sass/spencer.scss */
 #references #references-body #ref-proximus-container b {
   color: #5C2D91;
 }
-/* line 463, ../sass/spencer.scss */
+/* line 486, ../sass/spencer.scss */
 #references #references-body #ref-telenet-container b {
   color: #FCC415;
 }
-/* line 467, ../sass/spencer.scss */
+/* line 490, ../sass/spencer.scss */
 #references #references-body #ref-deme-container b {
   color: #6DBD27;
 }
-/* line 470, ../sass/spencer.scss */
+/* line 493, ../sass/spencer.scss */
 #references #references-body .ref-container {
   display: none;
 }
-/* line 474, ../sass/spencer.scss */
+/* line 497, ../sass/spencer.scss */
 #references #references-body #ref-proximus-container {
   display: block;
 }
+/* line 501, ../sass/spencer.scss */
+#references #references-body img {
+  margin-top: 64px;
+}
 
-/* line 480, ../sass/spencer.scss */
+/* line 507, ../sass/spencer.scss */
 .content.references {
   padding-top: 192px;
   padding-bottom: 92px;
 }
 
-/* line 485, ../sass/spencer.scss */
+/* line 512, ../sass/spencer.scss */
 #team-container {
   padding-top: 192px;
   padding-bottom: 192px;
 }
-/* line 489, ../sass/spencer.scss */
+/* line 516, ../sass/spencer.scss */
 #team-container h3 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-/* line 494, ../sass/spencer.scss */
+/* line 521, ../sass/spencer.scss */
 #team-container p {
   max-width: 780px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 501, ../sass/spencer.scss */
+/* line 528, ../sass/spencer.scss */
 #team-container #team {
   max-width: 750px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 506, ../sass/spencer.scss */
+/* line 533, ../sass/spencer.scss */
 #team-container #team .col-1, #team-container #team .col-2 {
   margin-top: 32px;
   padding-left: 88px;
 }
-/* line 511, ../sass/spencer.scss */
+/* line 538, ../sass/spencer.scss */
 #team-container #team .member {
   min-height: 56px;
   padding-top: 6px;
 }
-/* line 515, ../sass/spencer.scss */
+/* line 542, ../sass/spencer.scss */
 #team-container #team .maarten {
   background: url(../images/img_avatar_maartenraemdonck.png) no-repeat left top;
 }
-/* line 518, ../sass/spencer.scss */
+/* line 545, ../sass/spencer.scss */
 #team-container #team .tom {
   background: url(../images/img_avatar_tomvroemans.png) no-repeat left top;
 }
-/* line 521, ../sass/spencer.scss */
+/* line 548, ../sass/spencer.scss */
 #team-container #team .robin {
   background: url(../images/img_avatar_robinvdbergh.png) no-repeat left top;
 }
-/* line 524, ../sass/spencer.scss */
+/* line 551, ../sass/spencer.scss */
 #team-container #team .anthony {
   background: url(../images/img_avatar_anthonywijnen.png) no-repeat left top;
 }
-/* line 527, ../sass/spencer.scss */
+/* line 554, ../sass/spencer.scss */
 #team-container #team .yannick {
   background: url(../images/img_avatar_yannickbontemps.png) no-repeat left top;
 }
-/* line 530, ../sass/spencer.scss */
+/* line 557, ../sass/spencer.scss */
 #team-container #team .christophe {
   background: url(../images/img_avatar_christophesmet.png) no-repeat left top;
 }
-/* line 533, ../sass/spencer.scss */
+/* line 560, ../sass/spencer.scss */
 #team-container #team .kevin {
   background: url(../images/img_avatar_kevintsyen.png) no-repeat left top;
 }
-/* line 536, ../sass/spencer.scss */
+/* line 563, ../sass/spencer.scss */
 #team-container #team .tomdl {
   background: url(../images/img_avatar_tomdelaet.png) no-repeat left top;
 }
-/* line 540, ../sass/spencer.scss */
+/* line 567, ../sass/spencer.scss */
 #team-container #team .team-name {
   font-weight: 500;
   line-height: 1.59;
@@ -617,7 +645,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   font-size: 17px;
   font-family: CoreSansA55;
 }
-/* line 548, ../sass/spencer.scss */
+/* line 575, ../sass/spencer.scss */
 #team-container #team .team-position {
   font-weight: 300;
   font-style: italic;
@@ -626,24 +654,24 @@ header #navigation-wrapper #navigation ul li a:hover {
   color: #737373;
 }
 
-/* line 558, ../sass/spencer.scss */
+/* line 585, ../sass/spencer.scss */
 #contact-container {
   padding-bottom: 160px;
 }
-/* line 561, ../sass/spencer.scss */
+/* line 588, ../sass/spencer.scss */
 #contact-container .col-1, #contact-container .col-2 {
   margin-top: 16px;
 }
-/* line 563, ../sass/spencer.scss */
+/* line 590, ../sass/spencer.scss */
 #contact-container .col-1 .col-1, #contact-container .col-1 .col-2, #contact-container .col-2 .col-1, #contact-container .col-2 .col-2 {
   margin: 0;
 }
-/* line 568, ../sass/spencer.scss */
+/* line 595, ../sass/spencer.scss */
 #contact-container h3 {
   padding-top: 128px;
   padding-bottom: 32px;
 }
-/* line 573, ../sass/spencer.scss */
+/* line 600, ../sass/spencer.scss */
 #contact-container p {
   max-width: 780px;
   margin-left: auto;
@@ -651,21 +679,21 @@ header #navigation-wrapper #navigation ul li a:hover {
   text-align: center;
   padding-bottom: 64px;
 }
-/* line 581, ../sass/spencer.scss */
+/* line 608, ../sass/spencer.scss */
 #contact-container label {
   display: block;
   font-family: CoreSansA55;
   font-size: 12px;
   line-height: 2em;
 }
-/* line 588, ../sass/spencer.scss */
+/* line 615, ../sass/spencer.scss */
 #contact-container input {
   width: 100%;
   height: 42px;
   border: 1px solid #fff;
   border-radius: 3px;
 }
-/* line 595, ../sass/spencer.scss */
+/* line 622, ../sass/spencer.scss */
 #contact-container a {
   border: solid 2px #fff;
   border-radius: 3px;
@@ -678,7 +706,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   margin-top: 48px;
 }
 
-/* line 609, ../sass/spencer.scss */
+/* line 636, ../sass/spencer.scss */
 #footer {
   padding-bottom: 88px;
 }
@@ -693,7 +721,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   display: table;
   clear: both;
 }
-/* line 613, ../sass/spencer.scss */
+/* line 640, ../sass/spencer.scss */
 #footer .col-1 {
   float: left;
   width: 25%;
@@ -706,7 +734,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   box-sizing: border-box;
   padding-top: 80px;
 }
-/* line 617, ../sass/spencer.scss */
+/* line 644, ../sass/spencer.scss */
 #footer .col-2 {
   float: left;
   width: 25%;
@@ -719,7 +747,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   box-sizing: border-box;
   padding-top: 64px;
 }
-/* line 621, ../sass/spencer.scss */
+/* line 648, ../sass/spencer.scss */
 #footer .col-3 {
   float: left;
   width: 25%;
@@ -732,7 +760,7 @@ header #navigation-wrapper #navigation ul li a:hover {
   box-sizing: border-box;
   padding-top: 64px;
 }
-/* line 625, ../sass/spencer.scss */
+/* line 652, ../sass/spencer.scss */
 #footer .col-4 {
   float: left;
   width: 25%;
@@ -745,72 +773,72 @@ header #navigation-wrapper #navigation ul li a:hover {
   box-sizing: border-box;
   padding-top: 92px;
 }
-/* line 630, ../sass/spencer.scss */
+/* line 657, ../sass/spencer.scss */
 #footer b {
   font-size: 17px;
   font-family: CoreSansA55;
   font-weight: 500;
 }
-/* line 636, ../sass/spencer.scss */
+/* line 663, ../sass/spencer.scss */
 #footer p {
   font-size: 13px;
   font-style: italic;
   line-height: 1.6em;
   padding-top: 6px;
 }
-/* line 643, ../sass/spencer.scss */
+/* line 670, ../sass/spencer.scss */
 #footer #social-icons {
   text-align: center;
 }
 
-/* line 648, ../sass/spencer.scss */
+/* line 675, ../sass/spencer.scss */
 .center {
   text-align: center;
 }
 
-/* line 653, ../sass/spencer.scss */
+/* line 680, ../sass/spencer.scss */
 .content-container .content {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 656, ../sass/spencer.scss */
+/* line 683, ../sass/spencer.scss */
 .content-container.blue {
   background-color: #3aacd2;
   color: #fff;
 }
-/* line 660, ../sass/spencer.scss */
+/* line 687, ../sass/spencer.scss */
 .content-container.grey {
   background-color: #f6f6f6;
 }
-/* line 663, ../sass/spencer.scss */
+/* line 690, ../sass/spencer.scss */
 .content-container.dark {
   background-color: #383737;
 }
 
-/* line 668, ../sass/spencer.scss */
+/* line 695, ../sass/spencer.scss */
 p {
   font-size: 17px;
   line-height: 27px;
   color: #737373;
 }
-/* line 673, ../sass/spencer.scss */
+/* line 700, ../sass/spencer.scss */
 p.white {
   color: rgba(255, 255, 255, 0.7);
 }
-/* line 677, ../sass/spencer.scss */
+/* line 704, ../sass/spencer.scss */
 p.quote {
   font-style: italic;
 }
 
-/* line 682, ../sass/spencer.scss */
+/* line 709, ../sass/spencer.scss */
 h1 {
   font-size: 50px;
   color: #fff;
   line-height: 1.2em;
 }
 
-/* line 688, ../sass/spencer.scss */
+/* line 715, ../sass/spencer.scss */
 h3 {
   font-size: 42px;
   text-align: center;
@@ -820,12 +848,12 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 697, ../sass/spencer.scss */
+/* line 724, ../sass/spencer.scss */
 h3.white {
   color: #fff;
 }
 
-/* line 703, ../sass/spencer.scss */
+/* line 730, ../sass/spencer.scss */
 h4 {
   font-size: 22px;
   line-height: 33px;
@@ -835,12 +863,12 @@ h4 {
   font-weight: 500;
   font-family: CoreSansA55;
 }
-/* line 711, ../sass/spencer.scss */
+/* line 738, ../sass/spencer.scss */
 h4.white {
   color: #fff;
 }
 
-/* line 716, ../sass/spencer.scss */
+/* line 743, ../sass/spencer.scss */
 h5 {
   color: #fff;
   font-family: CoreSansA35;
@@ -851,46 +879,46 @@ h5 {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 726, ../sass/spencer.scss */
+/* line 753, ../sass/spencer.scss */
 h5.left {
   text-align: left;
 }
 
 /* media queries */
 @media all and (min-width: 100px) and (max-width: 600px) {
-  /* line 733, ../sass/spencer.scss */
+  /* line 760, ../sass/spencer.scss */
   header {
     height: auto;
   }
-  /* line 737, ../sass/spencer.scss */
+  /* line 764, ../sass/spencer.scss */
   header #navigation-wrapper #logo {
     display: block;
     float: none;
     width: 100%;
   }
-  /* line 742, ../sass/spencer.scss */
+  /* line 769, ../sass/spencer.scss */
   header #navigation-wrapper #logo #mobile-nav-icon {
     display: block;
     float: right;
   }
-  /* line 748, ../sass/spencer.scss */
+  /* line 775, ../sass/spencer.scss */
   header #navigation-wrapper #navigation {
     display: none;
     background-color: rgba(255, 255, 255, 0.1);
     float: none;
     width: 100%;
   }
-  /* line 754, ../sass/spencer.scss */
+  /* line 781, ../sass/spencer.scss */
   header #navigation-wrapper #navigation ul {
     margin: 0;
   }
-  /* line 756, ../sass/spencer.scss */
+  /* line 783, ../sass/spencer.scss */
   header #navigation-wrapper #navigation ul li {
     display: block;
     border-bottom: 1px solid #9be0ee;
     padding-left: 20px;
   }
-  /* line 761, ../sass/spencer.scss */
+  /* line 788, ../sass/spencer.scss */
   header #navigation-wrapper #navigation ul li a {
     display: block;
     padding-top: 20px;
@@ -898,7 +926,7 @@ h5.left {
   }
 }
 @media all and (min-width: 601px) {
-  /* line 775, ../sass/spencer.scss */
+  /* line 802, ../sass/spencer.scss */
   #navigation {
     display: block !important;
   }
@@ -914,7 +942,7 @@ h5.left {
     display: table;
     clear: both;
   }
-  /* line 783, ../sass/spencer.scss */
+  /* line 810, ../sass/spencer.scss */
   .container-2 .col-1 {
     clear: left;
     float: left;
@@ -927,7 +955,7 @@ h5.left {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 787, ../sass/spencer.scss */
+  /* line 814, ../sass/spencer.scss */
   .container-2 .col-2 {
     float: left;
     width: 50%;
@@ -939,11 +967,11 @@ h5.left {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 792, ../sass/spencer.scss */
+  /* line 819, ../sass/spencer.scss */
   .container-2.clean .col-1 {
     padding-left: 0;
   }
-  /* line 796, ../sass/spencer.scss */
+  /* line 823, ../sass/spencer.scss */
   .container-2.clean .col-2 {
     padding-right: 0;
   }
