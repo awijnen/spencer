@@ -46,8 +46,8 @@
 
 <div id="body-wrapper">
   <div class="content-container blue">
-    <div id="intro" class="content">
-      <div class="col-left">
+    <div id="intro" class="content container-2">
+      <div class="col-1">
         <h1>Spencer is your mobile workplace assistant</h1>
         <p>Making your workplace community more engaged, efficient and productive by making the tools you trust work together.</p>
         <div id="intro-buttons">
@@ -55,7 +55,7 @@
           <a id="read-announcement" href="#">READ ANNOUNCEMENT</a>
         </div>
       </div>
-      <div class="col-right">
+      <div class="col-2">
         <img src="images/smartphone.png" alt="smartphone">
       </div>
     </div>
@@ -78,24 +78,24 @@
 
   <div class="content-container">
     <div id="oversaturated" class="content">
-      <div class="oversat-container">
+      <div class="oversat-container container-2">
         <h3 class="h3-1">Large enterprises are oversaturated with tools</h3>
-        <div class="col-left">
+        <div class="col-1">
           <h4>They don't communicate</h4>
           <p>Your company spent time and energy selecting tools to get the job done – unfortunately, these tools don’t work together and fragmentize your information.</p>
         </div>
-        <div class="col-right">
+        <div class="col-2">
           <h4>They eat up time</h4>
           <p>A great tool can be an invaluable asset to your business. But making employees jump from tool to tool is a productivity killer – bringing you back to square one.</p>
         </div>
       </div>
-      <div class="oversat-container">
+      <div class="oversat-container container-2">
         <h3 class="h3-2">Great consumer user experiences have raised the bar for business solutions</h3>
-        <div class="col-left">
+        <div class="col-1">
           <h4>Lack of conventions</h4>
           <p>Enterprise tools all have a different user experience, with few shared conventions. Each one asks fresh effort from your employees.</p>
         </div>
-        <div class="col-right">
+        <div class="col-2">
           <h4>Falling short of expectations</h4>
           <p>Employees personal tools and apps have given them high expectations regarding user experience. However, many business tools fall short, with complicated interfaces and inconsistent flows.</p>
         </div>
@@ -131,12 +131,12 @@
     </div>
 
     <div class="content-container">
-      <div id="cloud-layer" class="content">
-        <div class="col-left">
+      <div id="cloud-layer" class="content container-2">
+        <div class="col-1">
           <h3>Spencer is an intelligent cloud layer that communicates with all your industry solutions.</h3>
           <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
         </div>  
-        <div class="col-right">
+        <div class="col-2">
           -- image --
         </div>
       </div>  
@@ -159,40 +159,40 @@
     <div class="content-container grey">
       <div id="resume-container" class="content">
         <h3>Spencer’s resumé</h3>
-        <div id="resume" class="resume-container">
-          <div class="col-left">
+        <div id="resume" class="resume-container container-2">
+          <div class="col-1">
             <div class="col-content">
               <h4>Modular approach</h4>
               <p>Spencer is modular. He adapts to the tools your company uses, with a fair pricing approach to make sure you only pay for what you need.</p>
             </div>
           </div>
-          <div class="col-right">
+          <div class="col-2">
             <div class="col-content">
               <h4>Smart, personal, contextual</h4>
               <p>Spencer is every employee’s indispensable personal assistant. He knows what they want before they do, and presents them with the info they need, when they need it.</p>
             </div>
           </div>
 
-          <div class="col-left">
+          <div class="col-1">
             <div class="col-content">
               <h4>Streamlined workflows</h4>
               <p>Spencer is an assistant, not a dictator. He functions as a layer between a team and its tools to streamline the flow of actions and information – he can’t make important decisions on his own.</p>
             </div>
           </div>
-          <div class="col-right">
+          <div class="col-2">
             <div class="col-content">
               <h4>Always available</h4>
               <p>Spencer never lets you down. We have duplicated all system-critical components – VPN, application servers, our internal staging and production environments, etc. – to make sure that downtime becomes a thing of the past.</p>
             </div>
           </div>
 
-          <div class="col-left">
+          <div class="col-1">
             <div class="col-content">
               <h4>Secure infrastructure</h4>
               <p>Spencer respects your sensitive data, and your employees’ privacy. Everything is secured and encrypted according to industry standards.</p>
             </div>
           </div>
-          <div class="col-right">
+          <div class="col-2">
             <div class="col-content">
               <h4>Tailored to your organization</h4>
               <p>Spencer adapts to the needs of your enterprise, respecting operational flows and procedures – and your style manual.</p>
@@ -216,7 +216,7 @@
               <a href="#" id="ref-deme"></a>
             </div>
           </div>
-          <div id="references-body">
+          <div id="references-body" class="container-2">
              <div class="col-1">
               proximus
             </div>
@@ -232,40 +232,40 @@
     <div class="content-container blue">
       <div id="five-step-container" class="content">
         <h3 class="white">A five-step plan to get Spencer integrated in your enterprise</h3>
-        <div id="five-step" class="five-step-container">
-          <div class="col-left">
+        <div id="five-step" class="five-step-container container-2">
+          <div class="col-1">
             <div class="col-content">
               <h4 class="white">Existing architecture & roadmap</h4>
               <p class="white">Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
             </div>
           </div>
-          <div class="col-right">
+          <div class="col-2">
             <div class="col-content">
               <h4 class="white">Technical assessment</h4>
               <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
             </div>
           </div>
 
-          <div class="col-left">
+          <div class="col-1">
             <div class="col-content">
               <h4 class="white">Implementation & branding</h4>
               <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
             </div>
           </div>
-          <div class="col-right">
+          <div class="col-2">
             <div class="col-content">
               <h4 class="white">Deployment & testing</h4>
               <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
             </div>
           </div>
 
-          <div class="col-left">
+          <div class="col-1">
             <div class="col-content">
               <h4 class="white">Maintenance & support</h4>
               <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
             </div>
           </div>
-          <div class="col-right"></div>
+          <div class="col-2"></div>
         </div>
       </div>
     </div>
