@@ -121,7 +121,7 @@
         <div id="functionality">
           <div class="col-1">
             <ul>
-              <li><a name="func-hr" href="#">HR</a></li>
+              <li><a name="func-hr" href="#" class="active">HR</a></li>
               <li><a name="func-comm" href="#">COMMUNICATION</a></li>
               <li><a name="func-org" href="#">ORGANIZATION</a></li>
               <li><a name="func-fac" href="#">FACILITIES</a></li>
@@ -131,7 +131,7 @@
             <div class="func-slide func-hr">
               <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
               <b>SHOWCASE</b>
-              <div><a id="request-holiday" class="video-button" href="#">REQUEST HOLIDAY</a></div>
+              <div><a class="video-button func-video-button" name="002_Workflow_Holiday_request" href="#">REQUEST HOLIDAY</a></div>
               <b>MORE FEATURES</b>
               <span class="feature">Ask sick leave</span>
               <span class="feature">Submit doctor's note</span>
@@ -150,7 +150,7 @@
             <div class="func-slide func-org">
               <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
               <b>SHOWCASE</b>
-              <div><a id="request-holiday" class="video-button" href="#">COWORKER'S CONTACT INFO</a></div>
+              <div><a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">COWORKER'S CONTACT INFO</a></div>
               <b>MORE FEATURES</b>
               <span class="feature">My shift</span>
               <span class="feature">My team holiday</span>
@@ -161,8 +161,8 @@
               <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access and your fleet of company cars.</p>
               <b>SHOWCASE</b>
               <div>
-                <a id="request-holiday" class="video-button" href="#">BOOK MEETING ROOM</a>
-                <a id="request-holiday" class="video-button" href="#">REPORT ISSUE</a>
+                <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">BOOK MEETING ROOM</a>
+                <a class="video-button func-video-button" name="011_Office_Report Issue" href="#">REPORT ISSUE</a>
               </div>
               <b>MORE FEATURES</b>
               <span class="feature">Time tracking</span>
@@ -171,7 +171,7 @@
             <div class="func-slide func-hosp">
               <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
               <b>SHOWCASE</b>
-              <div><a id="request-holiday" class="video-button" href="#">CLIENT VERSION</a></div>
+              <div><a class="video-button func-video-button" name="021_Client" href="#">CLIENT VERSION</a></div>
               <b>MORE FEATURES</b>
               <span class="feature">Guest WiFi access</span>
               <span class="feature">Digital business card</span>
@@ -181,8 +181,8 @@
               <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
               <b>SHOWCASE</b>
               <div>
-                <a id="request-holiday" class="video-button" href="#">APPROVE PO/PR</a>
-                <a id="request-holiday" class="video-button" href="#">SUBMIT EXPENSE</a>
+                <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">APPROVE PO/PR</a>
+                <a class="video-button func-video-button" name="001_Workflow_Input_Expense_note" href="#">SUBMIT EXPENSE</a>
               </div>
               <b>MORE FEATURES</b>
               <span class="feature">Lorem ipsum</span>
@@ -190,8 +190,8 @@
           </div>
           <div class="col-2">
             <div id="feature-video" class="video">
-              <video id="feature-video-file" width="262">
-                <source src="video/000_Workflow_Sign_purchase_request.mp4" type="video/mp4">
+              <video id="feature-video-player" width="262">
+                <source id="feature-video-source" src="video/000_Workflow_Sign_purchase_request.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -206,7 +206,9 @@
           <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
         </div>  
         <div class="col-2">
-          -- image --
+          <video width="100%" autoplay loop>
+            <source src="video/cloud.mp4" type="video/mp4">
+          </video>
         </div>
       </div>  
     </div>

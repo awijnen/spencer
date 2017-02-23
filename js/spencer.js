@@ -5,7 +5,9 @@ $(document).ready(function(){
   });
 
   $('#functionality li > a').click(function() {
+    $('#functionality li a').removeClass('active');
     var name = $(this).attr('name');
+    $(this).addClass('active');
     $('.func-slide').hide();
     $('.' + name).show();
     return false;
@@ -16,8 +18,18 @@ $(document).ready(function(){
     return false;
   });
 
-  $('#request-holiday').click(function() {
-    $('#feature-video-file').get(0).play();
+  $('.func-video-button').click(function() {
+    url = $(this).attr('name');
+    player = $('#feature-video-player').get(0);
+    source = $('#feature-video-source').get(0);
+
+    player.pause();
+
+    source.src = 'video/' + url + '.mp4';
+
+    player.load();
+    player.play();
+    
     return false;
   });
 });

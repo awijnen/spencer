@@ -241,6 +241,11 @@ $zen-columns: 5;
             font-family: CoreSansA55;
             font-weight: 500;
             text-decoration: none;
+
+            &.active {
+              color: #fff;
+              border-bottom: 2px solid #fff; 
+            }
           }
         }
       }
@@ -315,6 +320,10 @@ $zen-columns: 5;
   h3 {
     padding-top: 160px;
     padding-bottom: 64px;
+  }
+  
+  video {
+    margin-top: 128px;
   }
   padding-bottom: 256px;
 }
