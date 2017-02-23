@@ -1,12 +1,12 @@
 $(document).ready(function(){
-	var $root = $('html, body');
-	$('#navigation a').click(function(){
-			$root.animate({
-					scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+ 	$('#navigation a').click(function(e){
+//		alert($('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top);
+			$("html, body, document").animate({
+					scrollTop: $('#nav-' + $.attr(this, 'href').substr(1)).offset().top
 			}, 500);
 			return false;
 	});
- 
+
   $('.carousel').slick({
     dots: true,
     arrows: false

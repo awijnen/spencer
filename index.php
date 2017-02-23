@@ -90,8 +90,7 @@
     </div>
 	</div>
 
-  <a name="problem"></a>
-  <div class="content-container">
+  <div id="nav-problem" class="content-container">
     <div id="oversaturated" class="content">
       <div class="oversat-container container-2">
         <h3 class="h3-1">Large enterprises are oversaturated with tools</h3>
@@ -117,8 +116,7 @@
       </div>
     </div>
 
-    <a name="solution"></a>
-    <div class="content-container blue">
+    <div  id="nav-solution" class="content-container blue">
       <div class="content functionality">
         <h5>Spencer presents familiar info and functionality in a new workflow, cutting the clutter from your workday.</h5>
         <div id="functionality">
@@ -276,8 +274,7 @@
       </div>
     </div>
 
-    <a name="references"></a> 
-    <div class="content-container">
+    <div id="nav-references" class="content-container">
       <div class="content references">
         <div id="references">
           <div id="references-navigation">
@@ -398,8 +395,7 @@
       </div>
     </div>
     
-    <a name="about"></a> 
-    <div class="content-container">
+    <div id="nav-about" class="content-container">
       <div id="team-container" class="content">
         <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
         <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
@@ -441,8 +437,7 @@
       </div>
     </div>
 
-    <a name="jobs"></a> 
-    <div class="content-container dark">
+    <div id="nav-jobs" class="content-container dark">
       <div id="hiring-container" class="content">
         <h3 class="white">Spencer is hiring!</h3>
         <p class="white">Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
@@ -450,8 +445,7 @@
       </div>
     </div>
 
-    <a name="contact"></a> 
-    <div class="content-container blue">
+    <div id="nav-contact" class="content-container blue">
       <div id="contact-container" class="content">
         <h3 class="white">Want to meet Spencer?</h3>
         <p class="white">Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
