@@ -26,11 +26,13 @@
 ?>
 <header> 
   <div id="navigation-wrapper">
-    <div id="logo">
-      <svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
-        <use xlink:href="#logo-spencer">
-      </svg>
-      <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.png"></a></div>
+    <div id="logo-wrapper">
+      <div id="logo">
+        <svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
+          <use xlink:href="#logo-spencer">
+        </svg>
+        <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.png"></a></div>
+      </div>
     </div>
     <nav id="navigation">
       <ul>
@@ -57,10 +59,11 @@
         </div>
       </div>
       <div class="col-2">
-        <img src="images/smartphone.png" alt="smartphone">
+        <img src="images/img_header.png" alt="smartphone">
       </div>
     </div>
   </div>
+
 	<div class="content-container grey">
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
@@ -115,390 +118,390 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <div  id="nav-solution" class="content-container blue">
-      <div class="content functionality">
-        <h5>Spencer presents familiar info and functionality in a new workflow, cutting the clutter from your workday.</h5>
-        <div id="functionality">
-          <div class="col-1">
-            <ul>
-              <li><a name="func-hr" href="#" class="active">HR</a></li>
-              <li><a name="func-comm" href="#">COMMUNICATION</a></li>
-              <li><a name="func-org" href="#">ORGANIZATION</a></li>
-              <li><a name="func-fac" href="#">FACILITIES</a></li>
-              <li><a name="func-hosp" href="#">HOSPITALITY</a></li>
-              <li><a name="func-fin" href="#">FINANCE</a></li>
-            </ul>
-            <div class="func-slide func-hr">
-              <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
-              <b>SHOWCASE</b>
-              <div><a class="video-button func-video-button" name="002_Workflow_Holiday_request" href="#">REQUEST HOLIDAY</a></div>
-              <b>MORE FEATURES</b>
-              <span class="feature">Ask sick leave</span>
-              <span class="feature">Submit doctor's note</span>
-              <span class="feature">Check vacation days</span>
-              <span class="feature">Work from home</span>
-            </div>
-
-            <div class="func-slide func-comm">
-              <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
-              <b>FEATURES</b>
-              <span class="feature">Company news</span>
-              <span class="feature">Lunch menu</span>
-              <span class="feature">Survey</span>
-            </div>
-
-            <div class="func-slide func-org">
-              <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
-              <b>SHOWCASE</b>
-              <div><a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">COWORKER'S CONTACT INFO</a></div>
-              <b>MORE FEATURES</b>
-              <span class="feature">My shift</span>
-              <span class="feature">My team holiday</span>
-              <span class="feature">Organizational chart</span>
-            </div>
-
-            <div class="func-slide func-fac">
-              <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access and your fleet of company cars.</p>
-              <b>SHOWCASE</b>
-              <div>
-                <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">BOOK MEETING ROOM</a>
-                <a class="video-button func-video-button" name="011_Office_Report Issue" href="#">REPORT ISSUE</a>
-              </div>
-              <b>MORE FEATURES</b>
-              <span class="feature">Time tracking</span>
-            </div>
-
-            <div class="func-slide func-hosp">
-              <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
-              <b>SHOWCASE</b>
-              <div><a class="video-button func-video-button" name="021_Client" href="#">CLIENT VERSION</a></div>
-              <b>MORE FEATURES</b>
-              <span class="feature">Guest WiFi access</span>
-              <span class="feature">Digital business card</span>
-            </div>
-            
-            <div class="func-slide func-fin">
-              <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
-              <b>SHOWCASE</b>
-              <div>
-                <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">APPROVE PO/PR</a>
-                <a class="video-button func-video-button" name="001_Workflow_Input_Expense_note" href="#">SUBMIT EXPENSE</a>
-              </div>
-              <b>MORE FEATURES</b>
-              <span class="feature">Lorem ipsum</span>
-            </div>
-          </div>
-          <div class="col-2">
-            <div id="feature-video" class="video">
-              <video id="feature-video-player" width="262">
-                <source id="feature-video-source" src="video/000_Workflow_Sign_purchase_request.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-container">
-      <div id="cloud-layer" class="content container-2">
+  <div  id="nav-solution" class="content-container blue">
+    <div class="content functionality">
+      <h5>Spencer presents familiar info and functionality in a new workflow, cutting the clutter from your workday.</h5>
+      <div id="functionality">
         <div class="col-1">
-          <h3>Spencer is an intelligent cloud layer that communicates with all your industry solutions.</h3>
-          <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
-        </div>  
+          <ul>
+            <li><a name="func-hr" href="#" class="active">HR</a></li>
+            <li><a name="func-comm" href="#">COMMUNICATION</a></li>
+            <li><a name="func-org" href="#">ORGANIZATION</a></li>
+            <li><a name="func-fac" href="#">FACILITIES</a></li>
+            <li><a name="func-hosp" href="#">HOSPITALITY</a></li>
+            <li><a name="func-fin" href="#">FINANCE</a></li>
+          </ul>
+          <div class="func-slide func-hr">
+            <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
+            <b>SHOWCASE</b>
+            <div><a class="video-button func-video-button" name="002_Workflow_Holiday_request" href="#">REQUEST HOLIDAY</a></div>
+            <b>MORE FEATURES</b>
+            <span class="feature">Ask sick leave</span>
+            <span class="feature">Submit doctor's note</span>
+            <span class="feature">Check vacation days</span>
+            <span class="feature">Work from home</span>
+          </div>
+
+          <div class="func-slide func-comm">
+            <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
+            <b>FEATURES</b>
+            <span class="feature">Company news</span>
+            <span class="feature">Lunch menu</span>
+            <span class="feature">Survey</span>
+          </div>
+
+          <div class="func-slide func-org">
+            <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
+            <b>SHOWCASE</b>
+            <div><a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">COWORKER'S CONTACT INFO</a></div>
+            <b>MORE FEATURES</b>
+            <span class="feature">My shift</span>
+            <span class="feature">My team holiday</span>
+            <span class="feature">Organizational chart</span>
+          </div>
+
+          <div class="func-slide func-fac">
+            <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access and your fleet of company cars.</p>
+            <b>SHOWCASE</b>
+            <div>
+              <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">BOOK MEETING ROOM</a>
+              <a class="video-button func-video-button" name="011_Office_Report Issue" href="#">REPORT ISSUE</a>
+            </div>
+            <b>MORE FEATURES</b>
+            <span class="feature">Time tracking</span>
+          </div>
+
+          <div class="func-slide func-hosp">
+            <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
+            <b>SHOWCASE</b>
+            <div><a class="video-button func-video-button" name="021_Client" href="#">CLIENT VERSION</a></div>
+            <b>MORE FEATURES</b>
+            <span class="feature">Guest WiFi access</span>
+            <span class="feature">Digital business card</span>
+          </div>
+          
+          <div class="func-slide func-fin">
+            <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
+            <b>SHOWCASE</b>
+            <div>
+              <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">APPROVE PO/PR</a>
+              <a class="video-button func-video-button" name="001_Workflow_Input_Expense_note" href="#">SUBMIT EXPENSE</a>
+            </div>
+            <b>MORE FEATURES</b>
+            <span class="feature">Lorem ipsum</span>
+          </div>
+        </div>
         <div class="col-2">
-          <video width="100%" autoplay loop>
-            <source src="video/cloud.mp4" type="video/mp4">
-          </video>
+          <div id="feature-video" class="video">
+            <video id="feature-video-player" width="262">
+              <source id="feature-video-source" src="video/000_Workflow_Sign_purchase_request.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <div id="cloud-layer" class="content container-2">
+      <div class="col-1">
+        <h3>Spencer is an intelligent cloud layer that communicates with all your industry solutions.</h3>
+        <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
       </div>  
+      <div class="col-2">
+        <video width="100%" autoplay loop>
+          <source src="video/cloud.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>  
+  </div>
+
+  <div class="content-container blue">
+    <div class="content">
+      <div id="mobile-app" class="container-2">
+        <div class="col-1">
+
+        </div>
+        <div class="col-2">
+          <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
+          <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, uer-friendly flow.</p>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="content-container blue">
-      <div class="content">
-        <div id="mobile-app" class="container-2">
-          <div class="col-1">
-
+  <div class="content-container grey">
+    <div id="resume-container" class="content">
+      <h3>Spencer’s resumé</h3>
+      <div id="resume" class="resume-container container-2">
+        <div class="col-1">
+          <div class="col-content">
+            <h4>Modular approach</h4>
+            <p>Spencer is modular. He adapts to the tools your company uses, with a fair pricing approach to make sure you only pay for what you need.</p>
           </div>
-          <div class="col-2">
-            <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
-            <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, uer-friendly flow.</p>
+        </div>
+        <div class="col-2">
+          <div class="col-content">
+            <h4>Smart, personal, contextual</h4>
+            <p>Spencer is every employee’s indispensable personal assistant. He knows what they want before they do, and presents them with the info they need, when they need it.</p>
+          </div>
+        </div>
+
+        <div class="col-1">
+          <div class="col-content">
+            <h4>Streamlined workflows</h4>
+            <p>Spencer is an assistant, not a dictator. He functions as a layer between a team and its tools to streamline the flow of actions and information – he can’t make important decisions on his own.</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="col-content">
+            <h4>Always available</h4>
+            <p>Spencer never lets you down. We have duplicated all system-critical components – VPN, application servers, our internal staging and production environments, etc. – to make sure that downtime becomes a thing of the past.</p>
+          </div>
+        </div>
+
+        <div class="col-1">
+          <div class="col-content">
+            <h4>Secure infrastructure</h4>
+            <p>Spencer respects your sensitive data, and your employees’ privacy. Everything is secured and encrypted according to industry standards.</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="col-content">
+            <h4>Tailored to your organization</h4>
+            <p>Spencer adapts to the needs of your enterprise, respecting operational flows and procedures – and your style manual.</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="content-container grey">
-      <div id="resume-container" class="content">
-        <h3>Spencer’s resumé</h3>
-        <div id="resume" class="resume-container container-2">
+  <div id="nav-references" class="content-container">
+    <div class="content references">
+      <div id="references">
+        <div id="references-navigation">
           <div class="col-1">
-            <div class="col-content">
-              <h4>Modular approach</h4>
-              <p>Spencer is modular. He adapts to the tools your company uses, with a fair pricing approach to make sure you only pay for what you need.</p>
-            </div>
+            <a href="#" id="ref-proximus" class="ref-nav active"></a>
           </div>
           <div class="col-2">
-            <div class="col-content">
-              <h4>Smart, personal, contextual</h4>
-              <p>Spencer is every employee’s indispensable personal assistant. He knows what they want before they do, and presents them with the info they need, when they need it.</p>
-            </div>
-          </div>
-
-          <div class="col-1">
-            <div class="col-content">
-              <h4>Streamlined workflows</h4>
-              <p>Spencer is an assistant, not a dictator. He functions as a layer between a team and its tools to streamline the flow of actions and information – he can’t make important decisions on his own.</p>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="col-content">
-              <h4>Always available</h4>
-              <p>Spencer never lets you down. We have duplicated all system-critical components – VPN, application servers, our internal staging and production environments, etc. – to make sure that downtime becomes a thing of the past.</p>
-            </div>
-          </div>
-
-          <div class="col-1">
-            <div class="col-content">
-              <h4>Secure infrastructure</h4>
-              <p>Spencer respects your sensitive data, and your employees’ privacy. Everything is secured and encrypted according to industry standards.</p>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="col-content">
-              <h4>Tailored to your organization</h4>
-              <p>Spencer adapts to the needs of your enterprise, respecting operational flows and procedures – and your style manual.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="nav-references" class="content-container">
-      <div class="content references">
-        <div id="references">
-          <div id="references-navigation">
-            <div class="col-1">
-              <a href="#" id="ref-proximus" class="ref-nav active"></a>
-            </div>
-            <div class="col-2">
-              <a href="#" id="ref-telenet" class="ref-nav"></a>
-            </div>
-            <div class="col-3">
-              <a href="#" id="ref-deme" class="ref-nav"></a>
-            </div>
-          </div>
-          <div id="references-body">
-            <div id="ref-proximus-container" class="container-2 ref-container">
-              <div class="col-1">
-                <b>Proximus</b>
-                <p>Proximus’ ambition is to bring its digital enterprise tooling to mobile, and they selected Spencer as their flagship product. Starting with a number of HR modules, the team plans on bringing a large set of functionalities to Spencer in a phased approach - plugging new modules as they go.</p>
-                <p class="quote">“At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.”</p>
-                <div class="testimonial-person proximus">
-                  <div class="person-name">Serge Peeters</div>
-                  <div class="person-position">HR Director Employee Services & Operations</div>
-                </div>
-              </div>
-              <div class="col-2">
-                <img src="images/img_showcase_proximus.png" alt="proximus">
-              </div>
-            </div>
-
-            <div id="ref-telenet-container" class="container-2 ref-container">
-              <div class="col-1">
-                <b>Telenet Group</b>
-                <p>Spencer took his first steps at Telenet Group, helping them drive engagement. Spencer’s now facilitating both internal communication (news, contacting colleagues), hospitality services for guests (wifi access, digital contact cards, …), HR flows (holiday request, sick leave, …) and facilities (meeting rooms, IT ticketing,... ).</p>
-                <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
-                <div class="testimonial-person telenet">
-                  <div class="person-name">Claudia Poels</div>
-                  <div class="person-position">Senior VP Human Resources</div>
-                </div>
-              </div>
-              <div class="col-2">
-                <img src="images/img_showcase_telenet.png" alt="telenet">
-              </div>
-            </div>
-
-            <div id="ref-deme-container" class="container-2 ref-container">
-              <div class="col-1">
-                <b>DEME Dredging</b>
-                <p>DEME came to November Five to start drawing up an internal employee engagement app that would help with communication and HR processes. Spencer turned out to be a perfect fit! He will be the starting point of a much larger digital transformation at this world-leading dredging company.</p>
-                <p class="quote">“At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.”</p>
-                <div class="testimonial-person deme">
-                  <div class="person-name">Philip Hermans</div>
-                  <div class="person-position">General Manager</div>
-                </div>
-              </div>
-              <div class="col-2">
-                <img src="images/img_showcase_deme.png" alt="deme">
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="content-container blue">
-      <div id="five-step-container" class="content">
-        <h3 class="white">A five-step plan to get Spencer integrated in your enterprise</h3>
-        <div id="five-step" class="five-step-container container-2">
-          <div class="col-1">
-            <div class="step-wrapper">
-              <div class="number-wrapper"><div class="number">1</div></div>
-              <div class="col-content">
-                <h4 class="white">Existing architecture & roadmap</h4>
-                <p class="white">Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="step-wrapper">
-              <div class="number-wrapper"><div class="number">2</div></div>
-              <div class="col-content">
-                <h4 class="white">Technical assessment</h4>
-                <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-1">
-            <div class="step-wrapper">
-              <div class="number-wrapper"><div class="number">3</div></div>
-              <div class="col-content">
-                <h4 class="white">Implementation & branding</h4>
-                <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-2">
-            <div class="step-wrapper">
-              <div class="number-wrapper"><div class="number">4</div></div>
-              <div class="col-content">
-                <h4 class="white">Deployment & testing</h4>
-                <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-1">
-            <div class="step-wrapper">
-              <div class="number-wrapper"><div class="number">5</div></div>
-              <div class="col-content">
-                <h4 class="white">Maintenance & support</h4>
-                <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-    </div>
-    
-    <div id="nav-about" class="content-container">
-      <div id="team-container" class="content">
-        <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
-        <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
-        <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
-        <div id="team" class="container-2">
-          <div class="col-1 maarten member">
-            <div class="team-name">Maarten Raemdonck</div>
-            <div class="team-position">co-CEO - Product Director</div>
-          </div>
-          <div class="col-2 tom member">
-            <div class="team-name">Tom Vroemans</div>
-            <div class="team-position">co-CEO - Founder & Chairman</div>
-          </div>
-          <div class="col-1 robin member">
-            <div class="team-name">Robin Van Den Bergh</div>
-            <div class="team-position">Client Services Manager</div>
-          </div>
-          <div class="col-2 anthony member">
-            <div class="team-name">Anthony Wijnen</div>
-            <div class="team-position">Senior Product Manager</div>
-          </div>
-          <div class="col-1 yannick member">
-            <div class="team-name">Yannick Bontemps</div>
-            <div class="team-position">Senior iOS Developer</div>
-          </div>
-          <div class="col-2 christophe member">
-            <div class="team-name">Christophe Smet</div>
-            <div class="team-position">Senior Android Developer</div>
-          </div>
-          <div class="col-1 kevin member">
-            <div class="team-name">Kevin T’Syen</div>
-            <div class="team-position">Senior Back-end Developer</div>
-          </div>
-          <div class="col-2 tomdl member">
-            <div class="team-name">Tom De Laet</div>
-            <div class="team-position">Senior Experience Designer</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="nav-jobs" class="content-container dark">
-      <div id="hiring-container" class="content">
-        <h3 class="white">Spencer is hiring!</h3>
-        <p class="white">Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
-        <p><a href="#">JOIN THE TEAM</a></p>
-      </div>
-    </div>
-
-    <div id="nav-contact" class="content-container blue">
-      <div id="contact-container" class="content">
-        <h3 class="white">Want to meet Spencer?</h3>
-        <p class="white">Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
-        <div class="container-2">
-          <div class="col-1">
-            <label>Name</label>
-            <input name="input-name" type="text">
-          </div>
-          <div class="col-2">
-            <div class="container-2 clean">
-              <div class="col-1">
-                <label>Company</label>
-                <input name="input-company" type="text">
-              </div>
-              <div class="col-2">
-                <label>Number of employees</label>
-                <input name="input-employees" type="text">
-              </div>
-            </div>
-          </div>
-          <div class="col-1">
-            <label>Function</label>
-            <input name="input-function" type="text">
-          </div>
-          <div class="col-2">
-            <label>Email address</label>
-            <input name="input-mail" type="text">
-          </div>
-        </div>
-        <div class="center"><a href="#">SEND DEMO REQUEST</a></div>
-      </div>
-    </div>
-
-    <div class="content-container">
-      <div class="content">
-        <div id="footer">
-          <div class="col-1">
-            <img src="images/logo_spencer_footer.png" alt="spencer logo">
-          </div>
-          <div class="col-2">
-            <b>Antwerp HQ</b>
-            <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
+            <a href="#" id="ref-telenet" class="ref-nav"></a>
           </div>
           <div class="col-3">
-            <b>Nordics</b>
-            <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
+            <a href="#" id="ref-deme" class="ref-nav"></a>
           </div>
-          <div class="col-4">
-            <div id="social-icons">
-              <img src="images/ico_social_facebook.png" alt="facebook">
-              <img src="images/ico_social_twitter.png" alt="twitter">
-              <img src="images/ico_social_linkedin.png" alt="linkedin">
+        </div>
+        <div id="references-body">
+          <div id="ref-proximus-container" class="container-2 ref-container">
+            <div class="col-1">
+              <b>Proximus</b>
+              <p>Proximus’ ambition is to bring its digital enterprise tooling to mobile, and they selected Spencer as their flagship product. Starting with a number of HR modules, the team plans on bringing a large set of functionalities to Spencer in a phased approach - plugging new modules as they go.</p>
+              <p class="quote">“At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.”</p>
+              <div class="testimonial-person proximus">
+                <div class="person-name">Serge Peeters</div>
+                <div class="person-position">HR Director Employee Services & Operations</div>
+              </div>
             </div>
+            <div class="col-2">
+              <img src="images/img_showcase_proximus.png" alt="proximus">
+            </div>
+          </div>
+
+          <div id="ref-telenet-container" class="container-2 ref-container">
+            <div class="col-1">
+              <b>Telenet Group</b>
+              <p>Spencer took his first steps at Telenet Group, helping them drive engagement. Spencer’s now facilitating both internal communication (news, contacting colleagues), hospitality services for guests (wifi access, digital contact cards, …), HR flows (holiday request, sick leave, …) and facilities (meeting rooms, IT ticketing,... ).</p>
+              <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
+              <div class="testimonial-person telenet">
+                <div class="person-name">Claudia Poels</div>
+                <div class="person-position">Senior VP Human Resources</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="images/img_showcase_telenet.png" alt="telenet">
+            </div>
+          </div>
+
+          <div id="ref-deme-container" class="container-2 ref-container">
+            <div class="col-1">
+              <b>DEME Dredging</b>
+              <p>DEME came to November Five to start drawing up an internal employee engagement app that would help with communication and HR processes. Spencer turned out to be a perfect fit! He will be the starting point of a much larger digital transformation at this world-leading dredging company.</p>
+              <p class="quote">“At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.”</p>
+              <div class="testimonial-person deme">
+                <div class="person-name">Philip Hermans</div>
+                <div class="person-position">General Manager</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="images/img_showcase_deme.png" alt="deme">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-container blue">
+    <div id="five-step-container" class="content">
+      <h3 class="white">A five-step plan to get Spencer integrated in your enterprise</h3>
+      <div id="five-step" class="five-step-container container-2">
+        <div class="col-1">
+          <div class="step-wrapper">
+            <div class="number-wrapper"><div class="number">1</div></div>
+            <div class="col-content">
+              <h4 class="white">Existing architecture & roadmap</h4>
+              <p class="white">Spencer hooks into your company’s existing toolchain. To do this properly, we will assess together what services you use and create a roadmap to determine which ones Spencer should support, and when.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="step-wrapper">
+            <div class="number-wrapper"><div class="number">2</div></div>
+            <div class="col-content">
+              <h4 class="white">Technical assessment</h4>
+              <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1">
+          <div class="step-wrapper">
+            <div class="number-wrapper"><div class="number">3</div></div>
+            <div class="col-content">
+              <h4 class="white">Implementation & branding</h4>
+              <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2">
+          <div class="step-wrapper">
+            <div class="number-wrapper"><div class="number">4</div></div>
+            <div class="col-content">
+              <h4 class="white">Deployment & testing</h4>
+              <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1">
+          <div class="step-wrapper">
+            <div class="number-wrapper"><div class="number">5</div></div>
+            <div class="col-content">
+              <h4 class="white">Maintenance & support</h4>
+              <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="nav-about" class="content-container">
+    <div id="team-container" class="content">
+      <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
+      <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
+      <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
+      <div id="team" class="container-2">
+        <div class="col-1 maarten member">
+          <div class="team-name">Maarten Raemdonck</div>
+          <div class="team-position">co-CEO - Product Director</div>
+        </div>
+        <div class="col-2 tom member">
+          <div class="team-name">Tom Vroemans</div>
+          <div class="team-position">co-CEO - Founder & Chairman</div>
+        </div>
+        <div class="col-1 robin member">
+          <div class="team-name">Robin Van Den Bergh</div>
+          <div class="team-position">Client Services Manager</div>
+        </div>
+        <div class="col-2 anthony member">
+          <div class="team-name">Anthony Wijnen</div>
+          <div class="team-position">Senior Product Manager</div>
+        </div>
+        <div class="col-1 yannick member">
+          <div class="team-name">Yannick Bontemps</div>
+          <div class="team-position">Senior iOS Developer</div>
+        </div>
+        <div class="col-2 christophe member">
+          <div class="team-name">Christophe Smet</div>
+          <div class="team-position">Senior Android Developer</div>
+        </div>
+        <div class="col-1 kevin member">
+          <div class="team-name">Kevin T’Syen</div>
+          <div class="team-position">Senior Back-end Developer</div>
+        </div>
+        <div class="col-2 tomdl member">
+          <div class="team-name">Tom De Laet</div>
+          <div class="team-position">Senior Experience Designer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="nav-jobs" class="content-container dark">
+    <div id="hiring-container" class="content">
+      <h3 class="white">Spencer is hiring!</h3>
+      <p class="white">Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
+      <p><a href="#">JOIN THE TEAM</a></p>
+    </div>
+  </div>
+
+  <div id="nav-contact" class="content-container blue">
+    <div id="contact-container" class="content">
+      <h3 class="white">Want to meet Spencer?</h3>
+      <p class="white">Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
+      <div class="container-2">
+        <div class="col-1">
+          <label>Name</label>
+          <input name="input-name" type="text">
+        </div>
+        <div class="col-2">
+          <div class="container-2 clean">
+            <div class="col-1">
+              <label>Company</label>
+              <input name="input-company" type="text">
+            </div>
+            <div class="col-2">
+              <label>Number of employees</label>
+              <input name="input-employees" type="text">
+            </div>
+          </div>
+        </div>
+        <div class="col-1">
+          <label>Function</label>
+          <input name="input-function" type="text">
+        </div>
+        <div class="col-2">
+          <label>Email address</label>
+          <input name="input-mail" type="text">
+        </div>
+      </div>
+      <div class="center"><a href="#">SEND DEMO REQUEST</a></div>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <div class="content">
+      <div id="footer">
+        <div class="col-1">
+          <img src="images/logo_spencer_footer.png" alt="spencer logo">
+        </div>
+        <div class="col-2">
+          <b>Antwerp HQ</b>
+          <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
+        </div>
+        <div class="col-3">
+          <b>Nordics</b>
+          <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
+        </div>
+        <div class="col-4">
+          <div id="social-icons">
+            <img src="images/ico_social_facebook.png" alt="facebook">
+            <img src="images/ico_social_twitter.png" alt="twitter">
+            <img src="images/ico_social_linkedin.png" alt="linkedin">
           </div>
         </div>
       </div>

@@ -32,12 +32,6 @@ html {
   font-family: CoreSansA35, arial, sans;
 }
 
-html, body {
-  overflow: visible;
-  height: 100%;
-  min-height: 100%;
-}
-
 header {
   background-color: $spencer-blue;
   color: #fff;
@@ -102,7 +96,7 @@ header {
 $zen-columns: 2;
 #intro {
   .col-1 {
-    padding-top: 100px;
+    padding-top: 186px;
     padding-bottom: 100px;
     
     p {
@@ -139,15 +133,19 @@ $zen-columns: 2;
   } 
 
   .col-2 {
+    padding-top: 64px;
+    text-align: right;
+    padding-right: 64px;
     img {
       width: 100%;
       margin-bottom: -100px;
+      max-width: 360px;
     }
   }
 }
 
 #testimonials {
-  padding-top: 200px;
+  padding-top: 226px;
   padding-bottom: 96px;
   text-align: center;
  
@@ -251,10 +249,7 @@ $zen-columns: 5;
   #functionality {
     margin-top: 68px;
 
-    @include zen-grid-container();
-
     .col-1 {
-      @include zen-grid-item(3, 1);
       padding-top: 64px;
 
       ul {
@@ -313,8 +308,6 @@ $zen-columns: 5;
     }
 
     .col-2 {
-      @include zen-grid-item(2,4);
-
       img {
         width: 100%;
       }
@@ -767,14 +760,19 @@ h5 {
     height: auto;
     
     #navigation-wrapper {
-      #logo {
-        display: block;
-        float: none;
-        width: 100%;
+      #logo-wrapper {
+        padding-left: 34px;
+        padding-right: 34px;
 
-        #mobile-nav-icon {
+        #logo {
           display: block;
-          float: right;
+          float: none;
+          width: 100%;
+
+          #mobile-nav-icon {
+            display: block;
+            float: right;
+          }
         }
       }
     
@@ -801,6 +799,119 @@ h5 {
       }
     }
   }
+  .content-container {
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  #intro {
+    #intro-buttons {
+      position: relative;
+      a {
+        display: block;
+        margin-bottom: 16px;
+        text-align: center;
+      }
+    }
+
+    .col-1 {
+      padding-top: 64px;
+      padding-bottom: 0;
+    }
+
+    .col-2 {
+      padding-right: 0;
+      text-align: center;
+
+      img {
+        max-width: 240px;
+        margin-bottom: -400px;
+      }
+    }
+  }
+
+  #testimonials {
+    padding-top: 498px;
+    padding-bottom: 64px;
+    margin-bottom: 0;
+    
+    .testimonial-content {
+      margin-top: 16px;
+      background-size: 50px 35px;
+
+      h2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 23px;
+      }
+    }
+
+    .testimonial-person {
+      padding-top: 16px;
+    }
+  }
+
+  #oversaturated {
+    padding-bottom: 128px;
+    h3 {
+      padding-top: 128px;
+      padding-bottom: 0;
+    }
+
+    .h3-2 {
+      font-size: 36px;
+    }
+
+    h4 {
+      padding-top: 64px;
+    }
+  }
+
+  .functionality {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    
+    h5 {
+      font-size: 28px;
+    }
+
+    #functionality {
+      .col-1 {
+        padding-top: 0;
+        ul {
+          margin-bottom: 32px;
+          li {
+            padding-bottom: 16px;
+          }
+        }
+
+        .video-button {
+          display: block;
+        }
+
+        .feature {
+          margin-bottom: 8px;
+        }
+      }
+      
+      .col-2 {
+        display: none;
+      }
+    }
+  }
+
+  #cloud-layer {
+    h3 {
+      padding-top: 128px;
+      font-size: 28px;
+    }
+
+    .col-2 {
+      video {
+        margin-top: 64px;
+      }
+    }
+  }
 }
 
 
@@ -808,6 +919,7 @@ h5 {
   #navigation {
     display: block !important;
   }
+
   
   $zen-columns: 2 !global;
   .container-2 {
@@ -829,6 +941,21 @@ h5 {
       .col-2 {
         padding-right: 0;
       }
+    }
+  }
+
+  $zen-columns: 3 !global;
+  #functionality {
+    margin-top: 68px;
+
+    @include zen-grid-container();
+
+    .col-1 {
+      @include zen-grid-item(3, 1);
+    }
+
+    .col-2 {
+      @include zen-grid-item(1, 3);
     }
   }
 }

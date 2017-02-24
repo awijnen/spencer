@@ -1,6 +1,5 @@
 $(document).ready(function(){
  	$('#navigation a').click(function(e){
-//		alert($('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top);
 			$("html, body, document").animate({
 					scrollTop: $('#nav-' + $.attr(this, 'href').substr(1)).offset().top
 			}, 500);
