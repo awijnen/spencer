@@ -222,11 +222,13 @@
     <div class="content">
       <div id="mobile-app" class="container-2">
         <div class="col-1">
-
+          <img src="images/img_cards.png" alt="cards">
         </div>
         <div class="col-2">
-          <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
-          <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, uer-friendly flow.</p>
+          <div class="mobile-app-content">
+            <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
+            <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, uer-friendly flow.</p>
+          </div>
         </div>
       </div>
     </div>
