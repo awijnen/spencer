@@ -461,30 +461,30 @@
       <div class="container-2">
         <div class="col-1">
           <label>Name</label>
-          <input name="input-name" type="text">
+          <input id="input-name" type="text">
         </div>
         <div class="col-2">
           <div class="container-2 clean">
             <div class="col-1">
               <label>Company</label>
-              <input name="input-company" type="text">
+              <input id="input-company" type="text">
             </div>
             <div class="col-2">
               <label>Number of employees</label>
-              <input name="input-employees" type="text">
+              <input id="input-employees" type="text">
             </div>
           </div>
         </div>
         <div class="col-1">
           <label>Function</label>
-          <input name="input-function" type="text">
+          <input id="input-funct" type="text">
         </div>
         <div class="col-2">
           <label>Email address</label>
-          <input name="input-mail" type="text">
+          <input id="input-email" type="text">
         </div>
       </div>
-      <div class="center"><a href="#">SEND DEMO REQUEST</a></div>
+      <div class="center"><a id="send-demo" href="#">SEND DEMO REQUEST</a></div>
     </div>
   </div>
 

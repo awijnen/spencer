@@ -59,5 +59,27 @@ $(document).ready(function(){
     $('#' + refName + '-container').show();
 
     return false;
-  })
+  });
+
+	$('#send-demo').click(function() {
+		var data = {
+			name: $("#input-name").val(),
+			company: $("#input-company").val(),
+			employees: $("#input-employees").val(),
+			funct: $("#input-funct").val(),
+			email: $("#input-email").val(),
+		};
+		
+		$.ajax({
+		  type: "POST",
+			url: "mail.php",
+			data: data,
+			success: function(response) {
+        //$('.success').fadeIn(1000);
+				console.log(response);
+     	}
+		});
+		
+		return false;
+	});
 });
