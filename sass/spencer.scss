@@ -54,6 +54,16 @@ header {
   height: 70px;
   z-index: 99;
 
+	&.animated {
+		transition: all .2s ease-in-out;
+	}
+	&.slideUp {
+		top: -70px;
+	}
+	&.SlideDown {
+		top: 0;
+	}
+
   #navigation-wrapper {
     @include center();
      

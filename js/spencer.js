@@ -1,4 +1,14 @@
 $(document).ready(function(){
+  $('header').headroom({
+		"offset": 205,
+		"tolerance": 5,
+		"classes": {
+			"initial": "animated",
+			"pinned": "slideDown",
+			"unpinned": "slideUp"
+		}
+	});
+
  	$('#navigation a').click(function(e){
 			$("html, body, document").animate({
 					scrollTop: $('#nav-' + $.attr(this, 'href').substr(1)).offset().top

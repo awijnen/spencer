@@ -15,8 +15,9 @@
   <link rel="shortcut icon" href="favicon.ico" />
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/headroom.min.js"></script>
+	<script type="text/javascript" src="js/jQuery.headroom.js"></script>
 	<script type="text/javascript" src="js/spencer.js"></script>
-	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
 </head>
 <body>
