@@ -240,39 +240,39 @@
     <div id="resume-container" class="content">
       <h3>Spencer’s resumé</h3>
       <div id="resume" class="resume-container container-2">
-        <div class="col-1">
+        <div class="col-1 col">
           <div class="col-content">
             <h4>Modular approach</h4>
             <p>Spencer is modular. He adapts to the tools your company uses, with a fair pricing approach to make sure you only pay for what you need.</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 col">
           <div class="col-content">
             <h4>Smart, personal, contextual</h4>
             <p>Spencer is every employee’s indispensable personal assistant. He knows what they want before they do, and presents them with the info they need, when they need it.</p>
           </div>
         </div>
 
-        <div class="col-1">
+        <div class="col-1 col">
           <div class="col-content">
             <h4>Streamlined workflows</h4>
             <p>Spencer is an assistant, not a dictator. He functions as a layer between a team and its tools to streamline the flow of actions and information – he can’t make important decisions on his own.</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 col">
           <div class="col-content">
             <h4>Always available</h4>
             <p>Spencer never lets you down. We have duplicated all system-critical components – VPN, application servers, our internal staging and production environments, etc. – to make sure that downtime becomes a thing of the past.</p>
           </div>
         </div>
 
-        <div class="col-1">
+        <div class="col-1 col">
           <div class="col-content">
             <h4>Secure infrastructure</h4>
             <p>Spencer respects your sensitive data, and your employees’ privacy. Everything is secured and encrypted according to industry standards.</p>
           </div>
         </div>
-        <div class="col-2">
+        <div class="col-2 col">
           <div class="col-content">
             <h4>Tailored to your organization</h4>
             <p>Spencer adapts to the needs of your enterprise, respecting operational flows and procedures – and your style manual.</p>
