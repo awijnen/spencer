@@ -55,8 +55,8 @@
         <h1>Spencer is your mobile workplace assistant</h1>
         <p>Making your workplace community more engaged, efficient and productive by making the tools you trust work together.</p>
         <div id="intro-buttons">
-          <a id="play-video" href="#">PLAY VIDEO</a>
-          <a id="read-announcement" href="#">READ ANNOUNCEMENT</a>
+          <a id="play-video" class="video-button button" href="#"><span class="video-icon"></span>PLAY VIDEO</a>
+          <a id="read-announcement" class="button" href="#">READ ANNOUNCEMENT</a>
         </div>
       </div>
       <div class="col-2">
@@ -137,7 +137,7 @@
           <div class="func-slide func-hr">
             <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="002_Workflow_Holiday_request" href="#">REQUEST HOLIDAY</a></div>
+            <div><a class="video-button func-video-button" name="002_Workflow_Holiday_request" href="#"><span class="video-icon"></span>REQUEST HOLIDAY</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Ask sick leave</span>
             <span class="feature">Submit doctor's note</span>

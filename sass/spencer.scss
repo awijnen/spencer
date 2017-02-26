@@ -23,18 +23,34 @@
   }
 }
 
-
 @mixin video-button() {
   text-decoration: none;
   border: 2px solid #fff;
   border-radius: 3px;
   font-family: CoreSansA55;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 14px;
   display: inline-block;
-  background: url(../images/ico_video.png) no-repeat 24px center #fff;
   color: #383737;
-  padding: 14px 24px 12px 56px; 
+  padding: 10px 24px;
+  background-color: #fff;
+  vertical-align: middle;
+  height: 20px;
+
+	.video-icon {
+    display: inline-block;
+    width: 28px;
+    height: 20px;
+    background: url(../images/ico_video.png) no-repeat left center #fff;
+    vertical-align: text-bottom;
+	} 
+}
+
+.button {
+  line-height: 14px !important;
+  vertical-align: middle;
+  height: 20px;
+  padding: 15px 24px 5px 24px;
 }
 
 $spencer-blue: #3aacd2;
@@ -89,7 +105,7 @@ header {
         margin-top: 25px;
 
         li {
-          padding-left: 20px;
+          padding-left: 30px;
           display: inline-block;
           list-style-type: 0;
           list-style-image: none;
@@ -142,14 +158,11 @@ $zen-columns: 2;
     }
 
     #play-video {
-      background: url(../images/ico_video.png) no-repeat 24px center #fff;
-      color: #383737;
-      padding: 14px 24px 12px 56px; 
+      @include video-button();
     }
 
     #read-announcement {
       color: #fff;
-      padding: 12px 24px;
     }
   } 
 
@@ -838,6 +851,8 @@ h5 {
   } 
 }
 
+
+
 /* media queries */
 @media all and (min-width: 100px) and (max-width: 767px){
   header {
@@ -896,10 +911,15 @@ h5 {
     padding-right: 34px;
   }
 
+  .video-button {
+    padding: 12px 24px !important;
+    height: 20px;
+  }
+
   #intro {
     #intro-buttons {
       position: relative;
-      a {
+      a, #play-video {
         display: block;
         margin-bottom: 16px;
         text-align: center;
@@ -950,7 +970,7 @@ h5 {
       padding-bottom: 0;
     }
 
-    .h3-2 {
+    .h3-2, .h3-1 {
       font-size: 36px;
     }
 
@@ -979,6 +999,8 @@ h5 {
 
         .video-button {
           display: block;
+          padding: 12px 24px;
+          height: 20px;
         }
       }
       
@@ -993,6 +1015,7 @@ h5 {
     h3 {
       padding-top: 128px;
       font-size: 28px;
+      text-align: left;
     }
 
     .col-2 {
@@ -1018,7 +1041,7 @@ h5 {
     .col-2 {
       .mobile-app-content h5 {
         font-size: 28px;
-        margin-top: 64px;
+        margin-top: 92px;
       }
     }
   }
@@ -1132,6 +1155,7 @@ h5 {
    }
 
   #footer {
+    padding-bottom: 144px;
     .col-1 {
       padding-top: 144px;
     }
@@ -1154,6 +1178,20 @@ h5 {
   }
 }
 
+@media all and (max-width: 320px) {
+	.content-container {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+	header #navigation-wrapper {
+    #logo-wrapper {
+      padding-left: 7px;
+      padding-right: 7px;
+		}
+	}
+}
+
 
 @media all and (min-width: 768px) {
   @include set_max_width(720px);
@@ -1167,15 +1205,24 @@ h5 {
   }
 
   #intro {
+    .col-1 {
+      padding-top: 128px;
+    }
+
     .col-2 {
       text-align: center;
       padding-top: 28px;
       padding-right: 0;
+      img {
+        max-width: 320px;
+        margin-bottom: -500px;
+      }
     }
   }
 
   .content-container {
     #testimonials {
+      padding-top: 600px;
       &.content {
         max-width: 720px;
       }
@@ -1189,6 +1236,7 @@ h5 {
 
   #nav-problem {
     #oversaturated {
+      padding-bottom: 165px;
       .oversat-container {
         margin-left: auto;
         margin-right: auto;
@@ -1196,6 +1244,15 @@ h5 {
         
         .h3-1 {
           max-width: 596px;
+          padding-bottom: 32px;
+        }
+
+        .h3-2 {
+          padding-bottom: 32px;
+        }
+
+        h4 {
+          padding-top: 64px;
         }
       }
     }
@@ -1208,12 +1265,16 @@ h5 {
   }
 
   #cloud-layer {
+    padding-bottom: 292px;
     h3 {
       font-size: 32px;
       line-height: 1.3em;
       text-align: left;
     }
-    padding-bottom: 292px;
+
+    .video {
+      margin-top: 64px;
+    }
   }
 
   #mobile-app {
@@ -1231,7 +1292,6 @@ h5 {
     padding-bottom: 192px;
     
     h3 {
-      font-size: 36px;
       padding-top: 192px;
       padding-bottom: 32px;
     }
@@ -1261,10 +1321,6 @@ h5 {
         .col-3 {
           padding-right: 0;
         }
-
-        a {
-          background-size: 48px 48px;
-        }
       }
 
       #references-body {
@@ -1276,6 +1332,16 @@ h5 {
           display: none;
         }
       }
+    }
+  }
+
+  #five-step-container {
+    h3 {
+      padding-bottom: 32px;
+    }
+
+    .col-content {
+      padding-top: 64px;
     }
   }
 
@@ -1357,6 +1423,27 @@ h5 {
       display: inline !important;
     }
   }
+  
+  $zen-columns: 5 !global;
+  #intro {
+    .col-1 {
+      @include zen-grid-item(3, 1);
+      h3, p {
+        max-width: 535px;
+      }
+    } 
+    .col-2 {
+      @include zen-grid-item(2, 4);
+      padding-top: 58px;
+      text-align: right;
+      padding-right: 16px;
+      img {
+        width: 100%;
+        margin-bottom: -100px;
+        max-width: 360px;
+      }
+    }
+  }
 
   $zen-columns: 2 !global;
   .container-2 {
@@ -1377,6 +1464,15 @@ h5 {
 
       .col-2 {
         padding-right: 0;
+      }
+    }
+  }
+
+  #nav-problem {
+    #oversaturated {
+      padding-bottom: 192px;
+      .oversat-container {
+        max-width: 945px;
       }
     }
   }
@@ -1418,7 +1514,7 @@ h5 {
 }
 
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1281px) {
   @include set_max_width(1140px);
   
   .content-container {
@@ -1433,5 +1529,4 @@ h5 {
       }
     }
   }
-
 }
