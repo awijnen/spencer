@@ -293,6 +293,7 @@ $zen-columns: 2;
         li {
           display: inline-block;
           padding-right: 16px;
+          padding-bottom: 16px;
 
           a {
             color: #383737;
@@ -348,8 +349,7 @@ $zen-columns: 2;
 
       .video {
         width: 292px;
-        height: 613px;
-        padding: 80px 0px 0px 16px;
+        padding: 80px 0px 64px 16px;
         margin-left: auto;
         margin-right: auto;
         background: url(../images/img_video_background.png) no-repeat;
@@ -713,11 +713,14 @@ $zen-columns: 3;
     border-radius: 3px;
     color: #fff;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 14px 24px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
+    font-family: CoreSansA55;
+    font-size: 14px;
+    font-weight: 500;
   }
 }
 
@@ -1383,7 +1386,9 @@ h5 {
       }
     }
   }
+}
 
+@media all and (min-width: 768px) and (max-width: 992px) {
   #footer {
     @include zen-grid-container();
 
@@ -1415,6 +1420,16 @@ h5 {
     }
     .testimonial-person {
       display: block !important;
+    }
+
+    .col-1 {
+      padding-top: 128px;
+    }
+
+    .col-2 {
+      img {
+       width: 100%; 
+      }
     }
   }
 
@@ -1484,11 +1499,18 @@ h5 {
     @include zen-grid-container();
 
     .col-1 {
+      max-width: 535px;
       @include zen-grid-item(2, 1);
     }
 
     .col-2 {
       @include zen-grid-item(1, 3);
+    }
+  }
+
+  #nav-contact {
+    #contact-container .container-2 {
+      max-width: 970px;
     }
   }
   
@@ -1513,6 +1535,22 @@ h5 {
   @include set_max_width(970px);
 }
 
+@media all and (min-width: 993px) {
+  .content-container {
+    #testimonials {
+      padding-top: 226px;
+      padding-bottom: 96px;
+    }
+  }
+
+  #mobile-app .col-2 .mobile-app-content h5 {
+    margin-top: 160px;
+  }
+  
+  #team {
+    padding-top: 64px;
+  }
+}
 
 @media all and (min-width: 1281px) {
   @include set_max_width(1140px);
@@ -1528,5 +1566,18 @@ h5 {
         }
       }
     }
+  }
+
+  #functionality .col-1 {
+    max-width: 652px;
+  }
+
+  #cloud-layer {
+    padding-bottom: 256px;
+  }
+
+  #mobile-app .col-2 .mobile-app-content {
+    max-width: 458px;
+    float: right;
   }
 }
