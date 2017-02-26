@@ -55,6 +55,20 @@
 
 $spencer-blue: #3aacd2;
 
+.slick-dots li button::before {
+  font-size: 8px;
+  opacity: 0.15;
+}
+
+.slick-dots li button:hover::before, .slick-dots li button:focus::before {
+  color: $spencer-blue;
+}
+
+.slick-dots li.slick-active button::before {
+  color: $spencer-blue;
+  opacity: 1;
+}
+
 html {
   font-family: CoreSansA35, arial, sans;
 }
@@ -1547,6 +1561,10 @@ h5 {
       padding-top: 226px;
       padding-bottom: 96px;
     }
+  }
+
+  #intro .col-1 {
+    padding-top: 186px;
   }
 
   #mobile-app .col-2 .mobile-app-content h5 {
