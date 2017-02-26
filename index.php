@@ -33,7 +33,7 @@
   <div id="navigation-wrapper">
     <div id="logo-wrapper">
       <div id="logo">
-        <a class="nav-item" href="#intro"><svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
+        <a class="nav-item" href="#body-wrapper"><svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
           <use xlink:href="#logo-spencer">
         </svg></a>
         <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.png"></a></div>
@@ -41,12 +41,12 @@
     </div>
     <nav id="navigation">
       <ul>
-        <li><a class="nav-item" href="#problem">Problem</a></li>
-        <li><a class="nav-item" href="#solution">Solution</a></li>
-        <li><a class="nav-item" href="#references">References</a></li>
-        <li><a class="nav-item" href="#about">About</a></li>
-        <li><a class="nav-item" href="#jobs">Jobs</a></li>
-        <li><a class="nav-item" href="#contact">Contact</a></li>
+        <li><a class="nav-item" href="#nav-problem">Problem</a></li>
+        <li><a class="nav-item" href="#nav-solution">Solution</a></li>
+        <li><a class="nav-item" href="#nav-references">References</a></li>
+        <li><a class="nav-item" href="#nav-about">About</a></li>
+        <li><a class="nav-item" href="#nav-jobs">Jobs</a></li>
+        <li><a class="nav-item" href="#nav-contact">Contact</a></li>
       </ul>
     </nav>
   </div>

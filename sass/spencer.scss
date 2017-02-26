@@ -1116,6 +1116,10 @@ h5 {
           display: none;
         }
 
+        .col-1 {
+          padding-top: 64px;
+        }
+
         .col-2 {
           img {
             margin-top: 32px;
@@ -1345,6 +1349,9 @@ h5 {
       }
 
       #references-body {
+        .col-1 {
+          padding-top: 64px;
+        }
         .quote, .testimonial-person {
           display: none;
         }
@@ -1437,7 +1444,7 @@ h5 {
     }
 
     .col-1 {
-      padding-top: 128px;
+      padding-top: 128px !important;
     }
 
     .col-2 {

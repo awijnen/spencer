@@ -27,7 +27,7 @@ $(document).ready(function(){
 
  	$('.nav-item').click(function(e){
 			$("html, body, document").animate({
-					scrollTop: $('#nav-' + $.attr(this, 'href').substr(1)).offset().top
+					scrollTop: $($.attr(this, 'href')).offset().top
 			}, 500);
 			return false;
 	});
