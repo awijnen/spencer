@@ -9,7 +9,7 @@ $(document).ready(function(){
 		}
 	});
 
- 	$('#navigation a').click(function(e){
+ 	$('.nav-item').click(function(e){
 			$("html, body, document").animate({
 					scrollTop: $('#nav-' + $.attr(this, 'href').substr(1)).offset().top
 			}, 500);

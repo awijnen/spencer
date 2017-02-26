@@ -55,6 +55,10 @@
 
 $spencer-blue: #3aacd2;
 
+a {
+  outline: 0;
+}
+
 .slick-dots li button::before {
   font-size: 8px;
   opacity: 0.15;

@@ -29,27 +29,27 @@
   <div id="navigation-wrapper">
     <div id="logo-wrapper">
       <div id="logo">
-        <svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
+        <a class="nav-item" href="#intro"><svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
           <use xlink:href="#logo-spencer">
-        </svg>
+        </svg></a>
         <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.png"></a></div>
       </div>
     </div>
     <nav id="navigation">
       <ul>
-        <li><a href="#problem">Problem</a></li>
-        <li><a href="#solution">Solution</a></li>
-        <li><a href="#references">References</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#jobs">Jobs</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="nav-item" href="#problem">Problem</a></li>
+        <li><a class="nav-item" href="#solution">Solution</a></li>
+        <li><a class="nav-item" href="#references">References</a></li>
+        <li><a class="nav-item" href="#about">About</a></li>
+        <li><a class="nav-item" href="#jobs">Jobs</a></li>
+        <li><a class="nav-item" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <div id="body-wrapper">
-  <div class="content-container blue">
+  <div id="nav-intro" class="content-container blue">
     <div id="intro" class="content container-2">
       <div class="col-1">
         <h1>Spencer is your mobile workplace assistant</h1>
@@ -508,8 +508,8 @@
         <div class="col-4">
           <div id="social-icons">
             <img src="images/ico_social_facebook.png" alt="facebook">
-            <img src="images/ico_social_twitter.png" alt="twitter">
-            <img src="images/ico_social_linkedin.png" alt="linkedin">
+            <a href="https://twitter.com/spencer_works" target="_blank"><img src="images/ico_social_twitter.png" alt="twitter"></a>
+            <a href="https://www.linkedin.com/company/spencer.co" target="_blank"><img src="images/ico_social_linkedin.png" alt="linkedin"></a>
           </div>
         </div>
       </div>
