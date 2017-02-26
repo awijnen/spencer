@@ -503,11 +503,11 @@
         </div>
         <div class="col-2">
           <b>Antwerp HQ</b>
-          <p>Kammenstraat 18, 2000 Antwerp – Belgium +32 3 500 92 21 – info@spencer.co</p>
+          <p>Kammenstraat 18, 2000 Antwerp – Belgium<br />+32 3 500 92 21 – info@spencer.co</p>
         </div>
         <div class="col-3">
           <b>Nordics</b>
-          <p>Vasagatan 16, 111 20 Stockholm – Sweden +46 73 504 6682</p>
+          <p>Vasagatan 16, 111 20 Stockholm – Sweden<br />+46 73 504 6682</p>
         </div>
         <div class="col-4">
           <div id="social-icons">
