@@ -141,7 +141,7 @@
           <div class="func-slide func-hr">
             <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="hr-request-holiday" href="#"><span class="video-icon"></span>REQUEST HOLIDAY</a></div>
+            <div><a class="video-button func-video-button" name="hr-request-holiday" href="video/hr-request-holiday.mp4"><span class="video-icon"></span>REQUEST HOLIDAY</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Ask sick leave</span>
             <span class="feature">Submit doctor's note</span>
@@ -160,7 +160,7 @@
           <div class="func-slide func-org">
             <p class="white">Spencer keeps track of everyone in your organisation. Need the phone number for that one designer in Marketing? Spencer will help you find and contact people. And he’ll also keep you posted if your fellow team members are out of the office.</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="organization-contactinfo" href="#"><span class="video-icon"></span>COWORKER'S CONTACT INFO</a></div>
+            <div><a class="video-button func-video-button" name="organization-contactinfo" href="video/organization-contactinfo.mp4"><span class="video-icon"></span>COWORKER'S CONTACT INFO</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">My shift</span>
             <span class="feature">My team holiday</span>
@@ -171,8 +171,8 @@
             <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access.</p>
             <b>SHOWCASE</b>
             <div>
-              <a class="video-button func-video-button" name="facilities-book-meeting-room" href="#"><span class="video-icon"></span>BOOK MEETING ROOM</a>
-              <a class="video-button func-video-button" name="facilities-report-issue" href="#"><span class="video-icon"></span>REPORT ISSUE</a>
+              <a class="video-button func-video-button" name="facilities-book-meeting-room" href="video/facilities-book-meeting-room.mp4"><span class="video-icon"></span>BOOK MEETING ROOM</a>
+              <a class="video-button func-video-button" name="facilities-report-issue" href="video/facilities-report-issue.mp4"><span class="video-icon"></span>REPORT ISSUE</a>
             </div>
             <b>MORE FEATURES</b>
             <span class="feature">Time tracking</span>
@@ -181,7 +181,7 @@
           <div class="func-slide func-hosp">
             <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="hospitality-client-version" href="#"><span class="video-icon"></span>CLIENT VERSION</a></div>
+            <div><a class="video-button func-video-button" name="hospitality-client-version" href="video/hospitality-client-version.mp4"><span class="video-icon"></span>CLIENT VERSION</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Guest WiFi access</span>
             <span class="feature">Digital business card</span>
@@ -191,7 +191,7 @@
             <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
             <b>SHOWCASE</b>
             <div>
-              <a class="video-button func-video-button" name="finance-submit-expense" href="#"><span class="video-icon"></span>SUBMIT EXPENSE</a>
+              <a class="video-button func-video-button" name="finance-submit-expense" href="video/finance-submit-expense.mp4"><span class="video-icon"></span>SUBMIT EXPENSE</a>
             </div>
             <b>MORE FEATURES</b>
             <span class="feature">Approve purchase request</span>

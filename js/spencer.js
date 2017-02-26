@@ -52,18 +52,20 @@ $(document).ready(function(){
   });
 
   $('.func-video-button').click(function() {
-    url = $(this).attr('name');
-    player = $('#feature-video-player').get(0);
-    source = $('#feature-video-source').get(0);
+		if(window.screen.availWidth > 991) {
+			url = $(this).attr('name');
+			player = $('#feature-video-player').get(0);
+			source = $('#feature-video-source').get(0);
 
-    player.pause();
+			player.pause();
 
-    source.src = 'video/' + url + '.mp4';
+			source.src = 'video/' + url + '.mp4';
 
-    player.load();
-    player.play();
-    
-    return false;
+			player.load();
+			player.play();
+			
+			return false;
+		}
   });
 
   $('.ref-nav').click(function() {
