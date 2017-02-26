@@ -572,7 +572,6 @@ $zen-columns: 3;
     b {
       display: block;
       font-size: 22px;
-      padding-top: 128px;
       font-family: CoreSansA55;
     }
 
@@ -1109,10 +1108,6 @@ h5 {
       }
 
       #references-body {
-        b {
-          padding-top: 64px;
-        }
-
         .quote, .testimonial-person {
           display: none;
         }
@@ -1346,10 +1341,6 @@ h5 {
       }
 
       #references-body {
-        b {
-          padding-top: 64px;
-        }
-
         .quote, .testimonial-person {
           display: none;
         }
@@ -1446,6 +1437,7 @@ h5 {
     }
 
     .col-2 {
+      padding-left: 40px;
       img {
        width: 100%; 
       }
