@@ -918,6 +918,9 @@ h5 {
               display: block;
               padding-top: 20px;
               padding-bottom: 20px;
+              &.nav-contact {
+                display: none;
+              }
             }
           }
         }
@@ -1230,6 +1233,9 @@ h5 {
 
   #navigation {
     display: block !important;
+    .nav-contact {
+      display: inline !important;
+    }  
   }
 
   #intro {

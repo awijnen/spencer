@@ -29,6 +29,9 @@ $(document).ready(function(){
 			$("html, body, document").animate({
 					scrollTop: $($.attr(this, 'href')).offset().top
 			}, 500);
+			
+    	$('#navigation').slideUp();
+
 			return false;
 	});
 

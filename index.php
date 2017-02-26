@@ -46,7 +46,7 @@
         <li><a class="nav-item" href="#nav-references">References</a></li>
         <li><a class="nav-item" href="#nav-about">About</a></li>
         <li><a class="nav-item" href="#nav-jobs">Jobs</a></li>
-        <li><a class="nav-item" href="#nav-contact">Contact</a></li>
+        <li><a class="nav-item nav-contact" href="#nav-contact">Contact</a></li>
       </ul>
     </nav>
   </div>
