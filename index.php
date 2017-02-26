@@ -69,24 +69,24 @@
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
         <div class="testimonial-logo"><img src="images/img_logo_proximus_full.png"></div>
-        <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
-        <div class="testimonial-person">
-          <div class="person-name">Margaret Denis</div>
-          <div class="person-position">Director Digital Workplace Program</div>
+        <div class="testimonial-content"><h2>At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.</h2></div>
+        <div class="testimonial-person proximus">
+          <div class="person-name">Serge Peeters</div>
+          <div class="person-position">HR Director Employee Services & Operations</div>
         </div>
       </div>
       <div class="carousel-slide">
         <div class="testimonial-logo"><img src="images/img_logo_telenet_full.png"></div>
         <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
-        <div class="testimonial-person">
-          <div class="person-name">Dieter Nieuwdorp</div>
-          <div class="person-position">Senior VP Strategy & Corporate Development</div>
+        <div class="testimonial-person telenet">
+          <div class="person-name">Claudia Poels</div>
+          <div class="person-position">Senior VP Human Resources</div>
         </div>
       </div>
       <div class="carousel-slide">
         <div class="testimonial-logo"><img src="images/img_logo_deme_full.png"></div>
-        <div class="testimonial-content"><h2>For DEME's mobile workforce, we're always looking for new ways to keep in touch with colleagues and the company. Spencer is the perfect fit for our teams.</h2></div>
-        <div class="testimonial-person">
+        <div class="testimonial-content"><h2>At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.</h2></div>
+        <div class="testimonial-person deme">
           <div class="person-name">Philip Hermans</div>
           <div class="person-position">General Manager</div>
         </div>
@@ -137,7 +137,7 @@
           <div class="func-slide func-hr">
             <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="002_Workflow_Holiday_request" href="#"><span class="video-icon"></span>REQUEST HOLIDAY</a></div>
+            <div><a class="video-button func-video-button" name="hr-request-holiday" href="#"><span class="video-icon"></span>REQUEST HOLIDAY</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Ask sick leave</span>
             <span class="feature">Submit doctor's note</span>
@@ -154,9 +154,9 @@
           </div>
 
           <div class="func-slide func-org">
-            <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
+            <p class="white">Spencer keeps track of everyone in your organisation. Need the phone number for that one designer in Marketing? Spencer will help you find and contact people. And he’ll also keep you posted if your fellow team members are out of the office.</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">COWORKER'S CONTACT INFO</a></div>
+            <div><a class="video-button func-video-button" name="organization-contactinfo" href="#"><span class="video-icon"></span>COWORKER'S CONTACT INFO</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">My shift</span>
             <span class="feature">My team holiday</span>
@@ -164,11 +164,11 @@
           </div>
 
           <div class="func-slide func-fac">
-            <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access and your fleet of company cars.</p>
+            <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access.</p>
             <b>SHOWCASE</b>
             <div>
-              <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">BOOK MEETING ROOM</a>
-              <a class="video-button func-video-button" name="011_Office_Report Issue" href="#">REPORT ISSUE</a>
+              <a class="video-button func-video-button" name="facilities-book-meeting-room" href="#"><span class="video-icon"></span>BOOK MEETING ROOM</a>
+              <a class="video-button func-video-button" name="facilities-report-issue" href="#"><span class="video-icon"></span>REPORT ISSUE</a>
             </div>
             <b>MORE FEATURES</b>
             <span class="feature">Time tracking</span>
@@ -177,7 +177,7 @@
           <div class="func-slide func-hosp">
             <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="021_Client" href="#">CLIENT VERSION</a></div>
+            <div><a class="video-button func-video-button" name="hospitality-client-version" href="#"><span class="video-icon"></span>CLIENT VERSION</a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Guest WiFi access</span>
             <span class="feature">Digital business card</span>
@@ -187,11 +187,11 @@
             <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
             <b>SHOWCASE</b>
             <div>
-              <a class="video-button func-video-button" name="010_Office_Book_Meetingroom" href="#">APPROVE PO/PR</a>
-              <a class="video-button func-video-button" name="001_Workflow_Input_Expense_note" href="#">SUBMIT EXPENSE</a>
+              <a class="video-button func-video-button" name="finance-submit-expense" href="#"><span class="video-icon"></span>SUBMIT EXPENSE</a>
             </div>
             <b>MORE FEATURES</b>
-            <span class="feature">Lorem ipsum</span>
+            <span class="feature">Approve purchase request</span>
+            <span class="feature">Approve purchase order</span>
           </div>
         </div>
         <div class="col-2">
@@ -230,7 +230,7 @@
         <div class="col-2">
           <div class="mobile-app-content">
             <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
-            <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, uer-friendly flow.</p>
+            <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, user-friendly flow.</p>
           </div>
         </div>
       </div>
@@ -288,16 +288,32 @@
       <div id="references">
         <div id="references-navigation">
           <div class="col-1">
-            <a href="#" id="ref-proximus" class="ref-nav active"></a>
+            <a href="#" id="ref-telenet" class="ref-nav active"></a>
           </div>
           <div class="col-2">
-            <a href="#" id="ref-telenet" class="ref-nav"></a>
+            <a href="#" id="ref-proximus" class="ref-nav"></a>
           </div>
           <div class="col-3">
             <a href="#" id="ref-deme" class="ref-nav"></a>
           </div>
         </div>
         <div id="references-body">
+
+          <div id="ref-telenet-container" class="container-2 ref-container">
+            <div class="col-1">
+              <b>Telenet Group</b>
+              <p>Spencer took his first steps at Telenet Group, helping them drive engagement. Spencer’s now facilitating both internal communication, hospitality services for guests, HR flows and facilities.</p>
+              <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
+              <div class="testimonial-person telenet">
+                <div class="person-name">Claudia Poels</div>
+                <div class="person-position">Senior VP Human Resources</div>
+              </div>
+            </div>
+            <div class="col-2">
+              <img src="images/img_showcase_telenet.png" alt="telenet">
+            </div>
+          </div>
+
           <div id="ref-proximus-container" class="container-2 ref-container">
             <div class="col-1">
               <b>Proximus</b>
@@ -310,21 +326,6 @@
             </div>
             <div class="col-2">
               <img src="images/img_showcase_proximus.png" alt="proximus">
-            </div>
-          </div>
-
-          <div id="ref-telenet-container" class="container-2 ref-container">
-            <div class="col-1">
-              <b>Telenet Group</b>
-              <p>Spencer took his first steps at Telenet Group, helping them drive engagement. Spencer’s now facilitating both internal communication (news, contacting colleagues), hospitality services for guests (wifi access, digital contact cards, …), HR flows (holiday request, sick leave, …) and facilities (meeting rooms, IT ticketing,... ).</p>
-              <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
-              <div class="testimonial-person telenet">
-                <div class="person-name">Claudia Poels</div>
-                <div class="person-position">Senior VP Human Resources</div>
-              </div>
-            </div>
-            <div class="col-2">
-              <img src="images/img_showcase_telenet.png" alt="telenet">
             </div>
           </div>
 

@@ -538,16 +538,6 @@ $zen-columns: 3;
 
     .col-1 {
       @include zen-grid-item(1,1);
-
-      a {
-        background: url(../images/img_logo_proximus.png) no-repeat center center;
-        &.active {
-          background: url(../images/img_logo_proximus_active.png) no-repeat center center #f6f6f6;
-        }
-      }
-    } 
-    .col-2 {
-      @include zen-grid-item(1,2);
       
       a {
         background: url(../images/img_logo_telenet.png) no-repeat center center;
@@ -555,7 +545,16 @@ $zen-columns: 3;
           background: url(../images/img_logo_telenet_active.png) no-repeat center center #f6f6f6;
         }
       }
-
+    } 
+    .col-2 {
+      @include zen-grid-item(1,2);  
+      
+      a {
+        background: url(../images/img_logo_proximus.png) no-repeat center center;
+        &.active {
+          background: url(../images/img_logo_proximus_active.png) no-repeat center center #f6f6f6;
+        }
+      }
     }
     .col-3 {
       @include zen-grid-item(1,3);
@@ -597,7 +596,7 @@ $zen-columns: 3;
       display: none;
     }
     
-    #ref-proximus-container {
+    #ref-telenet-container {
       display: block;
     }
 
@@ -819,7 +818,7 @@ h3 {
   text-align: center;
   line-height: 50px;
   color: #505050;
-  max-width: 750px;
+  max-width: 756px;
   margin-left: auto;
   margin-right: auto;
 
