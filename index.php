@@ -18,6 +18,10 @@
 	<script type="text/javascript" src="js/headroom.min.js"></script>
 	<script type="text/javascript" src="js/jQuery.headroom.js"></script>
 	<script type="text/javascript" src="js/spencer.js"></script>
+
+	<link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
+	<script type="text/javascript" src="js/fancyBox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
+
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
 </head>
 <body>
@@ -55,7 +59,7 @@
         <h1>Spencer is your mobile workplace assistant</h1>
         <p>Making your workplace community more engaged, efficient and productive by making the tools you trust work together.</p>
         <div id="intro-buttons">
-          <a id="play-video" class="video-button button" href="#"><span class="video-icon"></span>PLAY VIDEO</a>
+          <a id="play-video" class="video-button button" href="https://player.vimeo.com/video/155675959?autoplay=1&color=3AACD2"><span class="video-icon"></span>PLAY VIDEO</a>
           <a id="read-announcement" class="button" href="#">READ ANNOUNCEMENT</a>
         </div>
       </div>

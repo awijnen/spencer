@@ -9,6 +9,22 @@ $(document).ready(function(){
 		}
 	});
 
+	$('#play-video').click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none',
+			'title'			: this.title,
+			'autoSize' : false,
+      'scrolling' : 'auto',
+      'fitToView' : true,
+			'href'			: this.href,
+			'type'			: 'iframe'
+		});
+
+		return false;
+	});
+
  	$('.nav-item').click(function(e){
 			$("html, body, document").animate({
 					scrollTop: $('#nav-' + $.attr(this, 'href').substr(1)).offset().top
