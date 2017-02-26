@@ -25,14 +25,16 @@ $(document).ready(function(){
 		return false;
 	});
 
- 	$('.nav-item').click(function(e){
-			$("html, body, document").animate({
-					scrollTop: $($.attr(this, 'href')).offset().top
-			}, 500);
-			
-    	$('#navigation').slideUp();
+ 	$('.nav-item').on('click', function(){
+    var loc = $(this).attr('href');
 
-			return false;
+    $('#navigation').slideUp(400, function() {
+      $("html, body, document").animate({
+        scrollTop: $(loc).offset().top
+      }, 500);
+    });
+        
+    return false;
 	});
 
   $('.carousel').slick({

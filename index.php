@@ -201,7 +201,7 @@
         <div class="col-2">
           <div id="feature-video" class="video">
             <video id="feature-video-player" width="262">
-              <source id="feature-video-source" src="video/000_Workflow_Sign_purchase_request.mp4" type="video/mp4">
+              <source id="feature-video-source" src="video/hr-request-holiday.mp4" type="video/mp4">
             </video>
           </div>
         </div>
