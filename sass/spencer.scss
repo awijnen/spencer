@@ -627,6 +627,7 @@ $zen-columns: 3;
     .member {
       min-height: 56px;
       padding-top: 6px;
+      text-align: left;
     }
     .maarten {
       background: url(../images/img_avatar_maartenraemdonck.png) no-repeat left top;
@@ -1142,6 +1143,11 @@ h5 {
     
     #team {
       padding-top: 32px;
+      text-align: center;
+      
+      .members-container {
+        display: inline-block;
+      }
     }
   }
 

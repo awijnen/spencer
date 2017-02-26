@@ -410,37 +410,39 @@
       <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
       <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
       <div id="team" class="container-2">
-        <div class="col-1 maarten member">
-          <div class="team-name">Maarten Raemdonck</div>
-          <div class="team-position">co-CEO - Product Director</div>
-        </div>
-        <div class="col-2 tom member">
-          <div class="team-name">Tom Vroemans</div>
-          <div class="team-position">co-CEO - Founder & Chairman</div>
-        </div>
-        <div class="col-1 robin member">
-          <div class="team-name">Robin Van Den Bergh</div>
-          <div class="team-position">Client Services Manager</div>
-        </div>
-        <div class="col-2 anthony member">
-          <div class="team-name">Anthony Wijnen</div>
-          <div class="team-position">Senior Product Manager</div>
-        </div>
-        <div class="col-1 yannick member">
-          <div class="team-name">Yannick Bontemps</div>
-          <div class="team-position">Senior iOS Developer</div>
-        </div>
-        <div class="col-2 christophe member">
-          <div class="team-name">Christophe Smet</div>
-          <div class="team-position">Senior Android Developer</div>
-        </div>
-        <div class="col-1 kevin member">
-          <div class="team-name">Kevin T’Syen</div>
-          <div class="team-position">Senior Back-end Developer</div>
-        </div>
-        <div class="col-2 tomdl member">
-          <div class="team-name">Tom De Laet</div>
-          <div class="team-position">Senior Experience Designer</div>
+        <div class="members-container">
+          <div class="col-1 maarten member">
+            <div class="team-name">Maarten Raemdonck</div>
+            <div class="team-position">co-CEO - Product Director</div>
+          </div>
+          <div class="col-2 tom member">
+            <div class="team-name">Tom Vroemans</div>
+            <div class="team-position">co-CEO - Founder & Chairman</div>
+          </div>
+          <div class="col-1 robin member">
+            <div class="team-name">Robin Van Den Bergh</div>
+            <div class="team-position">Client Services Manager</div>
+          </div>
+          <div class="col-2 anthony member">
+            <div class="team-name">Anthony Wijnen</div>
+            <div class="team-position">Senior Product Manager</div>
+          </div>
+          <div class="col-1 yannick member">
+            <div class="team-name">Yannick Bontemps</div>
+            <div class="team-position">Senior iOS Developer</div>
+          </div>
+          <div class="col-2 christophe member">
+            <div class="team-name">Christophe Smet</div>
+            <div class="team-position">Senior Android Developer</div>
+          </div>
+          <div class="col-1 kevin member">
+            <div class="team-name">Kevin T’Syen</div>
+            <div class="team-position">Senior Back-end Developer</div>
+          </div>
+          <div class="col-2 tomdl member">
+            <div class="team-name">Tom De Laet</div>
+            <div class="team-position">Senior Experience Designer</div>
+          </div>
         </div>
       </div>
     </div>
