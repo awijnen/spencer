@@ -463,35 +463,42 @@
 
   <div id="nav-contact" class="content-container blue">
     <div id="contact-container" class="content">
-      <h3 class="white">Want to meet Spencer?</h3>
-      <p class="white">Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
-      <div class="container-2">
-        <div class="col-1">
-          <label>Name</label>
-          <input id="input-name" type="text">
-        </div>
-        <div class="col-2">
-          <div class="container-2 clean">
-            <div class="col-1">
-              <label>Company</label>
-              <input id="input-company" type="text">
-            </div>
-            <div class="col-2">
-              <label>Number of employees</label>
-              <input id="input-employees" type="text">
-            </div>
-          </div>
-        </div>
-        <div class="col-1">
-          <label>Function</label>
-          <input id="input-funct" type="text">
-        </div>
-        <div class="col-2">
-          <label>Email address</label>
-          <input id="input-email" type="text">
-        </div>
-      </div>
-      <div class="center"><a id="send-demo" href="#">SEND DEMO REQUEST</a></div>
+			<div class="unfinished">
+				<h3 class="white">Want to meet Spencer?</h3>
+				<p class="white">Do you think your company could use Spencer’s help? Fill out the form below and he’ll get in touch with you to go over all the details. We’d love to hear from you!</p>
+				<div class="container-2">
+					<div class="col-1">
+						<label>Name</label>
+						<input id="input-name" type="text">
+					</div>
+					<div class="col-2">
+						<div class="container-2 clean">
+							<div class="col-1">
+								<label>Company</label>
+								<input id="input-company" type="text">
+							</div>
+							<div class="col-2">
+								<label>Number of employees</label>
+								<input id="input-employees" type="text">
+							</div>
+						</div>
+					</div>
+					<div class="col-1">
+						<label>Function</label>
+						<input id="input-funct" type="text">
+					</div>
+					<div class="col-2">
+						<label>Email address</label>
+						<input id="input-email" type="text">
+					</div>
+				</div>
+				<div class="center"><a id="send-demo" href="#">SEND DEMO REQUEST</a></div>
+			</div>
+			<div class="finished">
+				<h3 class="white">Thank you!</h3>
+				<p class="white success">Your form has been sent successfully.</p>
+				<div class="center"><a id="send-another" href="#">SEND ANOTHER MESSAGE</a></div>
+			</div>
     </div>
   </div>
 

@@ -137,7 +137,7 @@ header {
             text-decoration: none;
 
             &:hover {
-              color: #555;
+              color: #fff;
             }
           }
         }
@@ -712,6 +712,9 @@ $zen-columns: 3;
     margin-right: auto;
     text-align: center;
     padding-bottom: 64px;
+    &.success {
+      padding-bottom: 0px;
+    }
   }
 
   label {
@@ -741,6 +744,10 @@ $zen-columns: 3;
     font-family: CoreSansA55;
     font-size: 14px;
     font-weight: 500;
+  }
+
+  .finished {
+    display: none;
   }
 }
 

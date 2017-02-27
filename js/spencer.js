@@ -98,11 +98,23 @@ $(document).ready(function(){
 			url: "mail.php",
 			data: data,
 			success: function(response) {
-        //$('.success').fadeIn(1000);
+        if(response == 1) {
+          $('.unfinished').fadeOut(400, function() {
+            $('.finished').fadeIn();
+          });
+        }
 				console.log(response);
      	}
 		});
 		
 		return false;
 	});
+
+  $('#send-another').click(function() {
+     $('.finished').fadeOut(400, function() {
+      $('.unfinished').fadeIn();
+    });
+
+    return false;
+  })
 });
