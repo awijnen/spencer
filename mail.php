@@ -5,7 +5,7 @@
   $function = $_POST['funct'];
   $email = $_POST['email'];
 	
-	$to      = 'michel@michel-akoya.be';
+	$to      = 'michel@minesco.be';
 	$subject = 'Spencer demo request';
 	$message = 'name: ' . $name . "\r\n" .
 		'company: ' . $company . "\r\n" .
