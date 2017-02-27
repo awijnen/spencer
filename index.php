@@ -457,7 +457,7 @@
     <div id="hiring-container" class="content">
       <h3 class="white">Spencer is hiring!</h3>
       <p class="white">Does this sound like your kind of team? Spencer is looking for more help! Take a look at our openings, and get in touch...</p>
-      <p><a href="https://spencer.workable.com">JOIN THE TEAM</a></p>
+      <p><a href="https://spencer.workable.com" target="_blank">JOIN THE TEAM</a></p>
     </div>
   </div>
 
@@ -518,7 +518,7 @@
         </div>
         <div class="col-4">
           <div id="social-icons">
-            <a href="https://www.facebook.com/spencerapp"><img src="images/ico_social_facebook.png" alt="facebook"></a>
+            <a href="https://www.facebook.com/spencerapp" target="_blank"><img src="images/ico_social_facebook.png" alt="facebook"></a>
             <a href="https://twitter.com/spencer_works" target="_blank"><img src="images/ico_social_twitter.png" alt="twitter"></a>
             <a href="https://www.linkedin.com/company/spencer.co" target="_blank"><img src="images/ico_social_linkedin.png" alt="linkedin"></a>
           </div>
