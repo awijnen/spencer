@@ -725,10 +725,15 @@ $zen-columns: 3;
   }
 
   input {
-    width: 100%;
+    width: 97%;
     height: 42px;
     border: 1px solid #fff;
     border-radius: 3px;
+    padding-left: 3%;
+
+    &.error {
+      border: 2px solid #f00;
+    }
   }
 
   a {
@@ -925,9 +930,6 @@ h5 {
               display: block;
               padding-top: 20px;
               padding-bottom: 20px;
-              &.nav-contact {
-                display: none;
-              }
             }
           }
         }
@@ -1187,10 +1189,14 @@ h5 {
       font-size: 36px;
     }
   }
-
-  #nav-contact {
-    display: none;
-   }
+  
+  #contact-container {
+    .col-1, .col-2 {
+      .col-1, .col-2 {
+        margin: 16px 0px 0px 0px;
+      }
+    }
+  }
 
   #footer {
     padding-bottom: 144px;

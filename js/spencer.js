@@ -92,20 +92,33 @@ $(document).ready(function(){
 			funct: $("#input-funct").val(),
 			email: $("#input-email").val(),
 		};
+
+    error = 0;
+    $('#nav-contact input').each(function() {
+      $(this).removeClass('error');
+      if($(this).val() == '') {
+        error = 1;
+        $(this).addClass('error');
+      }
+    });
 		
-		$.ajax({
-		  type: "POST",
-			url: "mail.php",
-			data: data,
-			success: function(response) {
-        if(response == 1) {
-          $('.unfinished').fadeOut(400, function() {
-            $('.finished').fadeIn();
-          });
+    if(error == 0) {
+      $.ajax({
+        type: "POST",
+        url: "mail.php",
+        data: data,
+        success: function(response) {
+          if(response == 1) {
+            $('.unfinished').fadeOut(400, function() {
+              $('.finished').fadeIn();
+              $('#nav-contact input').each(function() {
+                $(this).val('');
+              });
+            });
+          }
         }
-				console.log(response);
-     	}
-		});
+      });
+    }
 		
 		return false;
 	});
