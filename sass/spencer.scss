@@ -24,27 +24,32 @@
 }
 
 @mixin video-button() {
-  text-decoration: none;
   border: 2px solid #fff;
   border-radius: 3px;
-  font-family: CoreSansA55;
-  font-size: 14px;
-  line-height: 14px;
   display: inline-block;
-  color: #383737;
   padding: 10px 24px;
-  background-color: #fff;
-  vertical-align: middle;
-  height: 20px;
   margin-bottom: 16px;
   text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  height: 20px;
+
+  a {
+    font-size: 14px;
+    display: inline !important;
+    vertical-align: text-bottom;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: CoreSansA55;
+    color: #383737;
+  }
 
 	.video-icon {
     display: inline-block;
     width: 28px;
     height: 20px;
-    background: url(../images/ico_video.png) no-repeat left center #fff;
-    vertical-align: text-bottom;
+    background: url(../images/ico_video.png) no-repeat center left #fff;
+    vertical-align: middle;
 	} 
 }
 
@@ -52,7 +57,8 @@
   line-height: 14px !important;
   vertical-align: middle;
   height: 20px;
-  padding: 15px 24px 5px 24px;
+  padding: 14px 24px 6px 24px;
+  display: inline-block;
 }
 
 $spencer-blue: #3aacd2;
@@ -173,12 +179,6 @@ $zen-columns: 2;
       border-radius: 3px;
       font-family: CoreSansA55;
       font-size: 14px;
-      line-height: 20px;
-      display: inline-block;
-    }
-
-    #play-video {
-      @include video-button();
     }
 
     #read-announcement {
@@ -292,7 +292,7 @@ $zen-columns: 2;
   }
 }
 
-.video-button {
+.button-wrapper {
   @include video-button();  
 }
 
@@ -946,9 +946,8 @@ h5 {
     padding-right: 34px;
   }
 
-  .video-button {
-    padding: 12px 24px !important;
-    height: 20px;
+  .button-wrapper {
+    display: block
   }
 
   #intro {
@@ -1032,10 +1031,8 @@ h5 {
           }
         }
 
-        .video-button {
+        .button-wrapper {
           display: block;
-          padding: 12px 24px;
-          height: 20px;
         }
       }
       
