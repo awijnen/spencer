@@ -59,7 +59,7 @@
         <h1>Spencer is your mobile workplace assistant</h1>
         <p>Making your workplace community more engaged, efficient and productive by making the tools you trust work together.</p>
         <div id="intro-buttons">
-          <div class="button-wrapper"><span class="video-icon"></span><a id="play-video" class="video-button" href="https://player.vimeo.com/video/155675959?autoplay=1&color=3AACD2">PLAY VIDEO</a></div>
+          <a id="play-video" class="video-button" href="https://player.vimeo.com/video/155675959?autoplay=1&color=3AACD2"><span class="video-icon"></span><span class="video-text">PLAY VIDEO</span></a>
           <a id="read-announcement" class="button" href="#">READ ANNOUNCEMENT</a>
         </div>
       </div>
@@ -141,7 +141,7 @@
           <div class="func-slide func-hr">
             <p class="white">Spencer handles everything: from scheduling holidays and automatically turning on your Out Of Office to calling in sick and uploading your doctor’s note. HR will never be out of the loop again!</p>
             <b>SHOWCASE</b>
-            <div class="button-wrapper"><span class="video-icon"></span><a class="video-button func-video-button" name="hr-request-holiday" href="video/hr-request-holiday.mp4">REQUEST HOLIDAY</a></div>
+            <div><a class="video-button func-video-button" name="hr-request-holiday" href="video/hr-request-holiday.mp4"><span class="video-icon"></span><span class="video-text">REQUEST HOLIDAY</span></a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Ask sick leave</span>
             <span class="feature">Submit doctor's note</span>
@@ -160,7 +160,7 @@
           <div class="func-slide func-org">
             <p class="white">Spencer keeps track of everyone in your organisation. Need the phone number for that one designer in Marketing? Spencer will help you find and contact people. And he’ll also keep you posted if your fellow team members are out of the office.</p>
             <b>SHOWCASE</b>
-            <div class="button-wrapper"><span class="video-icon"></span><a class="video-button func-video-button" name="organization-contactinfo" href="video/organization-contactinfo.mp4">COWORKER'S CONTACT INFO</a></div>
+            <div><a class="video-button func-video-button" name="organization-contactinfo" href="video/organization-contactinfo.mp4"><span class="video-icon"></span><span class="video-text">COWORKER'S CONTACT INFO</span></a></div>
             <b>MORE FEATURES</b>
             <span class="feature">My shift</span>
             <span class="feature">My team holiday</span>
@@ -171,9 +171,9 @@
             <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access.</p>
             <b>SHOWCASE</b>
             <div>
-              <div class="button-wrapper"><span class="video-icon"></span><a class="video-button func-video-button" name="facilities-book-meeting-room" href="video/facilities-book-meeting-room.mp4">BOOK MEETING ROOM</a> </div>
-              <div class="button-wrapper"><span class="video-icon"></span><a class="video-button func-video-button" name="facilities-report-issue" href="video/facilities-report-issue.mp4">REPORT ISSUE</a></div>
-						</div>
+              <a class="video-button func-video-button" name="facilities-book-meeting-room" href="video/facilities-book-meeting-room.mp4"><span class="video-icon"></span><span class="video-text">BOOK MEETING ROOM<span></a>
+              <a class="video-button func-video-button" name="facilities-report-issue" href="video/facilities-report-issue.mp4"><span class="video-icon"></span><span class="video-text">REPORT ISSUE</span></a>
+            </div>
             <b>MORE FEATURES</b>
             <span class="feature">Time tracking</span>
           </div>
@@ -181,7 +181,7 @@
           <div class="func-slide func-hosp">
             <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
             <b>SHOWCASE</b>
-            <div class="button-wrapper"><span class="video-icon"></span><a class="video-button func-video-button" name="hospitality-client-version" href="video/hospitality-client-version.mp4">CLIENT VERSION</a></div>
+            <div><a class="video-button func-video-button" name="hospitality-client-version" href="video/hospitality-client-version.mp4"><span class="video-icon"></span><span class="video-text">CLIENT VERSION</span></a></div>
             <b>MORE FEATURES</b>
             <span class="feature">Guest WiFi access</span>
             <span class="feature">Digital business card</span>
@@ -190,7 +190,9 @@
           <div class="func-slide func-fin">
             <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
             <b>SHOWCASE</b>
-              <div class="button-wrapper"><span class="video-icon"></span><a class="video-button func-video-button" name="finance-submit-expense" href="video/finance-submit-expense.mp4">SUBMIT EXPENSE</a></div>
+            <div>
+              <a class="video-button func-video-button" name="finance-submit-expense" href="video/finance-submit-expense.mp4"><span class="video-icon"></span><span class="video-text">SUBMIT EXPENSE</span></a>
+            </div>
             <b>MORE FEATURES</b>
             <span class="feature">Approve purchase request</span>
             <span class="feature">Approve purchase order</span>
