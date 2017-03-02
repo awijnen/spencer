@@ -274,7 +274,7 @@
         </div>
         <div class="col-2 col">
           <div class="col-content">
-            <h4>Tailored to your organization</h4>
+            <h4>Tailored to your organisation</h4>
             <p>Spencer adapts to the needs of your enterprise, respecting operational flows and procedures – and your style manual.</p>
           </div>
         </div>
