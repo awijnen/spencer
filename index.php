@@ -22,14 +22,14 @@
 	<link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
 	<script type="text/javascript" src="js/fancyBox/source/jquery.fancybox.pack.js?v=2.1.6"></script>
 
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" /> 
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 </head>
 <body>
-<?php 
+<?php
   $image = new Image;
   echo $image->getImages();
 ?>
-<header> 
+<header>
   <div id="navigation-wrapper">
     <div id="logo-wrapper">
       <div id="logo">
@@ -186,9 +186,9 @@
             <span class="feature">Guest WiFi access</span>
             <span class="feature">Digital business card</span>
           </div>
-          
+
           <div class="func-slide func-fin">
-            <p class="white">Organise tasks, follow up projects, perform and monitor requests from your existing project management tools. Spencer allows you to stay up to date and run your day, from wherever you are.</p>
+            <p class="white">File your expense reports and get smoother approvals for your purchase orders. Spencer allows you to take action in seconds while you run your day, wherever you are.</p>
             <b>SHOWCASE</b>
             <div>
               <a class="video-button func-video-button" name="finance-submit-expense" href="video/finance-submit-expense.mp4"><span class="video-icon"></span><span class="video-text">SUBMIT EXPENSE</span></a>
@@ -214,13 +214,13 @@
       <div class="col-1">
         <h3>Spencer is an intelligent cloud layer that communicates with all your industry solutions.</h3>
         <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
-      </div>  
+      </div>
       <div class="col-2">
         <video width="100%" autoplay loop>
           <source src="video/cloud.mp4" type="video/mp4">
         </video>
       </div>
-    </div>  
+    </div>
   </div>
 
   <div class="content-container blue">
@@ -408,7 +408,7 @@
       </div>
     </div>
   </div>
-  
+
   <div id="nav-about" class="content-container">
     <div id="team-container" class="content">
       <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
