@@ -163,7 +163,6 @@
             <b>MORE FEATURES</b>
             <span class="feature">My shift</span>
             <span class="feature">My team holiday</span>
-            <span class="feature">Organizational chart</span>
           </div>
 
           <div class="func-slide func-fac">
