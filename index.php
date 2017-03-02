@@ -191,7 +191,6 @@
               <a class="video-button func-video-button" name="finance-submit-expense" href="video/finance-submit-expense.mp4"><span class="video-icon"></span><span class="video-text">SUBMIT EXPENSE</span></a>
             </div>
             <b>MORE FEATURES</b>
-            <span class="feature">Approve purchase request</span>
             <span class="feature">Approve purchase order</span>
           </div>
         </div>
