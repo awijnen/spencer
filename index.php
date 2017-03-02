@@ -178,7 +178,7 @@
           </div>
 
           <div class="func-slide func-hosp">
-            <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards to your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
+            <p class="white">Spencer is there for your employees, but also for your guests! The app makes it easy to exchange digital contact cards with your meeting invitees, and he’ll get everyone up and running on your guest WiFi.</p>
             <b>SHOWCASE</b>
             <div><a class="video-button func-video-button" name="hospitality-client-version" href="video/hospitality-client-version.mp4"><span class="video-icon"></span><span class="video-text">CLIENT VERSION</span></a></div>
             <b>MORE FEATURES</b>
