@@ -133,7 +133,7 @@
           <ul>
             <li><a name="func-hr" href="#" class="active">HR</a></li>
             <li><a name="func-comm" href="#">COMMUNICATION</a></li>
-            <li><a name="func-org" href="#">ORGANIZATION</a></li>
+            <li><a name="func-org" href="#">ORGANISATION</a></li>
             <li><a name="func-fac" href="#">FACILITIES</a></li>
             <li><a name="func-hosp" href="#">HOSPITALITY</a></li>
             <li><a name="func-fin" href="#">FINANCE</a></li>
@@ -157,7 +157,7 @@
           </div>
 
           <div class="func-slide func-org">
-            <p class="white">Spencer keeps track of everyone in your organisation. Need the phone number for that one designer in Marketing? Spencer will help you find and contact people. And he’ll also keep you posted if your fellow team members are out of the office.</p>
+            <p class="white">Spencer is connected to everyone in your organisation. Need the phone number for that one designer in Marketing? Spencer will help you find and contact people. And he’ll also keep you posted if your fellow team members are out of the office.</p>
             <b>SHOWCASE</b>
             <div><a class="video-button func-video-button" name="organization-contactinfo" href="video/organization-contactinfo.mp4"><span class="video-icon"></span><span class="video-text">ORGANISATIONAL CHART</span></a></div>
             <b>MORE FEATURES</b>
