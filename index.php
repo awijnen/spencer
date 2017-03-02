@@ -145,7 +145,6 @@
             <b>MORE FEATURES</b>
             <span class="feature">Ask sick leave</span>
             <span class="feature">Submit doctor's note</span>
-            <span class="feature">Check vacation days</span>
             <span class="feature">Work from home</span>
           </div>
 
