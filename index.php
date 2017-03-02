@@ -331,7 +331,7 @@
           <div id="ref-deme-container" class="container-2 ref-container">
             <div class="col-1">
               <b>DEME Dredging</b>
-              <p>DEME came to November Five to start drawing up an internal employee engagement app that would help with communication and HR processes. Spencer turned out to be a perfect fit! He will be the starting point of a much larger digital transformation at this world-leading dredging company.</p>
+              <p>DEME came to us to start drawing up an internal employee engagement app that would help with communication and HR processes. Spencer turned out to be a perfect fit! He will be the starting point of a much larger digital transformation at this world-leading dredging company.</p>
               <p class="quote">“At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.”</p>
               <div class="testimonial-person deme">
                 <div class="person-name">Philip Hermans</div>
