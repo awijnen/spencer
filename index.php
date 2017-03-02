@@ -301,7 +301,7 @@
           <div id="ref-telenet-container" class="container-2 ref-container">
             <div class="col-1">
               <b>Telenet Group</b>
-              <p>Spencer took his first steps at Telenet Group, helping them drive engagement. Spencer’s now facilitating both internal communication, hospitality services for guests, HR workflows and facilities.</p>
+              <p>Spencer took his first steps at Telenet Group, helping them increase employee engagement and productivity. Spencer’s now facilitating both internal communication, hospitality services for guests, HR workflows and facilities.</p>
               <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
               <div class="testimonial-person telenet">
                 <div class="person-name">Claudia Poels</div>
