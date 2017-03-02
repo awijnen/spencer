@@ -149,7 +149,7 @@
           </div>
 
           <div class="func-slide func-comm">
-            <p class="white">When each employee carries Spencer in his or her pocket, engagement and internal communications become a lot easier. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
+            <p class="white">With Spencer in every employee's pocket, your internal communications get a boost in engagement – after all, we check our phones roughly 80 times per day. Make sure everyone stays on top of important news and send out simple, quick surveys and polls. Oh, and he can also tell you what’s for lunch.</p>
             <b>FEATURES</b>
             <span class="feature">Company news</span>
             <span class="feature">Lunch menu</span>
