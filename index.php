@@ -167,7 +167,7 @@
           </div>
 
           <div class="func-slide func-fac">
-            <p class="white">Spencer helps you keep track of things around your offices – from meeting rooms and technical issues to Wi-Fi access.</p>
+            <p class="white">Realise you need a meeting room while you're already leading your guests to the elevator? Another issue with that printer down the hall whose ID number you can never remember? Spencer can help! He'll tell you which rooms are available, and can simply log that printer ticket for you.</p>
             <b>SHOWCASE</b>
             <div>
               <a class="video-button func-video-button" name="facilities-book-meeting-room" href="video/facilities-book-meeting-room.mp4"><span class="video-icon"></span><span class="video-text">BOOK MEETING ROOM<span></a>
