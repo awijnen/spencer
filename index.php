@@ -159,7 +159,7 @@
           <div class="func-slide func-org">
             <p class="white">Spencer keeps track of everyone in your organisation. Need the phone number for that one designer in Marketing? Spencer will help you find and contact people. And he’ll also keep you posted if your fellow team members are out of the office.</p>
             <b>SHOWCASE</b>
-            <div><a class="video-button func-video-button" name="organization-contactinfo" href="video/organization-contactinfo.mp4"><span class="video-icon"></span><span class="video-text">COWORKER'S CONTACT INFO</span></a></div>
+            <div><a class="video-button func-video-button" name="organization-contactinfo" href="video/organization-contactinfo.mp4"><span class="video-icon"></span><span class="video-text">ORGANISATIONAL CHART</span></a></div>
             <b>MORE FEATURES</b>
             <span class="feature">My shift</span>
             <span class="feature">My team holiday</span>
