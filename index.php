@@ -127,7 +127,7 @@
 
   <div  id="nav-solution" class="content-container blue">
     <div class="content functionality">
-      <h5>Spencer presents familiar info and functionality in a new workflow, cutting the clutter from your workday.</h5>
+      <h5>Spencer presents familiar info and functionality in a simplified workflow, cutting the clutter from your workday.</h5>
       <div id="functionality">
         <div class="col-1">
           <ul>
