@@ -46,6 +46,15 @@ $(document).ready(function(){
     $('#functionality li a').removeClass('active');
     var name = $(this).attr('name');
     $(this).addClass('active');
+    $('#feature-video').removeClass();
+    $('#feature-video').addClass(name);
+    
+    player = $('#feature-video-player').get(0);
+    source = $('#feature-video-source').get(0);
+    player.pause();
+    source.src = '';
+    player.load();
+
     $('.func-slide').hide();
     $('.' + name).show();
     return false;

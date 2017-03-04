@@ -1,4 +1,4 @@
-<?php include 'classes.inc'; ?>
+<?php //include 'classes.inc'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +13,7 @@
 	<link href="/stylesheets/spencer.css" media="screen, projection" rel="stylesheet" type="text/css" />
   <title>Spencer | Your mobile workplace assistant</title>
   <link rel="shortcut icon" href="favicon.ico" />
+	<script type="text/javascript" src="js/lazysizes/lazysizes.min.js" async=""></script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/headroom.min.js"></script>
@@ -26,17 +27,16 @@
 </head>
 <body>
 <?php
-  $image = new Image;
-  echo $image->getImages();
+  //$image = new Image;
+  //echo $image->getImages();
 ?>
 <header>
   <div id="navigation-wrapper">
     <div id="logo-wrapper">
       <div id="logo">
-        <a class="nav-item" href="#body-wrapper"><svg class="icon logo-spencer" data-0="fill:rgb(255,255,255);" data-300="fill:rgb(58,172,210);">
-          <use xlink:href="#logo-spencer">
-        </svg></a>
-        <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.png"></a></div>
+        <a class="nav-item" href="#body-wrapper">
+					<img src="images/logo_spencer.svg" alt="logo" class="icon logo-spencer"></a>
+        <div id="mobile-nav-icon"><a href="#"><img src="images/mobile-nav.svg"></a></div>
       </div>
     </div>
     <nav id="navigation">
@@ -64,7 +64,10 @@
         </div>
       </div>
       <div class="col-2">
-        <img src="images/img_header.png" alt="smartphone">
+				<img
+					data-sizes="auto"
+					data-src="images/img_header.png"
+					data-srcset="images/img_header.png 300w, images/img_header@2x.png 600w" class="lazyload" />
       </div>
     </div>
   </div>
@@ -72,7 +75,12 @@
 	<div class="content-container grey">
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
-        <div class="testimonial-logo"><img src="images/img_logo_proximus_full.png"></div>
+        <div class="testimonial-logo">
+          <img
+						data-sizes="auto"
+						data-src="images/img_logo_proximus_full.png"
+						data-srcset="images/img_logo_proximus_full.png 300w, images/img_logo_proximus_full@2x.png 600w" class="lazyload" />
+        </div>
         <div class="testimonial-content"><h2>At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.</h2></div>
         <div class="testimonial-person proximus">
           <div class="person-name">Serge Peeters</div>
@@ -80,7 +88,12 @@
         </div>
       </div>
       <div class="carousel-slide">
-        <div class="testimonial-logo"><img src="images/img_logo_telenet_full.png"></div>
+        <div class="testimonial-logo">
+					<img
+							data-sizes="auto"
+							data-src="images/img_logo_telenet_full.png"
+							data-srcset="images/img_logo_telenet_full.png 300w, images/img_logo_telenet_full@2x.png 600w" class="lazyload" />
+				</div>	
         <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testimonial-person telenet">
           <div class="person-name">Claudia Poels</div>
@@ -88,7 +101,12 @@
         </div>
       </div>
       <div class="carousel-slide">
-        <div class="testimonial-logo"><img src="images/img_logo_deme_full.png"></div>
+        <div class="testimonial-logo">
+					<img
+							data-sizes="auto"
+							data-src="images/img_logo_deme_full.png"
+							data-srcset="images/img_logo_deme_full.png 300w, images/img_logo_deme_full@2x.png 600w" class="lazyload" />
+				</div>	
         <div class="testimonial-content"><h2>At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.</h2></div>
         <div class="testimonial-person deme">
           <div class="person-name">Philip Hermans</div>
@@ -194,9 +212,9 @@
           </div>
         </div>
         <div class="col-2">
-          <div id="feature-video" class="video">
+          <div id="feature-video" class="func-hr">
             <video id="feature-video-player" width="262">
-              <source id="feature-video-source" src="video/hr-request-holiday.mp4" type="video/mp4">
+              <source id="feature-video-source" src="" type="video/mp4">
             </video>
           </div>
         </div>
@@ -222,9 +240,18 @@
     <div class="content">
       <div id="mobile-app" class="container-2">
         <div class="col-1">
-          <img src="images/img_cards.png" alt="cards" class="card-l card">
-          <img src="images/img_cards_s.png" alt="cards" class="card-m card">
-          <img src="images/img_cards_xs.png" alt="cards" class="card-s card">
+					<img
+						data-sizes="auto"
+						data-src="images/img_cards.png"
+						data-srcset="images/img_cards.png 300w, images/img_cards@2x.png 600w" class="lazyload card-l card" />	
+					<img
+						data-sizes="auto"
+						data-src="images/img_cards_s.png"
+						data-srcset="images/img_cards_s.png 300w, images/img_cards_s@2x.png 600w" class="lazyload card-m card" />
+					<img
+						data-sizes="auto"
+						data-src="images/img_cards_xs.png"
+						data-srcset="images/img_cards_xs.png 300w, images/img_cards_xs@2x.png 600w" class="lazyload card-s card" />
         </div>
         <div class="col-2">
           <div class="mobile-app-content">
@@ -309,7 +336,10 @@
               </div>
             </div>
             <div class="col-2">
-              <img src="images/img_showcase_telenet.png" alt="telenet">
+							<img
+								data-sizes="auto"
+								data-src="images/img_showcase_telenet.png"
+								data-srcset="images/img_showcase_telenet.png 300w, images/img_showcase_telenet@2x.png 600w" class="lazyload" />	
             </div>
           </div>
 
@@ -324,7 +354,10 @@
               </div>
             </div>
             <div class="col-2">
-              <img src="images/img_showcase_proximus.png" alt="proximus">
+							<img
+								data-sizes="auto"
+								data-src="images/img_showcase_proximus.png"
+								data-srcset="images/img_showcase_proximus.png 300w, images/img_showcase_proximus@2x.png 600w" class="lazyload" />	
             </div>
           </div>
 
@@ -339,7 +372,10 @@
               </div>
             </div>
             <div class="col-2">
-              <img src="images/img_showcase_deme.png" alt="deme">
+							<img
+								data-sizes="auto"
+								data-src="images/img_showcase_deme.png"
+								data-srcset="images/img_showcase_deme.png 300w, images/img_showcase_deme@2x.png 600w" class="lazyload" />	
             </div>
           </div>
 
@@ -406,7 +442,8 @@
 
   <div id="nav-about" class="content-container">
     <div id="team-container" class="content">
-      <div class="center"><img src="images/img_logo_novemberfive.png" alt="november five"></div>
+      <div class="center">
+			<img src="images/img_logo_novemberfive.svg" alt="november five"></div>
       <h3>Hatched & nurtured at November Five, Spencer is ready to fly!</h3>
       <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
       <div id="team" class="container-2">
@@ -501,7 +538,7 @@
     <div class="content">
       <div id="footer">
         <div class="col-1">
-          <img src="images/logo_spencer_footer.png" alt="spencer logo">
+          <img src="images/logo_spencer_footer.svg" alt="spencer logo">
         </div>
         <div class="col-2">
           <b>Antwerp HQ</b>
@@ -513,9 +550,9 @@
         </div>
         <div class="col-4">
           <div id="social-icons">
-            <a href="https://www.facebook.com/spencerapp" target="_blank"><img src="images/ico_social_facebook.png" alt="facebook"></a>
-            <a href="https://twitter.com/spencer_works" target="_blank"><img src="images/ico_social_twitter.png" alt="twitter"></a>
-            <a href="https://www.linkedin.com/company/spencer.co" target="_blank"><img src="images/ico_social_linkedin.png" alt="linkedin"></a>
+            <a href="https://www.facebook.com/spencerapp" target="_blank"><img src="images/ico_social_facebook.svg" alt="facebook"></a>
+            <a href="https://twitter.com/spencer_works" target="_blank"><img src="images/ico_social_twitter.svg" alt="twitter"></a>
+            <a href="https://www.linkedin.com/company/spencer.co" target="_blank"><img src="images/ico_social_linkedin.svg" alt="linkedin"></a>
           </div>
         </div>
       </div>
