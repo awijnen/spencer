@@ -34,6 +34,7 @@
   <meta property="og:description" content="Making your workplace community more engaged, efficient and productive by making the tools you trust work together." />
 
   <meta name="msapplication-config" content="browserconfig.xml" />
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
 <?php
