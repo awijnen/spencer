@@ -33,6 +33,7 @@
   <meta property="og:site_name" content="Spencer is your mobile workplace assistant" />
   <meta property="og:description" content="Making your workplace community more engaged, efficient and productive by making the tools you trust work together." />
 
+  <meta name="msapplication-config" content="browserconfig.xml" />
 </head>
 <body>
 <?php
