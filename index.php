@@ -27,7 +27,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.spencer.co" />
   <meta property="og:title" content="Spencer is your digital workplace assistant" />
-  <meta property="og:image" content="/images/share-image.png" />
+  <meta property="og:image" content="http://spencer.devshop.be/images/share-image.png" />
+  <meta property="og:image:secure_url" content="https://spencerco.webhosting.be/images/share-image.png" />
+  <meta property="og:image:type" content="image/png" />
   <meta property="og:site_name" content="Spencer is your digital workplace assistant" />
   <meta property="og:description" content="Making your workplace community more engaged, efficient and productive by making the tools you trust work together." />
 
@@ -100,7 +102,7 @@
 							data-sizes="auto"
 							data-src="images/img_logo_telenet_full.png"
 							data-srcset="images/img_logo_telenet_full.png 300w, images/img_logo_telenet_full@2x.png 600w" class="lazyload" />
-				</div>	
+				</div>
         <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testimonial-person telenet">
           <div class="person-name">Claudia Poels</div>
@@ -113,7 +115,7 @@
 							data-sizes="auto"
 							data-src="images/img_logo_deme_full.png"
 							data-srcset="images/img_logo_deme_full.png 300w, images/img_logo_deme_full@2x.png 600w" class="lazyload" />
-				</div>	
+				</div>
         <div class="testimonial-content"><h2>At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.</h2></div>
         <div class="testimonial-person deme">
           <div class="person-name">Philip Hermans</div>
@@ -250,7 +252,7 @@
 					<img
 						data-sizes="auto"
 						data-src="images/img_cards.png"
-						data-srcset="images/img_cards.png 300w, images/img_cards@2x.png 600w" class="lazyload card-l card" />	
+						data-srcset="images/img_cards.png 300w, images/img_cards@2x.png 600w" class="lazyload card-l card" />
 					<img
 						data-sizes="auto"
 						data-src="images/img_cards_s.png"
@@ -346,7 +348,7 @@
 							<img
 								data-sizes="auto"
 								data-src="images/img_showcase_telenet.png"
-								data-srcset="images/img_showcase_telenet.png 300w, images/img_showcase_telenet@2x.png 600w" class="lazyload" />	
+								data-srcset="images/img_showcase_telenet.png 300w, images/img_showcase_telenet@2x.png 600w" class="lazyload" />
             </div>
           </div>
 
@@ -364,7 +366,7 @@
 							<img
 								data-sizes="auto"
 								data-src="images/img_showcase_proximus.png"
-								data-srcset="images/img_showcase_proximus.png 300w, images/img_showcase_proximus@2x.png 600w" class="lazyload" />	
+								data-srcset="images/img_showcase_proximus.png 300w, images/img_showcase_proximus@2x.png 600w" class="lazyload" />
             </div>
           </div>
 
@@ -382,7 +384,7 @@
 							<img
 								data-sizes="auto"
 								data-src="images/img_showcase_deme.png"
-								data-srcset="images/img_showcase_deme.png 300w, images/img_showcase_deme@2x.png 600w" class="lazyload" />	
+								data-srcset="images/img_showcase_deme.png 300w, images/img_showcase_deme@2x.png 600w" class="lazyload" />
             </div>
           </div>
 
