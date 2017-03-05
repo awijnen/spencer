@@ -1969,110 +1969,148 @@ h5.left {
   }
   /* line 1689, ../sass/spencer.scss */
   #testimonials .testimonial-content {
-    background: url(../images/img_quote_2@x2x.png), url(../images/img_quote@2x.png);
+    background: url(../images/img_quote_2@2x.png), url(../images/img_quote@2x.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    background-size: 80px 56px;
+  }
+  /* line 1697, ../sass/spencer.scss */
+  #testimonials .testimonial-logo img {
+    height: 32px;
   }
 
-  /* line 1695, ../sass/spencer.scss */
+  /* line 1703, ../sass/spencer.scss */
   #functionality #feature-video {
     background: url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 292px 613px !important;
+  }
+  /* line 1707, ../sass/spencer.scss */
+  #functionality #feature-video.func-hr {
+    background: url(../images/img_video_placeholder_holiday@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 262px 465px, 292px 613px !important;
+  }
+  /* line 1711, ../sass/spencer.scss */
+  #functionality #feature-video.func-comm {
+    background: url(../images/img_video_placeholder_communication@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 262px 465px, 292px 613px !important;
+  }
+  /* line 1715, ../sass/spencer.scss */
+  #functionality #feature-video.func-org {
+    background: url(../images/img_video_placeholder_coworkerinfo@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 262px 465px, 292px 613px !important;
+  }
+  /* line 1719, ../sass/spencer.scss */
+  #functionality #feature-video.func-fac {
+    background: url(../images/img_video_placeholder_meeting@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 262px 465px, 292px 613px !important;
+  }
+  /* line 1723, ../sass/spencer.scss */
+  #functionality #feature-video.func-hosp {
+    background: url(../images/img_video_placeholder_clientversion@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 262px 465px, 292px 613px !important;
+  }
+  /* line 1727, ../sass/spencer.scss */
+  #functionality #feature-video.func-fin {
+    background: url(../images/img_video_placeholder_expense@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+    background-size: 262px 465px, 292px 613px !important;
   }
 
-  /* line 1702, ../sass/spencer.scss */
+  /* line 1737, ../sass/spencer.scss */
   #references #references-navigation a {
     background-size: 48px 48px !important;
   }
-  /* line 1706, ../sass/spencer.scss */
+  /* line 1741, ../sass/spencer.scss */
   #references #references-navigation .col-1 a {
     background: url(../images/img_logo_telenet@2x.png) no-repeat center center;
   }
-  /* line 1708, ../sass/spencer.scss */
+  /* line 1743, ../sass/spencer.scss */
   #references #references-navigation .col-1 a.active {
     background: url(../images/img_logo_telenet_active@2x.png) no-repeat center center #f6f6f6;
   }
-  /* line 1714, ../sass/spencer.scss */
+  /* line 1749, ../sass/spencer.scss */
   #references #references-navigation .col-2 a {
     background: url(../images/img_logo_proximus@2x.png) no-repeat center center;
   }
-  /* line 1716, ../sass/spencer.scss */
+  /* line 1751, ../sass/spencer.scss */
   #references #references-navigation .col-2 a.active {
     background: url(../images/img_logo_proximus_active@2x.png) no-repeat center center #f6f6f6;
   }
-  /* line 1722, ../sass/spencer.scss */
+  /* line 1757, ../sass/spencer.scss */
   #references #references-navigation .col-3 a {
     background: url(../images/img_logo_deme@2x.png) no-repeat center center;
   }
-  /* line 1724, ../sass/spencer.scss */
+  /* line 1759, ../sass/spencer.scss */
   #references #references-navigation .col-3 a.active {
     background: url(../images/img_logo_deme_active@2x.png) no-repeat center center #f6f6f6;
   }
 
-  /* line 1734, ../sass/spencer.scss */
+  /* line 1769, ../sass/spencer.scss */
   #team-container #team .member {
     background-size: 56px 56px !important;
   }
-  /* line 1737, ../sass/spencer.scss */
+  /* line 1772, ../sass/spencer.scss */
   #team-container #team .maarten {
     background: url(../images/img_avatar_maartenraemdonck@2x.png) no-repeat left top;
   }
-  /* line 1740, ../sass/spencer.scss */
+  /* line 1775, ../sass/spencer.scss */
   #team-container #team .tom {
     background: url(../images/img_avatar_tomvroemans@2x.png) no-repeat left top;
   }
-  /* line 1743, ../sass/spencer.scss */
+  /* line 1778, ../sass/spencer.scss */
   #team-container #team .robin {
     background: url(../images/img_avatar_robinvdbergh@2x.png) no-repeat left top;
   }
-  /* line 1746, ../sass/spencer.scss */
+  /* line 1781, ../sass/spencer.scss */
   #team-container #team .anthony {
     background: url(../images/img_avatar_anthonywijnen@2x.png) no-repeat left top;
   }
-  /* line 1749, ../sass/spencer.scss */
+  /* line 1784, ../sass/spencer.scss */
   #team-container #team .yannick {
     background: url(../images/img_avatar_yannickbontemps@2x.png) no-repeat left top;
   }
-  /* line 1752, ../sass/spencer.scss */
+  /* line 1787, ../sass/spencer.scss */
   #team-container #team .christophe {
     background: url(../images/img_avatar_christophesmet@2x.png) no-repeat left top;
   }
-  /* line 1755, ../sass/spencer.scss */
+  /* line 1790, ../sass/spencer.scss */
   #team-container #team .kevin {
     background: url(../images/img_avatar_kevintsyen@2x.png) no-repeat left top;
   }
-  /* line 1758, ../sass/spencer.scss */
+  /* line 1793, ../sass/spencer.scss */
   #team-container #team .tomdl {
     background: url(../images/img_avatar_tomdelaet@2x.png) no-repeat left top;
   }
 
-  /* line 1764, ../sass/spencer.scss */
+  /* line 1799, ../sass/spencer.scss */
   #feature-video {
     background: url(../images/img_video_background@2x.png) no-repeat !important;
   }
-  /* line 1767, ../sass/spencer.scss */
+  /* line 1802, ../sass/spencer.scss */
   #feature-video.func-hr {
     background: url(../images/img_video_placeholder_holiday@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
     background-size: 262px 465px, 292px 613px;
   }
-  /* line 1771, ../sass/spencer.scss */
+  /* line 1806, ../sass/spencer.scss */
   #feature-video.func-comm {
     background: url(../images/img_video_placeholder_communication@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
     background-size: 262px 465px, 292px 613px;
   }
-  /* line 1775, ../sass/spencer.scss */
+  /* line 1810, ../sass/spencer.scss */
   #feature-video.func-org {
     background: url(../images/img_video_placeholder_coworkerinfo@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
     background-size: 262px 465px, 292px 613px;
   }
-  /* line 1779, ../sass/spencer.scss */
+  /* line 1814, ../sass/spencer.scss */
   #feature-video.func-fac {
     background: url(../images/img_video_placeholder_meeting@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
     background-size: 262px 465px, 292px 613px;
   }
-  /* line 1783, ../sass/spencer.scss */
+  /* line 1818, ../sass/spencer.scss */
   #feature-video.func-hosp {
     background: url(../images/img_video_placeholder_clientversion@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
     background-size: 262px 465px, 292px 613px;
   }
-  /* line 1787, ../sass/spencer.scss */
+  /* line 1822, ../sass/spencer.scss */
   #feature-video.func-fin {
     background: url(../images/img_video_placeholder_expense@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
     background-size: 262px 465px, 292px 613px;

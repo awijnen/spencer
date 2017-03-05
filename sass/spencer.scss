@@ -1687,13 +1687,48 @@ h5 {
 		}
 
 		.testimonial-content {
-			background: url(../images/img_quote_2@x2x.png), url(../images/img_quote@2x.png);
-		}
+			background: url(../images/img_quote_2@2x.png), url(../images/img_quote@2x.png);
+      background-position: top left, bottom right;
+      background-repeat: no-repeat;
+      background-size: 80px 56px;
+    }
+
+
+    .testimonial-logo img {
+      height: 32px;
+    }
 	}
 
   #functionality {
     #feature-video {
       background: url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 292px 613px !important;
+      
+      &.func-hr {
+        background:  url(../images/img_video_placeholder_holiday@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+        background-size: 262px 465px, 292px 613px !important;
+      }
+      &.func-comm {
+        background:  url(../images/img_video_placeholder_communication@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+        background-size: 262px 465px, 292px 613px !important;
+      }
+      &.func-org {
+        background:  url(../images/img_video_placeholder_coworkerinfo@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+        background-size: 262px 465px, 292px 613px !important;
+      }
+      &.func-fac {
+        background:  url(../images/img_video_placeholder_meeting@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+        background-size: 262px 465px, 292px 613px !important;
+      }
+       &.func-hosp {
+        background:  url(../images/img_video_placeholder_clientversion@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+        background-size: 262px 465px, 292px 613px !important;
+      }
+      &.func-fin {
+        background:  url(../images/img_video_placeholder_expense@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+        background-size: 262px 465px, 292px 613px !important;
+      }
+
     }
   }
   
