@@ -35,6 +35,8 @@
 
   <meta name="msapplication-config" content="browserconfig.xml" />
   <link rel="manifest" href="manifest.json">
+  <link rel='mask-icon' href='safari-pinned-tab.svg' color='#3aacd2'>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 <body>
 <?php
