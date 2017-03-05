@@ -47,7 +47,7 @@
     display: inline-block;
     width: 28px;
     height: 20px;
-    background: url(../images/ico_video.png) no-repeat left center #fff;
+    background: url(../images/ico_video.svg) no-repeat left center #fff;
     vertical-align: text-bottom;
 	} 
 }
@@ -213,6 +213,7 @@ $zen-columns: 2;
     img {
       margin-left: auto;
       margin-right: auto;
+      height: 32px;
     }
   }
    
@@ -372,12 +373,40 @@ $zen-columns: 2;
         width: 100%;
       }
 
-      .video {
+      #feature-video {
         width: 292px;
+        height: 469px;
         padding: 80px 0px 64px 16px;
         margin-left: auto;
         margin-right: auto;
         background: url(../images/img_video_background.png) no-repeat;
+
+        &.func-hr {
+          background:  url(../images/img_video_placeholder_holiday.png) no-repeat 16px 80px, url(../images/img_video_background.png) no-repeat;
+          background-size: 262px 465px, 292px 613px;
+        }
+        &.func-comm {
+          background:  url(../images/img_video_placeholder_communication.png) no-repeat 16px 80px, url(../images/img_video_background.png) no-repeat;
+          background-size: 262px 465px, 292px 613px;
+        }
+        &.func-org {
+          background:  url(../images/img_video_placeholder_coworkerinfo.png) no-repeat 16px 80px, url(../images/img_video_background.png) no-repeat;
+          background-size: 262px 465px, 292px 613px;
+        }
+        &.func-fac {
+          background:  url(../images/img_video_placeholder_meeting.png) no-repeat 16px 80px, url(../images/img_video_background.png) no-repeat;
+          background-size: 262px 465px, 292px 613px;
+        }
+         &.func-hosp {
+          background:  url(../images/img_video_placeholder_clientversion.png) no-repeat 16px 80px, url(../images/img_video_background.png) no-repeat;
+          background-size: 262px 465px, 292px 613px;
+        }
+        &.func-fin {
+          background:  url(../images/img_video_placeholder_expense.png) no-repeat 16px 80px, url(../images/img_video_background.png) no-repeat;
+          background-size: 262px 465px, 292px 613px;
+        }
+
+
       }
     }
   }
@@ -425,32 +454,32 @@ $zen-columns: 2;
 
     &:nth-child(1) {
       .col-content {
-        background: url(../images/ico_resume_1.png) no-repeat left 6px;
+        background: url(../images/ico_resume_1.svg) no-repeat left 6px;
       }
     }
     &:nth-child(2) {
       .col-content {
-        background: url(../images/ico_resume_2.png) no-repeat left 6px;
+        background: url(../images/ico_resume_2.svg) no-repeat left 6px;
       }
     }
     &:nth-child(3) {
       .col-content {
-        background: url(../images/ico_resume_3.png) no-repeat left 6px;
+        background: url(../images/ico_resume_3.svg) no-repeat left 6px;
       }
     }
     &:nth-child(4) {
       .col-content {
-        background: url(../images/ico_resume_4.png) no-repeat left 6px;
+        background: url(../images/ico_resume_4.svg) no-repeat left 6px;
       }
     }
     &:nth-child(5) {
       .col-content {
-        background: url(../images/ico_resume_5.png) no-repeat left 6px;
+        background: url(../images/ico_resume_5.svg) no-repeat left 6px;
       }
     }
     &:nth-child(6) {
       .col-content {
-        background: url(../images/ico_resume_6.png) no-repeat left 6px;
+        background: url(../images/ico_resume_6.svg) no-repeat left 6px;
       }
     }
   }
@@ -471,7 +500,7 @@ $zen-columns: 2;
       color: #fff;
       font-size: 22px;
       font-weight: 500;
-      height: 52px;
+      height: 50px;
       line-height: 52px;
       text-align: center;
       width: 52px;
@@ -552,8 +581,10 @@ $zen-columns: 3;
       
       a {
         background: url(../images/img_logo_telenet.png) no-repeat center center;
+        background-size: 64px 64px;
         &.active {
           background: url(../images/img_logo_telenet_active.png) no-repeat center center #f6f6f6;
+          background-size: 64px 64px;
         }
       }
     } 
@@ -562,8 +593,10 @@ $zen-columns: 3;
       
       a {
         background: url(../images/img_logo_proximus.png) no-repeat center center;
+        background-size: 64px 64px;
         &.active {
           background: url(../images/img_logo_proximus_active.png) no-repeat center center #f6f6f6;
+          background-size: 64px 64px;
         }
       }
     }
@@ -572,8 +605,10 @@ $zen-columns: 3;
 
       a {
         background: url(../images/img_logo_deme.png) no-repeat center center;
+        background-size: 64px 64px;
         &.active {
           background: url(../images/img_logo_deme_active.png) no-repeat center center #f6f6f6;
+          background-size: 64px 64px;
         }
       }
     }
@@ -1323,7 +1358,7 @@ h5 {
       text-align: left;
     }
 
-    .video {
+    #feature-video {
       margin-top: 64px;
     }
   }
@@ -1631,5 +1666,127 @@ h5 {
   #mobile-app .col-2 .mobile-app-content {
     max-width: 458px;
     float: right;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+  /* Retina-specific stuff here */
+	#testimonials {
+		.testimonial-person {
+			&.proximus {
+					background: url(../images/img_avatar_proximus.png) no-repeat left top;
+			}  
+			
+			&.telenet{
+					background: url(../images/img_avatar_telenet.png) no-repeat left top;
+			}  
+
+			&.deme{
+					background: url(../images/img_avatar_deme.png) no-repeat left top;
+			}
+		}
+
+		.testimonial-content {
+			background: url(../images/img_quote_2@x2x.png), url(../images/img_quote@2x.png);
+		}
+	}
+
+  #functionality {
+    #feature-video {
+      background: url(../images/img_video_background@2x.png) no-repeat !important;
+    }
+  }
+  
+  #references {
+    #references-navigation {
+      a {
+        background-size: 48px 48px !important;
+      }
+      .col-1 {
+        a {
+          background: url(../images/img_logo_telenet@2x.png) no-repeat center center;
+          &.active {
+            background: url(../images/img_logo_telenet_active@2x.png) no-repeat center center #f6f6f6;
+          }
+        }
+      } 
+      .col-2 {
+        a {
+          background: url(../images/img_logo_proximus@2x.png) no-repeat center center;
+          &.active {
+            background: url(../images/img_logo_proximus_active@2x.png) no-repeat center center #f6f6f6;
+          }
+        }
+      }
+      .col-3 {
+        a {
+          background: url(../images/img_logo_deme@2x.png) no-repeat center center;
+          &.active {
+            background: url(../images/img_logo_deme_active@2x.png) no-repeat center center #f6f6f6;
+          }
+        }
+      }
+    }
+  }
+  
+  #team-container {
+    #team {
+      .member {
+        background-size: 56px 56px !important; 
+      }
+      .maarten {
+        background: url(../images/img_avatar_maartenraemdonck@2x.png) no-repeat left top;
+      }  
+      .tom {
+        background: url(../images/img_avatar_tomvroemans@2x.png) no-repeat left top;
+      }
+      .robin {
+        background: url(../images/img_avatar_robinvdbergh@2x.png) no-repeat left top;
+      }
+      .anthony {
+        background: url(../images/img_avatar_anthonywijnen@2x.png) no-repeat left top;
+      }
+      .yannick {
+        background: url(../images/img_avatar_yannickbontemps@2x.png) no-repeat left top;
+      }
+      .christophe {
+        background: url(../images/img_avatar_christophesmet@2x.png) no-repeat left top;
+      }
+      .kevin {
+        background: url(../images/img_avatar_kevintsyen@2x.png) no-repeat left top;
+      }
+      .tomdl {
+        background: url(../images/img_avatar_tomdelaet@2x.png) no-repeat left top;
+      }
+    }
+  }
+  
+  #feature-video {
+    background: url(../images/img_video_background@2x.png) no-repeat !important;
+
+    &.func-hr {
+      background:  url(../images/img_video_placeholder_holiday@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 262px 465px, 292px 613px;
+    }
+    &.func-comm {
+      background:  url(../images/img_video_placeholder_communication@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 262px 465px, 292px 613px;
+    }
+    &.func-org {
+      background:  url(../images/img_video_placeholder_coworkerinfo@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 262px 465px, 292px 613px;
+    }
+    &.func-fac {
+      background:  url(../images/img_video_placeholder_meeting@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 262px 465px, 292px 613px;
+    }
+     &.func-hosp {
+      background:  url(../images/img_video_placeholder_clientversion@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 262px 465px, 292px 613px;
+    }
+    &.func-fin {
+      background:  url(../images/img_video_placeholder_expense@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
+      background-size: 262px 465px, 292px 613px;
+    }
   }
 }
