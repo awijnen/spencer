@@ -522,8 +522,16 @@ $zen-columns: 2;
   }
   
   video {
-    margin-top: 128px;
   }
+
+  .col-2 {
+    padding-top: 128px;
+    img {
+      width: 100%;
+      max-width: 550px;
+    }
+  }
+
   padding-bottom: 128px;
 }
 
