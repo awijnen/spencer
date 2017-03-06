@@ -218,7 +218,7 @@ $zen-columns: 2;
   }
    
   .testimonial-content {
-    background: url(../images/img_quote_2.png), url(../images/img_quote.png);
+    background-image: url(../images/img_quote_2.png), url(../images/img_quote.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
 
@@ -248,19 +248,20 @@ $zen-columns: 2;
   display: inline-block;
   
   min-height: 56px;
-  padding-top: 6px;
+  margin-top: 6px;
   padding-left: 88px;
+  padding-top: 6px;
   
   &.proximus {
-      background: url(../images/img_avatar_proximus.png) no-repeat left top;
+      background: url(../images/img_avatar_proximus.png) no-repeat left center;
   }  
 
   &.telenet{
-      background: url(../images/img_avatar_telenet.png) no-repeat left top;
+      background: url(../images/img_avatar_telenet.png) no-repeat left center;
   }  
 
   &.deme{
-      background: url(../images/img_avatar_deme.png) no-repeat left top;
+      background: url(../images/img_avatar_deme.png) no-repeat left center;
   }  
 
   .person-name {
@@ -1033,7 +1034,7 @@ h5 {
     }
 
     .testimonial-person {
-      padding-top: 16px;
+      margin-top: 16px;
     }
   }
 
@@ -1674,23 +1675,20 @@ h5 {
 	#testimonials {
 		.testimonial-person {
 			&.proximus {
-					background: url(../images/img_avatar_proximus.png) no-repeat left top;
+					background: url(../images/img_avatar_proximus.png) no-repeat left center;
 			}  
 			
 			&.telenet{
-					background: url(../images/img_avatar_telenet.png) no-repeat left top;
+					background: url(../images/img_avatar_telenet.png) no-repeat left center;
 			}  
 
 			&.deme{
-					background: url(../images/img_avatar_deme.png) no-repeat left top;
+					background: url(../images/img_avatar_deme.png) no-repeat left center;
 			}
 		}
 
 		.testimonial-content {
-			background: url(../images/img_quote_2@2x.png), url(../images/img_quote@2x.png);
-      background-position: top left, bottom right;
-      background-repeat: no-repeat;
-      background-size: 80px 56px;
+			background-image: url(../images/img_quote_2@2x.png), url(../images/img_quote@2x.png);
     }
 
 
