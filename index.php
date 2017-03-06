@@ -243,7 +243,7 @@
         <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
       </div>
       <div class="col-2">
-			
+				<img src="images/img_cloud_mobile.svg" alt="mobile cloud">
 			</div>
     </div>
   </div>

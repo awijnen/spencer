@@ -96,8 +96,6 @@ $(document).ready(function(){
   Modernizr.on('videoautoplay', function(result) {
     if (result) {
       $('#cloud-layer .col-2').html('<video width="100%" autoplay loop><source src="video/cloud.mp4" type="video/mp4"></video>');
-    } else {
-      $('#cloud-layer .col-2').html('<img src="images/img_cloud_mobile.svg" alt="mobile cloud">');
     }
   });
 
