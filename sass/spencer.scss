@@ -221,6 +221,7 @@ $zen-columns: 2;
     background-image: url(../images/img_quote_2.png), url(../images/img_quote.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
+    background-size: 80px 56px;
 
   h2 {
       font-size: 26px;
@@ -836,6 +837,11 @@ $zen-columns: 4;
 
   #social-icons {
     text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #737373;
   }
 }
 
