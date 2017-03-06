@@ -15,7 +15,7 @@
   #navigation-wrapper {
     max-width: $width;
   }
-  
+
   .content-container {
     .content {
       max-width: $width;
@@ -49,7 +49,7 @@
     height: 20px;
     background: url(../images/ico_video.svg) no-repeat left center #fff;
     vertical-align: text-bottom;
-	} 
+	}
 }
 
 .button {
@@ -106,7 +106,7 @@ header {
 
   #navigation-wrapper {
     @include center();
-     
+
     #logo {
       padding: 23px 0px;
       float: left;
@@ -115,7 +115,7 @@ header {
         height: 24px;
         width: 134px;
       }
-      
+
       #mobile-nav-icon {
         display: none;
       }
@@ -159,7 +159,7 @@ $zen-columns: 2;
   .col-1 {
     padding-top: 186px;
     padding-bottom: 100px;
-    
+
     p {
       padding-top: 32px;
       color: rgba(255, 255, 255, 0.7);
@@ -189,7 +189,7 @@ $zen-columns: 2;
       color: #fff;
       margin-bottom: 16px;
     }
-  } 
+  }
 
   .col-2 {
     padding-top: 64px;
@@ -207,7 +207,7 @@ $zen-columns: 2;
   padding-top: 226px;
   padding-bottom: 96px;
   text-align: center;
- 
+
   .testimonial-logo {
     text-align: center;
     img {
@@ -216,7 +216,7 @@ $zen-columns: 2;
       height: 32px;
     }
   }
-   
+
   .testimonial-content {
     background-image: url(../images/img_quote_2.png), url(../images/img_quote.png);
     background-position: top left, bottom right;
@@ -246,23 +246,23 @@ $zen-columns: 2;
 
 .testimonial-person {
   display: inline-block;
-  
+
   min-height: 56px;
   margin-top: 6px;
   padding-left: 88px;
   padding-top: 6px;
-  
+
   &.proximus {
       background: url(../images/img_avatar_proximus.png) no-repeat left center;
-  }  
+  }
 
   &.telenet{
       background: url(../images/img_avatar_telenet.png) no-repeat left center;
-  }  
+  }
 
   &.deme{
       background: url(../images/img_avatar_deme.png) no-repeat left center;
-  }  
+  }
 
   .person-name {
     font-weight: 500;
@@ -282,7 +282,7 @@ $zen-columns: 2;
     text-align: left;
   }
 }
-  
+
 
 
 #oversaturated {
@@ -292,20 +292,20 @@ $zen-columns: 2;
     padding-top: 192px;
     padding-bottom: 96px;
   }
-  
+
   .h3-1 {
     max-width: 556px;
   }
 }
 
 .video-button {
-  @include video-button();  
+  @include video-button();
 }
 
 .functionality {
   padding-top: 158px;
   padding-bottom: 158px;
-  
+
   #functionality {
     margin-top: 68px;
 
@@ -332,7 +332,7 @@ $zen-columns: 2;
 
             &.active {
               color: #fff;
-              border-bottom: 2px solid #fff; 
+              border-bottom: 2px solid #fff;
             }
           }
         }
@@ -343,7 +343,7 @@ $zen-columns: 2;
         &.func-hr {
           display: block;
         }
-        
+
         b {
           font-size: 12px;
           color: #fff;
@@ -415,7 +415,7 @@ $zen-columns: 2;
 
 #mobile-app {
   padding-bottom: 128px;
-  
+
   .col-1 {
     img {
       max-width: 555px;
@@ -508,10 +508,10 @@ $zen-columns: 2;
       font-family: CoreSansA55;
     }
   }
-  
+
   .col-content {
     display: table-cell;
-    padding-left: 32px; 
+    padding-left: 32px;
   }
 }
 
@@ -520,7 +520,7 @@ $zen-columns: 2;
     padding-top: 160px;
     padding-bottom: 64px;
   }
-  
+
   video {
   }
 
@@ -587,7 +587,7 @@ $zen-columns: 3;
 
     .col-1 {
       @include zen-grid-item(1,1);
-      
+
       a {
         background: url(../images/img_logo_telenet.png) no-repeat center center;
         background-size: 64px 64px;
@@ -596,10 +596,10 @@ $zen-columns: 3;
           background-size: 64px 64px;
         }
       }
-    } 
+    }
     .col-2 {
-      @include zen-grid-item(1,2);  
-      
+      @include zen-grid-item(1,2);
+
       a {
         background: url(../images/img_logo_proximus.png) no-repeat center center;
         background-size: 64px 64px;
@@ -631,8 +631,8 @@ $zen-columns: 3;
     }
 
     p {
-      padding-top: 16px; 
-      padding-bottom: 16px; 
+      padding-top: 16px;
+      padding-bottom: 16px;
     }
 
     #ref-proximus-container b {
@@ -642,14 +642,14 @@ $zen-columns: 3;
     #ref-telenet-container b {
       color: #FCC415;
     }
-    
+
     #ref-deme-container b {
       color: #6DBD27;
     }
     .ref-container {
       display: none;
     }
-    
+
     #ref-telenet-container {
       display: block;
     }
@@ -690,7 +690,7 @@ $zen-columns: 3;
       margin-top: 32px;
       padding-left: 88px;
     }
-    
+
     .member {
       min-height: 56px;
       padding-top: 6px;
@@ -698,7 +698,7 @@ $zen-columns: 3;
     }
     .maarten {
       background: url(../images/img_avatar_maartenraemdonck.png) no-repeat left top;
-    }  
+    }
     .tom {
       background: url(../images/img_avatar_tomvroemans.png) no-repeat left top;
     }
@@ -840,7 +840,7 @@ $zen-columns: 4;
 }
 
 .center {
-  text-align: center;  
+  text-align: center;
 }
 
 .content-container {
@@ -931,7 +931,7 @@ h5 {
     .col-2 {
       padding-right: 0 !important;
     }
-  } 
+  }
 }
 
 
@@ -940,7 +940,7 @@ h5 {
 @media all and (min-width: 100px) and (max-width: 767px){
   header {
     height: auto;
-    
+
     #navigation-wrapper {
       #logo-wrapper {
         height: 64px;
@@ -960,7 +960,7 @@ h5 {
           }
         }
       }
-    
+
       #navigation {
         display: none;
         background-color: rgba(255, 255, 255, 0.1);
@@ -973,7 +973,7 @@ h5 {
             display: block;
             border-bottom: 1px solid #9be0ee;
             padding-left: 20px;
-            
+
             a {
               display: block;
               padding-top: 20px;
@@ -1029,7 +1029,7 @@ h5 {
     padding-top: 498px;
     padding-bottom: 64px;
     margin-bottom: 0;
-    
+
     .testimonial-content {
       margin-top: 16px;
       background-size: 50px 35px;
@@ -1037,7 +1037,7 @@ h5 {
       h2 {
         padding-top: 40px;
         padding-bottom: 40px;
-        font-size: 23px;
+        font-size: 18px;
       }
     }
 
@@ -1065,7 +1065,7 @@ h5 {
   .functionality {
     padding-top: 128px;
     padding-bottom: 128px;
-    
+
     h5 {
       font-size: 28px;
     }
@@ -1086,7 +1086,7 @@ h5 {
           height: 20px;
         }
       }
-      
+
       .col-2 {
         display: none;
       }
@@ -1131,7 +1131,7 @@ h5 {
 
   #resume-container {
     padding-bottom: 128px;
-    
+
     h3 {
       font-size: 36px;
       padding-top: 128px;
@@ -1149,7 +1149,7 @@ h5 {
       }
     }
   }
-  
+
   #nav-references {
     .content.references {
       padding-top: 128px;
@@ -1219,11 +1219,11 @@ h5 {
     h3 {
       font-size: 36px;
     }
-    
+
     #team {
       padding-top: 32px;
       text-align: center;
-      
+
       .members-container {
         display: inline-block;
       }
@@ -1237,7 +1237,7 @@ h5 {
       font-size: 36px;
     }
   }
-  
+
   #contact-container {
     .col-1, .col-2 {
       .col-1, .col-2 {
@@ -1251,11 +1251,11 @@ h5 {
     .col-1 {
       padding-top: 144px;
     }
-    
+
     .col-2 {
       padding-top: 32px;
     }
-    
+
     .col-3 {
       padding-top: 16px;
     }
@@ -1287,7 +1287,7 @@ h5 {
 
 @media all and (min-width: 768px) {
   @include set_max_width(720px);
-  
+
   .content-container .content {
     max-width: 596px;
   }
@@ -1296,7 +1296,7 @@ h5 {
     display: block !important;
     .nav-contact {
       display: inline !important;
-    }  
+    }
   }
 
   #intro {
@@ -1336,7 +1336,7 @@ h5 {
         margin-left: auto;
         margin-right: auto;
         max-width: 596px;
-        
+
         .h3-1 {
           max-width: 596px;
           padding-bottom: 32px;
@@ -1352,7 +1352,7 @@ h5 {
       }
     }
   }
-  
+
   #functionality {
     .col-2 {
       display: none;
@@ -1382,10 +1382,10 @@ h5 {
     }
     padding-bottom: 160px;
   }
-  
+
   #resume-container {
     padding-bottom: 192px;
-    
+
     h3 {
       padding-top: 192px;
       padding-bottom: 32px;
@@ -1397,7 +1397,7 @@ h5 {
       }
     }
   }
-  
+
   #nav-references {
     .content.references {
       padding-top: 192px;
@@ -1442,7 +1442,7 @@ h5 {
   #team-container {
     padding-bottom: 256px;
   }
-  
+
   $zen-columns: 2 !global;
   #team.container-2 {
     @include zen-grid-container();
@@ -1472,7 +1472,7 @@ h5 {
           }
           .col-2 {
             @include zen-grid-item(1,2);
-          }     
+          }
         }
       }
     }
@@ -1496,7 +1496,7 @@ h5 {
     .col-4 {
       @include zen-new-row();
       @include zen-grid-item(2,1);
-      
+
       #social-icons {
         text-align: left;
       }
@@ -1520,7 +1520,7 @@ h5 {
     .col-2 {
       padding-left: 40px;
       img {
-       width: 100%; 
+       width: 100%;
       }
     }
   }
@@ -1530,7 +1530,7 @@ h5 {
       display: inline !important;
     }
   }
-  
+
   $zen-columns: 5 !global;
   #intro {
     .col-1 {
@@ -1538,7 +1538,7 @@ h5 {
       h3, p {
         max-width: 535px;
       }
-    } 
+    }
     .col-2 {
       @include zen-grid-item(2, 4);
       padding-top: 58px;
@@ -1605,7 +1605,7 @@ h5 {
       max-width: 970px;
     }
   }
-  
+
   $zen-columns: 4 !global;
   #footer {
     @include zen-grid-container();
@@ -1642,7 +1642,7 @@ h5 {
   #mobile-app .col-2 .mobile-app-content h5 {
     margin-top: 160px;
   }
-  
+
   #team {
     padding-top: 64px;
   }
@@ -1650,7 +1650,7 @@ h5 {
 
 @media all and (min-width: 1281px) {
   @include set_max_width(1140px);
-  
+
   .content-container {
     #testimonials {
       &.content {
@@ -1678,17 +1678,17 @@ h5 {
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* Retina-specific stuff here */
 	#testimonials {
 		.testimonial-person {
 			&.proximus {
 					background: url(../images/img_avatar_proximus.png) no-repeat left center;
-			}  
-			
+			}
+
 			&.telenet{
 					background: url(../images/img_avatar_telenet.png) no-repeat left center;
-			}  
+			}
 
 			&.deme{
 					background: url(../images/img_avatar_deme.png) no-repeat left center;
@@ -1709,7 +1709,7 @@ h5 {
     #feature-video {
       background: url(../images/img_video_background@2x.png) no-repeat !important;
       background-size: 292px 613px !important;
-      
+
       &.func-hr {
         background:  url(../images/img_video_placeholder_holiday@2x.png) no-repeat 16px 80px, url(../images/img_video_background@2x.png) no-repeat !important;
         background-size: 262px 465px, 292px 613px !important;
@@ -1737,7 +1737,7 @@ h5 {
 
     }
   }
-  
+
   #references {
     #references-navigation {
       a {
@@ -1750,7 +1750,7 @@ h5 {
             background: url(../images/img_logo_telenet_active@2x.png) no-repeat center center #f6f6f6;
           }
         }
-      } 
+      }
       .col-2 {
         a {
           background: url(../images/img_logo_proximus@2x.png) no-repeat center center;
@@ -1769,15 +1769,15 @@ h5 {
       }
     }
   }
-  
+
   #team-container {
     #team {
       .member {
-        background-size: 56px 56px !important; 
+        background-size: 56px 56px !important;
       }
       .maarten {
         background: url(../images/img_avatar_maartenraemdonck@2x.png) no-repeat left top;
-      }  
+      }
       .tom {
         background: url(../images/img_avatar_tomvroemans@2x.png) no-repeat left top;
       }
@@ -1801,7 +1801,7 @@ h5 {
       }
     }
   }
-  
+
   #feature-video {
     background: url(../images/img_video_background@2x.png) no-repeat !important;
 
