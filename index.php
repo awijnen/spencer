@@ -268,7 +268,7 @@
         <div class="col-2">
           <div class="mobile-app-content">
             <h5 class="left">Our mobile application bundles what you need to know, into a single intuitive interface.</h5>
-            <p class="white">Spencer combines relevant information from different tools in a unified and personalised interface. He also combines related actions into user-friendly workflows, eliminating the need to switch between applications.</p>
+            <p class="white">Spencer combines relevant information from different tools in a unified and personalised interface. He also aggregates related actions into user-friendly workflows, eliminating the need to switch back and forth between applications.</p>
           </div>
         </div>
       </div>
