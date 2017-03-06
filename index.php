@@ -18,6 +18,7 @@
 	<script type="text/javascript" src="js/slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/headroom.min.js"></script>
 	<script type="text/javascript" src="js/jQuery.headroom.js"></script>
+	<script type="text/javascript" src="js/modernizr-custom.js"></script>
 	<script type="text/javascript" src="js/spencer.js"></script>
 
 	<link rel="stylesheet" href="js/fancyBox/source/jquery.fancybox.css?v=2.1.6" type="text/css" media="screen" />
@@ -242,10 +243,8 @@
         <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
       </div>
       <div class="col-2">
-        <video width="100%" autoplay loop>
-          <source src="video/cloud.mp4" type="video/mp4">
-        </video>
-      </div>
+			
+			</div>
     </div>
   </div>
 
