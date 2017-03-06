@@ -71,7 +71,7 @@
     <div id="intro" class="content container-2">
       <div class="col-1">
         <h1>Spencer is your mobile workplace assistant</h1>
-        <p>Making your workplace community more engaged, efficient and productive by making the tools you trust work together.</p>
+        <p>Assisting your workplace community to be more engaged, efficient and productive by making the tools you trust work together.</p>
         <div id="intro-buttons">
           <a id="play-video" class="video-button" href="https://player.vimeo.com/video/155675959?autoplay=1&color=3AACD2"><span class="video-icon"></span><span class="video-text">PLAY VIDEO</span></a>
           <a id="read-announcement" class="button" href="#">READ ANNOUNCEMENT</a>
@@ -151,7 +151,7 @@
         </div>
         <div class="col-2">
           <h4>Falling short of expectations</h4>
-          <p>Employees personal tools and apps have given them high expectations regarding user experience. However, many business tools fall short, with complicated interfaces and inconsistent flows.</p>
+          <p>Employees' personal tools and apps have given them high expectations regarding user experience. However, many business tools fall short, with complicated interfaces and inconsistent flows.</p>
         </div>
       </div>
     </div>
@@ -239,8 +239,8 @@
   <div class="content-container">
     <div id="cloud-layer" class="content container-2">
       <div class="col-1">
-        <h3>Spencer is an intelligent cloud layer that communicates with all your industry solutions.</h3>
-        <p>Spencer is not an inventor: he taps into the data from your existing tools and presents that information in a more user-friendly way.</p>
+        <h3>Spencer is an intelligent cloud layer that communicates with all your existing solutions.</h3>
+        <p>Spencer knows his way around the block: he taps into the data from numerous industry solutions and presents the essential information and actions in a more user-friendly way.</p>
       </div>
       <div class="col-2">
 				<img src="images/img_cloud_mobile.svg" alt="mobile cloud">
@@ -267,8 +267,8 @@
         </div>
         <div class="col-2">
           <div class="mobile-app-content">
-            <h5 class="left">Our mobile application brings all this information together in one interface.</h5>
-            <p class="white">Spencer’s mobile app combines information and actions in a unified interface. This also allows him to combine actions from different tools into a single, user-friendly flow.</p>
+            <h5 class="left">Our mobile application bundles what you need to know, into a single intuitive interface.</h5>
+            <p class="white">Spencer combines relevant information from different tools in a unified and personalised interface. He also combines related actions into a single, user-friendly flow, so you no longer have to log into multiple systems.</p>
           </div>
         </div>
       </div>
@@ -308,7 +308,7 @@
         <div class="col-1 col">
           <div class="col-content">
             <h4>Secure infrastructure</h4>
-            <p>Spencer respects your sensitive data, and your employees’ privacy. Everything is secured and encrypted according to industry standards.</p>
+            <p>No agents, no data copies, and no super users. Spencer directly acts on behalf of the user he's assisting, and keeps the data where it belongs. All communication is secured and encrypted according to industry standards.</p>
           </div>
         </div>
         <div class="col-2 col">
@@ -414,7 +414,7 @@
             <div class="number-wrapper"><div class="number">2</div></div>
             <div class="col-content">
               <h4 class="white">Technical assessment</h4>
-              <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security measures and on-premise infrastructure.</p>
+              <p class="white">We’ll sit together to discuss how Spencer can be optimally integrated with the company’s existing security policies and on-premise infrastructure.</p>
             </div>
           </div>
         </div>
@@ -424,7 +424,7 @@
             <div class="number-wrapper"><div class="number">3</div></div>
             <div class="col-content">
               <h4 class="white">Implementation & branding</h4>
-              <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and start designing the app to fit your brand.</p>
+              <p class="white">Using the roadmap that we defined early in the process, we’ll select the modules that Spencer will activate first and skin them to fit your brand.</p>
             </div>
           </div>
         </div>
@@ -433,7 +433,7 @@
             <div class="number-wrapper"><div class="number">4</div></div>
             <div class="col-content">
               <h4 class="white">Deployment & testing</h4>
-              <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before deploying the finished application.</p>
+              <p class="white">When the necessary modules are in place, we can move on to User Acceptance Testing to ensure everything works smoothly, before introducing your employees to their new personal assistant.</p>
             </div>
           </div>
         </div>
@@ -443,7 +443,7 @@
             <div class="number-wrapper"><div class="number">5</div></div>
             <div class="col-content">
               <h4 class="white">Maintenance & support</h4>
-              <p class="white">After the application is released to your employees, Spencer will follow up on its usage. We’ll measure both the performance increase of the employees that use Spencer, and the impact this might have on your infrastructure.</p>
+              <p class="white">After the application is released to your employees, we'll follow up on its usage. We’ll measure the increase in employee engagement, the specific assistance your employees seek, and their satisfaction with the assistant. Finally, we'll monitor and maintain Spencer's overall well-being.</p>
             </div>
           </div>
         </div>
