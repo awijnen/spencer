@@ -28,7 +28,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.spencer.co" />
   <meta property="og:title" content="Spencer is your mobile workplace assistant" />
-  <meta property="og:image:secure_url" content="https://www.getspencer.com/images/share-image.png" />
+  <meta property="og:image:secure_url" content="https://www.spencer.co/images/share-image.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:site_name" content="Spencer is your mobile workplace assistant" />
   <meta property="og:description" content="Making your workplace community more engaged, efficient and productive by making the tools you trust work together." />
