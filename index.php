@@ -107,7 +107,7 @@
 							data-src="images/img_logo_telenet_full.png"
 							data-srcset="images/img_logo_telenet_full.png 300w, images/img_logo_telenet_full@2x.png 600w" class="lazyload" />
 				</div>
-        <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intiutive way-of-working, increased productivity and happier employees!</h2></div>
+        <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testimonial-person telenet">
           <div class="person-name">Claudia Poels</div>
           <div class="person-position">Senior VP Human Resources</div>
