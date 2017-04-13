@@ -89,19 +89,6 @@
 		<div id="testimonials" class="carousel content">
       <div class="carousel-slide">
         <div class="testimonial-logo">
-          <img
-						data-sizes="auto"
-						data-src="images/img_logo_proximus_full.png"
-						data-srcset="images/img_logo_proximus_full.png 300w, images/img_logo_proximus_full@2x.png 600w" class="lazyload" />
-        </div>
-        <div class="testimonial-content"><h2>At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.</h2></div>
-        <div class="testimonial-person proximus">
-          <div class="person-name">Serge Peeters</div>
-          <div class="person-position">HR Director Employee Services & Operations</div>
-        </div>
-      </div>
-      <div class="carousel-slide">
-        <div class="testimonial-logo">
 					<img
 							data-sizes="auto"
 							data-src="images/img_logo_telenet_full.png"
@@ -124,6 +111,19 @@
         <div class="testimonial-person deme">
           <div class="person-name">Philip Hermans</div>
           <div class="person-position">General Manager</div>
+        </div>
+      </div>
+      <div class="carousel-slide">
+        <div class="testimonial-logo">
+          <img
+            data-sizes="auto"
+            data-src="images/img_logo_proximus_full.png"
+            data-srcset="images/img_logo_proximus_full.png 300w, images/img_logo_proximus_full@2x.png 600w" class="lazyload" />
+        </div>
+        <div class="testimonial-content"><h2>At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.</h2></div>
+        <div class="testimonial-person proximus">
+          <div class="person-name">Serge Peeters</div>
+          <div class="person-position">HR Director Employee Services & Operations</div>
         </div>
       </div>
     </div>
@@ -276,7 +276,7 @@
 
   <div class="content-container grey">
     <div id="resume-container" class="content">
-      <h3>Spencer’s resumé</h3>
+      <h3>Main product characteristics</h3>
       <div id="resume" class="resume-container container-2">
         <div class="col-1 col">
           <div class="col-content">
@@ -467,9 +467,25 @@
             <div class="team-name">Tom Vroemans</div>
             <div class="team-position">co-CEO - Founder & Chairman</div>
           </div>
+          <div class="col-2 vincent member">
+            <div class="team-name">Vincent Pauwels</div>
+            <div class="team-position">Director Experience Design</div>
+          </div>
+          <div class="col-2 thomas member">
+            <div class="team-name">Thomas Van Sundert</div>
+            <div class="team-position">Director Native Development</div>
+          </div>
+          <div class="col-1 stijn member">
+            <div class="team-name">Stijn Symons</div>
+            <div class="team-position">Director Web Development</div>
+          </div>
+          <div class="col-1 ruben member">
+            <div class="team-name">Ruben Van den Bossche</div>
+            <div class="team-position">Director Product Operations</div>
+          </div>
           <div class="col-1 robin member">
             <div class="team-name">Robin Van Den Bergh</div>
-            <div class="team-position">Client Services Manager</div>
+            <div class="team-position">Customer Success Manager</div>
           </div>
           <div class="col-2 anthony member">
             <div class="team-name">Anthony Wijnen</div>
@@ -477,19 +493,27 @@
           </div>
           <div class="col-1 yannick member">
             <div class="team-name">Yannick Bontemps</div>
-            <div class="team-position">Senior iOS Developer</div>
+            <div class="team-position">Lead iOS Developer</div>
           </div>
           <div class="col-2 christophe member">
             <div class="team-name">Christophe Smet</div>
-            <div class="team-position">Senior Android Developer</div>
+            <div class="team-position">Lead Android Developer</div>
+          </div>
+          <div class="col-2 dusty member">
+            <div class="team-name">Dusty Saman</div>
+            <div class="team-position">Lead Windows Developer</div>
           </div>
           <div class="col-1 kevin member">
             <div class="team-name">Kevin T’Syen</div>
-            <div class="team-position">Senior Back-end Developer</div>
+            <div class="team-position">Lead Back-end Developer</div>
           </div>
           <div class="col-2 tomdl member">
             <div class="team-name">Tom De Laet</div>
-            <div class="team-position">Senior Experience Designer</div>
+            <div class="team-position">Lead Experience Designer</div>
+          </div>
+          <div class="col-2 philip member">
+            <div class="team-name">Philip Vandervoort</div>
+            <div class="team-position">Strategic Advisor</div>
           </div>
         </div>
       </div>
