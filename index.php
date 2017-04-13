@@ -467,7 +467,7 @@
             <div class="team-name">Tom Vroemans</div>
             <div class="team-position">co-CEO - Founder & Chairman</div>
           </div>
-          <div class="col-2 vincent member">
+          <div class="col-1 vincent member">
             <div class="team-name">Vincent Pauwels</div>
             <div class="team-position">Director Experience Design</div>
           </div>
@@ -479,7 +479,7 @@
             <div class="team-name">Stijn Symons</div>
             <div class="team-position">Director Web Development</div>
           </div>
-          <div class="col-1 ruben member">
+          <div class="col-2 ruben member">
             <div class="team-name">Ruben Van den Bossche</div>
             <div class="team-position">Director Product Operations</div>
           </div>
@@ -499,15 +499,15 @@
             <div class="team-name">Christophe Smet</div>
             <div class="team-position">Lead Android Developer</div>
           </div>
-          <div class="col-2 dusty member">
+          <div class="col-1 dusty member">
             <div class="team-name">Dusty Saman</div>
             <div class="team-position">Lead Windows Developer</div>
           </div>
-          <div class="col-1 kevin member">
+          <div class="col-2 kevin member">
             <div class="team-name">Kevin T’Syen</div>
             <div class="team-position">Lead Back-end Developer</div>
           </div>
-          <div class="col-2 tomdl member">
+          <div class="col-1 tomdl member">
             <div class="team-name">Tom De Laet</div>
             <div class="team-position">Lead Experience Designer</div>
           </div>
