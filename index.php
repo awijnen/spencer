@@ -511,10 +511,10 @@
             <div class="team-name">Tom De Laet</div>
             <div class="team-position">Lead Experience Designer</div>
           </div>
-          <div class="col-2 philip member">
+          <!-- <div class="col-2 philip member">
             <div class="team-name">Philip Vandervoort</div>
             <div class="team-position">Strategic Advisor</div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
