@@ -666,6 +666,21 @@ $zen-columns: 3;
   padding-bottom: 92px;
 }
 
+.title-container {
+  h3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  > p {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+}
+
 #team-container {
   padding-top: 192px;
   padding-bottom: 192px;
@@ -881,6 +896,11 @@ $zen-columns: 4;
   &.dark {
     background-color: #383737;
   }
+}
+
+#nav-intro.content-container {
+  background: #3aacd2 url('../images/img_header_background.jpg') no-repeat center center;
+  background-size: cover;
 }
 
 p {
@@ -1236,12 +1256,22 @@ h5 {
     }
   }
 
+  .title-container {
+    h3 {
+      font-size: 36px;
+    }
+  }
+
   #team-container {
     padding-top: 128px;
     padding-bottom: 128px;
 
     h3 {
       font-size: 36px;
+    }
+
+    .title-container > p {
+      padding-bottom: 32px;
     }
 
     #team {
@@ -1665,6 +1695,11 @@ h5 {
 
   #mobile-app .col-2 .mobile-app-content h5 {
     margin-top: 160px;
+  }
+
+  .title-container > p {
+    padding-bottom: 64px;
+    
   }
 
   #team {

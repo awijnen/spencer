@@ -57,6 +57,7 @@
         <li><a class="nav-item" href="#nav-problem">Problem</a></li>
         <li><a class="nav-item" href="#nav-solution">Solution</a></li>
         <li><a class="nav-item" href="#nav-references">References</a></li>
+        <li><a class="nav-item" href="https://medium.com/@spencerco" target="_blank">Blog</a></li>
         <li><a class="nav-item" href="#nav-about">About</a></li>
         <li><a class="nav-item" href="#nav-jobs">Jobs</a></li>
         <li><a class="nav-item nav-contact" href="#nav-contact">Contact</a></li>
@@ -97,7 +98,7 @@
         <div class="testimonial-content"><h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!</h2></div>
         <div class="testimonial-person telenet">
           <div class="person-name">Claudia Poels</div>
-          <div class="person-position">Senior VP Human Resources</div>
+          <div class="person-position">Senior VP Human Resources Telenet, Telecom, 3.500 Employees</div>
         </div>
       </div>
       <div class="carousel-slide">
@@ -110,7 +111,7 @@
         <div class="testimonial-content"><h2>At DEME we have a highly mobile workforce, which is a major challenge for us in terms of keeping in touch. More and more, this mobile workforce relies heavily on their tablets and smartphones to manage and execute multiple work functions. This is precisely what Spencer does, which has made it a perfect fit for our teams.</h2></div>
         <div class="testimonial-person deme">
           <div class="person-name">Philip Hermans</div>
-          <div class="person-position">General Manager</div>
+          <div class="person-position">General Manager DEME, Dredging, environmental and marine engineering, 4.500 employees</div>
         </div>
       </div>
       <div class="carousel-slide">
@@ -123,7 +124,7 @@
         <div class="testimonial-content"><h2>At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.</h2></div>
         <div class="testimonial-person proximus">
           <div class="person-name">Serge Peeters</div>
-          <div class="person-position">HR Director Employee Services & Operations</div>
+          <div class="person-position">HR Director Employee Services & Operations Proximus, Telecom, 18.000 Employees</div>
         </div>
       </div>
     </div>
@@ -322,6 +323,12 @@
 
   <div id="nav-references" class="content-container">
     <div class="content references">
+      <div class="center">
+        <div class="title-container">
+          <h3>Spencer's first 3 clients</h3>
+          <p style="display:none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, cumque maxime vel reiciendis laboriosam quasi necessitatibus soluta iste praesentium dolorum alias, odio, ad.</p>
+        </div>
+      </div>
       <div id="references">
         <div id="references-navigation">
           <div class="col-1">
