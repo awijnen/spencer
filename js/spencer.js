@@ -37,10 +37,10 @@ $(document).ready(function(){
     }  
 	});
 
-  $('.carousel').slick({
-    dots: true,
-    arrows: false
-  });
+  // $('.carousel').slick({
+  //   dots: true,
+  //   arrows: false
+  // });
 
   $('#functionality li > a').click(function() {
     $('#functionality li a').removeClass('active');
