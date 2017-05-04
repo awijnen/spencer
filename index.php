@@ -117,7 +117,7 @@
         <div class="testimonial-content col-2">
           <h2>At Proximus, we employ a diverse, mobile, and of course technology focused group of employees. What Spencer brings to the table is an engaging tool that saves time and alleviates the frustration of heavy legacy programs.</h2>
           <div class="testimonial-person proximus">
-            <div class="person-name">Proximus</div><div class="person-position">Proximus, Telecom, 18.000 Employees</div>
+            <div class="person-name">Proximus</div><div class="person-position">Telecom, 18.000 Employees</div>
           </div>
         </div>
       </div>
