@@ -72,7 +72,7 @@
         <h1>Spencer is your mobile workplace assistant</h1>
         <p>Assisting your workplace community to be more engaged, efficient and productive by making the tools you trust work together.</p>
         <div id="intro-buttons">
-          <a id="play-video" class="video-button" href="https://player.vimeo.com/video/155675959?autoplay=1&color=3AACD2"><span class="video-icon"></span><span class="video-text">PLAY VIDEO</span></a>
+          <a id="play-video" class="video-button" href="https://player.vimeo.com/video/255886139?autoplay=1&color=3AACD2"><span class="video-icon"></span><span class="video-text">PLAY VIDEO</span></a>
           <a id="read-announcement" class="button" href="https://novemberfive.co/blog/announcing-spencer/" target="_blank">READ ANNOUNCEMENT</a>
         </div>
       </div>
