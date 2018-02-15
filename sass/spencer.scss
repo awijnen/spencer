@@ -207,9 +207,9 @@ $zen-columns: 2;
   padding-top: 226px;
   padding-bottom: 96px;
   .carousel-slide {
-    margin-bottom: 96px;    
+    margin-bottom: 96px;
     position: relative;
-    
+
   }
 
   .testimonial-logo {
@@ -222,7 +222,7 @@ $zen-columns: 2;
   }
 
   .testimonial-content {
-        
+
     h2 {
       font-size: 22px;
       color: #505050;
@@ -234,7 +234,7 @@ $zen-columns: 2;
       margin-right: auto;
     }
   }
-  
+
 
   .slick-dots {
     position: static;
@@ -248,7 +248,7 @@ $zen-columns: 2;
 
   // min-height: 56px;
   margin-top: 6px;
-  
+
   // padding-left: 88px;
   padding-top: 6px;
 
@@ -756,6 +756,21 @@ $zen-columns: 3;
     .philip {
       background: url(../images/img_avatar_philipvandervoort.png) no-repeat left top;
     }
+    .bart {
+      background: url(../images/img_avatar_bartsalters.png) no-repeat left top;
+    }
+    .didier {
+      background: url(../images/img_avatar_didierdemaeyer.png) no-repeat left top;
+    }
+    .michelle {
+      background: url(../images/img_avatar_michelleybanez.png) no-repeat left top;
+    }
+    .alexander {
+      background: url(../images/img_avatar_alexanderderuwe.png) no-repeat left top;
+    }
+    .dries {
+      background: url(../images/img_avatar_drieselliot.png) no-repeat left top;
+    }
 
     .team-name {
       font-weight: 500;
@@ -1008,7 +1023,7 @@ h5 {
           }
         }
       }
-      
+
 
       #navigation {
         display: none;
@@ -1079,7 +1094,7 @@ h5 {
     padding-top: 498px;
     padding-bottom: 64px;
     margin-bottom: 0;
-    
+
     .testimonial-content {
       margin-top: 16px;
 
@@ -1387,7 +1402,7 @@ h5 {
       }
     }
   }
-  
+
   #testimonials .carousel-slide {
     $zen-columns: 10 !global;
     @include zen-grid-container();
@@ -1407,7 +1422,7 @@ h5 {
 
       .col-2 {
         @include zen-grid-item(8,1);
-      } 
+      }
     }
 
     .testimonial-logo-inner {
@@ -1415,11 +1430,11 @@ h5 {
       top: 50%;
       transform: translate(-50%, -50%);
     }
-    
+
     &:not(.alternate) .testimonial-logo-inner {
       left: 10%;
     }
-    
+
     &.alternate  .testimonial-logo-inner {
       right: 5%;
     }
@@ -1752,7 +1767,7 @@ h5 {
 
   .title-container > p {
     padding-bottom: 64px;
-    
+
   }
 
   #team {
@@ -1928,6 +1943,21 @@ h5 {
       }
       .philip {
         background: url(../images/img_avatar_philipvandervoort@2x.png) no-repeat left top;
+      }
+      .bart {
+        background: url(../images/img_avatar_bartsalters@2x.png) no-repeat left top;
+      }
+      .didier {
+        background: url(../images/img_avatar_didierdemaeyer@2x.png) no-repeat left top;
+      }
+      .michelle {
+        background: url(../images/img_avatar_michelleybanez@2x.png) no-repeat left top;
+      }
+      .alexander {
+        background: url(../images/img_avatar_alexanderderuwe@2x.png) no-repeat left top;
+      }
+      .dries {
+        background: url(../images/img_avatar_drieselliot@2x.png) no-repeat left top;
       }
     }
   }
