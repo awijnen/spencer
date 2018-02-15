@@ -27,20 +27,20 @@ $(document).ready(function(){
 
  	$('.nav-item').on('click', function(){
     var loc = $(this).attr('href');
-
-    $('#navigation').slideUp(400, function() {
-      $("html, body, document").animate({
-        scrollTop: $(loc).offset().top
-      }, 500);
-    });
-        
-    return false;
+    if (loc.indexOf('#') > -1) {
+      $('#navigation').slideUp(400, function() {
+        $("html, body, document").animate({
+          scrollTop: $(loc).offset().top
+        }, 500);
+      });  
+      return false;
+    }  
 	});
 
-  $('.carousel').slick({
-    dots: true,
-    arrows: false
-  });
+  // $('.carousel').slick({
+  //   dots: true,
+  //   arrows: false
+  // });
 
   $('#functionality li > a').click(function() {
     $('#functionality li a').removeClass('active');

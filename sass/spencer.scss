@@ -206,37 +206,35 @@ $zen-columns: 2;
 #testimonials {
   padding-top: 226px;
   padding-bottom: 96px;
-  text-align: center;
+  .carousel-slide {
+    margin-bottom: 96px;    
+    position: relative;
+    
+  }
 
   .testimonial-logo {
     text-align: center;
     img {
       margin-left: auto;
       margin-right: auto;
-      height: 32px;
+      height: 64px;
     }
   }
 
   .testimonial-content {
-    background-image: url(../images/img_quote_2.png), url(../images/img_quote.png);
-    background-position: top left, bottom right;
-    background-repeat: no-repeat;
-    background-size: 80px 56px;
-
-  h2 {
-      font-size: 26px;
+        
+    h2 {
+      font-size: 22px;
       color: #505050;
-      padding-top: 75px;
-      padding-bottom: 75px;
       font-style: italic;
       font-family: CoreSansA35;
       max-width: 945px;
       line-height: 1.54em;
       margin-left: auto;
       margin-right: auto;
-      text-align: center;
     }
   }
+  
 
   .slick-dots {
     position: static;
@@ -248,24 +246,27 @@ $zen-columns: 2;
 .testimonial-person {
   display: inline-block;
 
-  min-height: 56px;
+  // min-height: 56px;
   margin-top: 6px;
-  padding-left: 88px;
+  
+  // padding-left: 88px;
   padding-top: 6px;
 
-  &.proximus {
-      background: url(../images/img_avatar_proximus.png) no-repeat left center;
-  }
+  // &.proximus {
+  //     background: url(../images/img_avatar_proximus.png) no-repeat left center;
+  // }
 
-  &.telenet{
-      background: url(../images/img_avatar_telenet.png) no-repeat left center;
-  }
+  // &.telenet{
+  //     background: url(../images/img_avatar_telenet.png) no-repeat left center;
+  // }
 
-  &.deme{
-      background: url(../images/img_avatar_deme.png) no-repeat left center;
-  }
+  // &.deme{
+  //     background: url(../images/img_avatar_deme.png) no-repeat left center;
+  // }
 
   .person-name {
+    display: inline-block;
+    padding-right: 16px;
     font-weight: 500;
     line-height: 1.59;
     color: #505050;
@@ -275,6 +276,7 @@ $zen-columns: 2;
   }
 
   .person-position {
+    display: inline-block;
     font-weight: 300;
     font-style: italic;
     font-size: 13px;
@@ -666,6 +668,21 @@ $zen-columns: 3;
   padding-bottom: 92px;
 }
 
+.title-container {
+  h3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  > p {
+    max-width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+}
+
 #team-container {
   padding-top: 192px;
   padding-bottom: 192px;
@@ -883,6 +900,11 @@ $zen-columns: 4;
   }
 }
 
+#nav-intro.content-container {
+  background: #3aacd2 url('../images/img_header_background.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 p {
   font-size: 17px;
   line-height: 27px;
@@ -960,8 +982,10 @@ h5 {
 
 
 
+
+
 /* media queries */
-@media all and (min-width: 100px) and (max-width: 767px){
+@media all and (min-width: 100px) and (max-width: 767px) {
   header {
     height: auto;
 
@@ -984,6 +1008,7 @@ h5 {
           }
         }
       }
+      
 
       #navigation {
         display: none;
@@ -1049,18 +1074,18 @@ h5 {
     }
   }
 
+
   #testimonials {
     padding-top: 498px;
     padding-bottom: 64px;
     margin-bottom: 0;
-
+    
     .testimonial-content {
       margin-top: 16px;
-      background-size: 50px 35px;
 
       h2 {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         font-size: 18px;
       }
     }
@@ -1236,12 +1261,22 @@ h5 {
     }
   }
 
+  .title-container {
+    h3 {
+      font-size: 36px;
+    }
+  }
+
   #team-container {
     padding-top: 128px;
     padding-bottom: 128px;
 
     h3 {
       font-size: 36px;
+    }
+
+    .title-container > p {
+      padding-bottom: 32px;
     }
 
     #team {
@@ -1350,6 +1385,54 @@ h5 {
           max-width: 596px;
         }
       }
+    }
+  }
+  
+  #testimonials .carousel-slide {
+    $zen-columns: 10 !global;
+    @include zen-grid-container();
+
+    .col-1 {
+      @include zen-grid-item(2,1);
+    }
+
+    .col-2 {
+      @include zen-grid-item(8,3);
+    }
+
+    &.alternate {
+      .col-1 {
+        @include zen-grid-item(2,9);
+      }
+
+      .col-2 {
+        @include zen-grid-item(8,1);
+      } 
+    }
+
+    .testimonial-logo-inner {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    &:not(.alternate) .testimonial-logo-inner {
+      left: 10%;
+    }
+    
+    &.alternate  .testimonial-logo-inner {
+      right: 5%;
+    }
+
+    &:not(.alternate) .testimonial-content {
+      padding-left: 32px !important;
+      border-left: 1px solid #e0e0e0;
+    }
+
+    &.alternate .testimonial-content {
+      border-left: 0;
+      border-right: 1px solid #e0e0e0;
+      padding-right: 32px !important;
     }
   }
 
@@ -1667,6 +1750,11 @@ h5 {
     margin-top: 160px;
   }
 
+  .title-container > p {
+    padding-bottom: 64px;
+    
+  }
+
   #team {
     padding-top: 64px;
   }
@@ -1705,27 +1793,27 @@ h5 {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* Retina-specific stuff here */
 	#testimonials {
-		.testimonial-person {
-			&.proximus {
-					background: url(../images/img_avatar_proximus.png) no-repeat left center;
-			}
+		// .testimonial-person {
+		// 	&.proximus {
+		// 			background: url(../images/img_avatar_proximus.png) no-repeat left center;
+		// 	}
 
-			&.telenet{
-					background: url(../images/img_avatar_telenet.png) no-repeat left center;
-			}
+		// 	&.telenet{
+		// 			background: url(../images/img_avatar_telenet.png) no-repeat left center;
+		// 	}
 
-			&.deme{
-					background: url(../images/img_avatar_deme.png) no-repeat left center;
-			}
-		}
+		// 	&.deme{
+		// 			background: url(../images/img_avatar_deme.png) no-repeat left center;
+		// 	}
+		// }
 
-		.testimonial-content {
-			background-image: url(../images/img_quote_2@2x.png), url(../images/img_quote@2x.png);
-    }
+		// .testimonial-content {
+		// 	background-image: url(../images/img_quote_2@2x.png), url(../images/img_quote@2x.png);
+    // }
 
 
     .testimonial-logo img {
-      height: 32px;
+      height: 64px;
     }
 	}
 
