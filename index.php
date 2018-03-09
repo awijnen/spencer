@@ -57,7 +57,7 @@
         <li><a class="nav-item" href="#nav-problem">Problem</a></li>
         <li><a class="nav-item" href="#nav-solution">Solution</a></li>
         <li><a class="nav-item" href="#nav-references">References</a></li>
-        <li><a class="nav-item" href="https://medium.com/@spencerco" target="_blank">Blog</a></li>
+        <li><a class="nav-item" href="https://spencerco.pr.co" target="_blank">News</a></li>
         <li><a class="nav-item" href="#nav-about">About</a></li>
         <li><a class="nav-item" href="#nav-jobs">Jobs</a></li>
         <li><a class="nav-item nav-contact" href="#nav-contact">Contact</a></li>
@@ -526,7 +526,7 @@
           </div>
           <div class="col-1 dries member">
             <div class="team-name">Dries Elliot</div>
-            <div class="team-position">Technical Analist</div>
+            <div class="team-position">Technical Analyst</div>
           </div>
         </div>
       </div>
