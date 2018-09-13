@@ -516,13 +516,9 @@
             <div class="team-name">Michelle Ybanez</div>
             <div class="team-position">iOS Developer</div>
           </div>
-          <div class="col-1 christophe member">
-            <div class="team-name">Christophe Smet</div>
-            <div class="team-position">Lead Android Developer</div>
-          </div>
           <div class="col-2 bart member">
             <div class="team-name">Bart Salters</div>
-            <div class="team-position">Android Developer</div>
+            <div class="team-position">Lead Android Developer</div>
           </div>
           <div class="col-1 dries member">
             <div class="team-name">Dries Elliot</div>
