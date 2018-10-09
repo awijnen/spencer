@@ -476,13 +476,21 @@
       <p>Spencer can count on his team. We’re a perfect mix: highly skilled developers, excited to bring their tech chops to the modern workplace; designers and customer experts who know how to put the user first; and a leadership team with the entrepreneurial and corporate experience to take Spencer to the top. And of course, we can always count on the solid expertise of November Five’s directors.</p>
       <div id="team" class="container-2">
         <div class="members-container">
-          <div class="col-1 maarten member">
-            <div class="team-name">Maarten Raemdonck</div>
-            <div class="team-position">co-CEO - Product Director</div>
-          </div>
-          <div class="col-2 tom member">
+          <div class="col-1 tom member">
             <div class="team-name">Tom Vroemans</div>
-            <div class="team-position">co-CEO - Founder & Chairman</div>
+            <div class="team-position">Founder & Chairman</div>
+          </div>
+          <div class="col-2 maarten member">
+            <div class="team-name">Maarten Raemdonck</div>
+            <div class="team-position">CEO</div>
+          </div>
+          <div class="col-1 bruno member">
+            <div class="team-name">Bruno De Poorter</div>
+            <div class="team-position">Director of Product</div>
+          </div>
+          <div class="col-2 leo member">
+            <div class="team-name">Leo Van Geyt</div>
+            <div class="team-position">Director of Sales Benelux</div>
           </div>
           <div class="col-1 anthony member">
             <div class="team-name">Anthony Wijnen</div>
@@ -490,7 +498,15 @@
           </div>
           <div class="col-2 tomdl member">
             <div class="team-name">Tom De Laet</div>
-            <div class="team-position">Lead Experience Designer</div>
+            <div class="team-position">Product Designer</div>
+          </div>
+          <div class="col-1 dries member">
+            <div class="team-name">Dries Elliott</div>
+            <div class="team-position">Technical Architect</div>
+          </div>
+          <div class="col-2 frederik member">
+            <div class="team-name">Frederik De Backer</div>
+            <div class="team-position">Project Manager</div>
           </div>
           <div class="col-1 kevin member">
             <div class="team-name">Kevin T’Syen</div>
@@ -504,9 +520,17 @@
             <div class="team-name">Didier De Maeyer</div>
             <div class="team-position">Back-end Developer</div>
           </div>
+          <div class="col-2 domien member">
+            <div class="team-name">Domien Jansen</div>
+            <div class="team-position">Back-end Developer</div>
+          </div>
+          <div class="col-1 jeffrey member">
+            <div class="team-name">Jeffrey Verreckt</div>
+            <div class="team-position">Back-end Developer</div>
+          </div>
           <div class="col-2 dusty member">
             <div class="team-name">Dusty Saman</div>
-            <div class="team-position">Lead Identity Developer</div>
+            <div class="team-position">Identity Developer</div>
           </div>
           <div class="col-1 yannick member">
             <div class="team-name">Yannick Bontemps</div>
@@ -516,17 +540,13 @@
             <div class="team-name">Michelle Ybanez</div>
             <div class="team-position">iOS Developer</div>
           </div>
-          <div class="col-1 christophe member">
-            <div class="team-name">Christophe Smet</div>
-            <div class="team-position">Lead Android Developer</div>
-          </div>
-          <div class="col-2 bart member">
+          <div class="col-1 bart member">
             <div class="team-name">Bart Salters</div>
             <div class="team-position">Android Developer</div>
           </div>
-          <div class="col-1 dries member">
-            <div class="team-name">Dries Elliot</div>
-            <div class="team-position">Technical Analyst</div>
+          <div class="col-2 wouter member">
+            <div class="team-name">Wouter Landuydt</div>
+            <div class="team-position">Front-end Developer</div>
           </div>
         </div>
       </div>
