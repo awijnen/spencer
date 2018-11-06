@@ -359,8 +359,8 @@
               <p>Spencer took his first steps at Telenet Group, helping them increase employee engagement and productivity. Spencer’s now facilitating both internal communication, hospitality services for guests, HR workflows and facilities.</p>
               <p class="quote">“Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!”</p>
               <div class="testimonial-person telenet">
-                <div class="person-name">Claudia Poels</div>
-                <div class="person-position">Senior VP Human Resources</div>
+                <div class="person-name">Patrick Vincent</div>
+                <div class="person-position">Chief Transformation Officer</div>
               </div>
             </div>
             <div class="col-2">
