@@ -100,7 +100,7 @@
         <div class="testimonial-content col-2">
           <h2>Spencer helps us combine our critical applications into a single, easy-to-use, mobile interface. The result: a more intuitive way-of-working, increased productivity and happier employees!</h2>
           <div class="testimonial-person telenet">
-<div class="person-name">Claudia Poels</div><div class="person-position">Senior VP Human Resources, Telenet, Telecom, 3.500 Employees</div>
+<div class="person-name">Patrick Vincent</div><div class="person-position">Chief Transformation Officer, Telenet, Telecom, 3.500 Employees</div>
           </div>
         </div>
       </div>
